@@ -3,12 +3,16 @@ const input = document.querySelector('#wiki-search');
 const results = document.querySelector('.search-results');
 const status = document.querySelector('.search-status');
 let index, loading;
+const german = document.documentElement.lang === 'de';
+const text = german
+  ? { loading:'Anleitungen werden geladen…', one:'Anleitung', many:'Anleitungen', found:' gefunden', browse:' zum Entdecken', none:'Keine Anleitung gefunden. Versuche einen allgemeineren Begriff wie „Pflege“ oder „Training“.', failed:'Die Suche konnte nicht geladen werden. Versuche es erneut oder öffne „Alle Anleitungen“ in der Navigation.' }
+  : { loading:'Loading guides…', one:'guide', many:'guides', found:' found', browse:' to explore', none:'No guides found. Try a broader term such as “care” or “training”.', failed:'Search could not load. Try again or browse All guides from the navigation.' };
 const normalize = value => value.toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '');
 async function search() {
-  status.textContent = 'Loading guides…';
+  status.textContent = text.loading;
   try {
     if (!index) {
-      loading ||= fetch('/search-index.json').then(r => { if (!r.ok) throw Error('Search unavailable'); return r.json(); }).catch(e=>{loading=null;throw e;});
+      loading ||= fetch(german ? '/de/search-index.json' : '/search-index.json').then(r => { if (!r.ok) throw Error('Search unavailable'); return r.json(); }).catch(e=>{loading=null;throw e;});
       index = await loading;
     }
     const terms = normalize(input.value).trim().split(/\s+/).filter(Boolean);
@@ -21,8 +25,8 @@ async function search() {
       const description = document.createElement('span'); description.textContent=a.description;
       link.append(category,title,description); results.append(link);
     }
-    status.textContent = found.length ? `${found.length} ${found.length===1?'guide':'guides'}${terms.length?' found':' to explore'}` : 'No guides found. Try a broader term such as “care” or “training”.';
-  } catch { status.textContent='Search could not load. Try again or browse All guides from the navigation.'; }
+    status.textContent = found.length ? `${found.length} ${found.length===1?text.one:text.many}${terms.length?text.found:text.browse}` : text.none;
+  } catch { status.textContent=text.failed; }
 }
 let returnFocus;
 function closeSearch(){ dialog.close();returnFocus?.focus(); }
@@ -46,7 +50,7 @@ if(query){
   let selected='all';
   const items=[...document.querySelectorAll('[data-guide]')];
   const buttons=[...document.querySelectorAll('[data-filter]')];
-  function filter(){let count=0;const term=normalize(query.value.trim());for(const item of items){const visible=(selected==='all'||selected===item.dataset.category)&&normalize(item.dataset.title).includes(term);item.hidden=!visible;if(visible)count++;}document.querySelector('#directory-count').textContent=`${count} ${count===1?'guide':'guides'}`;document.querySelector('.directory-empty').hidden=count!==0;}
+  function filter(){let count=0;const term=normalize(query.value.trim());for(const item of items){const visible=(selected==='all'||selected===item.dataset.category)&&normalize(item.dataset.title).includes(term);item.hidden=!visible;if(visible)count++;}document.querySelector('#directory-count').textContent=`${count} ${count===1?text.one:text.many}`;document.querySelector('.directory-empty').hidden=count!==0;}
   query.addEventListener('input',filter);
   for(const button of buttons)button.addEventListener('click',()=>{selected=button.dataset.filter;for(const b of buttons)b.setAttribute('aria-pressed',String(b===button));filter();});
 }

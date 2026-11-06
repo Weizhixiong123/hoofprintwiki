@@ -57,3 +57,10 @@ test('navigation toggle and backdrop keep accessible expanded state in sync',asy
   menu.click();assert.equal(menu.getAttribute('aria-expanded'),'true');assert(document.body.classList.contains('nav-open'));
   document.querySelector('.nav-backdrop').click();assert.equal(menu.getAttribute('aria-expanded'),'false');assert(!document.body.classList.contains('nav-open'));
 });
+test('German pages load the German search index and show German status text',async()=>{
+  const {document,context}=await setup('/de/');
+  let requested;context.fetch=async url=>{requested=url;return {ok:true,json:async()=>searchIndex};};
+  document.querySelector('.search-trigger').click();await tick();
+  assert.equal(requested,'/de/search-index.json');
+  assert.match(document.querySelector('.search-status').textContent,/Anleitungen/);
+});

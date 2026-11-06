@@ -28,6 +28,14 @@ npm run check
 
 添加攻略时填写 path、title、category、icon、image、description、answer、sections、faq、unknown、references。链接、搜索索引和分类页随构建生成。
 
+## 多语言（英语 / 德语）
+
+- 英文页面位于根路径，德语页面位于 `/de/`，路径与英文一一对应（如 `/de/guides/breeding/`）。
+- `src/i18n.mjs`：界面文字（导航、页脚、首页、About 页）的英语和德语版本。
+- `src/content.de.mjs`：德语分类和攻略正文，以英文 path 为键；icon、image、references 沿用英文条目。
+- 只有在 `content.de.mjs` 中有译文的攻略才会生成德语页面，并互相加上 hreflang。新增英文攻略后，记得补上德语译文。
+- 页头的 EN / DE 按钮会切换到另一语言的同一页面；对应页面不存在时，跳到该语言的首页。
+
 来源核实日期集中记录在构建脚本。目前内容为官方资料概述，不代表特定游戏版本的实机测试。详细数值与操作条件仍须验证；页面的 Research note 已标明。
 
 ## SEO 与域名
