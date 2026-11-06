@@ -1,7 +1,7 @@
 import { mkdir, writeFile, cp, readFile } from 'node:fs/promises';
 import { articles, categories, sources } from '../src/content.mjs';
 
-const origin = (process.env.SITE_URL || 'https://hoofprint-bay-field-guide.fond-frog-7850.chatgpt.site').replace(/\/$/, '');
+const origin = (process.env.SITE_URL || 'https://hoofprint.wiki').replace(/\/$/, '');
 if (!/^https?:\/\//.test(origin)) throw new Error('SITE_URL must be an absolute HTTP(S) origin');
 const date = '2026-11-06';
 const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

@@ -32,7 +32,7 @@ npm run check
 
 ## SEO 与域名
 
-默认 canonical 使用创建的 Sites 地址。使用其他域名时，构建前设置环境变量：
+默认 canonical 使用正式域名 https://hoofprint.wiki 。临时使用其他域名（如预览环境）时，构建前设置环境变量：
 
 ```powershell
 $env:SITE_URL = 'https://your-domain.example'

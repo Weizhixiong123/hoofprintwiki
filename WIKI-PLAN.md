@@ -6,6 +6,7 @@
 
 - 目标读者：需要查玩法和解决具体问题的玩家。
 - 暂定语言：英语，面向英文游戏名的搜索；中文可在后续独立规划。
+- 正式域名：https://hoofprint.wiki
 - 主关键词：Horses of Hoofprint Bay Wiki。
 - 相关主题：beginner guide、horse care、breeding、training、stable upgrades、custom tack。
 - 定位：独立玩家 Wiki，首页明确标注 unofficial。
