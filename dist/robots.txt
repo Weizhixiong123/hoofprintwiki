@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hoofprint-bay-field-guide.fond-frog-7850.chatgpt.site/sitemap.xml

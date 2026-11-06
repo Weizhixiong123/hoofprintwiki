@@ -1,0 +1,44 @@
+# Hoofprint Bay Wiki
+
+根据 [WIKI-PLAN.md](./WIKI-PLAN.md) 开发的英文非官方游戏 Wiki。Node.js 20+，无 npm 运行依赖；DOM 交互检查使用开发依赖 linkedom。
+
+## 本地运行
+
+```powershell
+npm install
+npm run dev
+```
+
+打开 http://127.0.0.1:4321 。修改文件后重新运行构建并刷新；未配置自动热更新。
+
+```powershell
+npm run build
+npm run check
+```
+
+构建输出在 `dist/`，可部署至支持目录式静态路由的托管平台。`404.html` 应设置为自定义 404 页面，不要将未知路径回退至首页并返回 200。
+
+## 内容维护
+
+- `src/content.mjs`：结构化攻略内容、分类、来源。更新条目后重新构建。
+- `scripts/build.mjs`：静态 HTML 模板、SEO 元数据、站点地图与搜索索引。
+- `public/styles.css`：响应式界面。
+- `public/app.js`：搜索、移动菜单、分类筛选。
+- `public/assets/credits.json`：官方图片来源记录。
+
+添加攻略时填写 path、title、category、icon、image、description、answer、sections、faq、unknown、references。链接、搜索索引和分类页随构建生成。
+
+来源核实日期集中记录在构建脚本。目前内容为官方资料概述，不代表特定游戏版本的实机测试。详细数值与操作条件仍须验证；页面的 Research note 已标明。
+
+## SEO 与域名
+
+默认 canonical 使用创建的 Sites 地址。使用其他域名时，构建前设置环境变量：
+
+```powershell
+$env:SITE_URL = 'https://your-domain.example'
+npm run build
+```
+
+构建生成唯一 title/H1/canonical、Open Graph、WebPage/BreadcrumbList JSON-LD、robots.txt 和 sitemap.xml。上线后的索引状态、搜索量与排名需使用实际站长工具验证。
+
+Google Fonts 为可选外部字体，无法加载时使用系统字体回退。搜索在浏览器中运行，需要 JavaScript；正文、导航和 FAQ 无需 JavaScript 即可访问。当前不包含用户账户、评论或在线内容编辑后台。
