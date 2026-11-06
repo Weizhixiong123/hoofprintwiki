@@ -4,3 +4,5 @@ node_modules/
 .sites-local/
 artifacts/
 outputs/
+dist/
+.wrangler/

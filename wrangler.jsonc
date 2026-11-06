@@ -1,0 +1,13 @@
+{
+  // Cloudflare Workers 静态站点：构建后发布 dist/
+  "name": "hoofprintwiki",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    { "pattern": "hoofprint.wiki", "custom_domain": true },
+    { "pattern": "www.hoofprint.wiki", "custom_domain": true }
+  ]
+}
