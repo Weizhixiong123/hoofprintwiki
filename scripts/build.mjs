@@ -25,7 +25,7 @@ const paths = {
   link:'m8 16 8-8M9 6l2-2a5 5 0 0 1 7 7l-2 2M8 11l-2 2a5 5 0 0 0 7 7l2-2'
 };
 const icon = name => `<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${paths[name] || paths.book}"/></svg>`;
-const official = new Set(['steam','launch','studio','faq']);
+const official = new Set(['steam','launch','studio','faq','patch102']);
 const isOfficial = a => a.references.every(k=>official.has(k));
 const slug = s => s.toLowerCase().replace(/ä/g,'ae').replace(/ö/g,'oe').replace(/ü/g,'ue').replace(/ß/g,'ss').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 const faq = items => `<div class="faq-list">${items.map(([q,a])=>`<details><summary>${esc(q)}<span>+</span></summary><p>${esc(a)}</p></details>`).join('')}</div>`;
