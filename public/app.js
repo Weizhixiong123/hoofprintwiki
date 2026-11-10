@@ -56,3 +56,18 @@ if(query){
 }
 const observed=[...document.querySelectorAll('.prose section[id]')];
 if('IntersectionObserver' in window&&observed.length){const observer=new IntersectionObserver(entries=>{for(const entry of entries)if(entry.isIntersecting){for(const a of document.querySelectorAll('.toc nav a'))a.classList.toggle('current',a.hash===`#${entry.target.id}`);}},{rootMargin:'-100px 0px -60% 0px'});observed.forEach(s=>observer.observe(s));}
+
+const bottomAd=document.querySelector('#bottom-ad');
+if(bottomAd&&!document.documentElement.classList.contains('bottom-ad-closed')){
+  // Adsterra's unmodified banner snippet runs in its own same-site page, so the ad never blocks this page.
+  const [width,height]=window.matchMedia?.('(max-width:760px)').matches?[320,50]:[728,90];
+  const frame=document.createElement('iframe');
+  Object.assign(frame,{src:`/ads/bottom-${width}.html`,width,height,title:bottomAd.getAttribute('aria-label'),scrolling:'no'});
+  bottomAd.prepend(frame);
+  bottomAd.querySelector('.bottom-ad-close').addEventListener('click',()=>{document.documentElement.classList.add('bottom-ad-closed');frame.remove();try{sessionStorage.setItem('bottom-ad-closed','1');}catch{}});
+}
+for(const slot of document.querySelectorAll('.inline-ad')){
+  const frame=document.createElement('iframe');
+  Object.assign(frame,{src:'/ads/inline-300.html',width:300,height:250,title:slot.getAttribute('aria-label'),scrolling:'no',loading:'lazy'});
+  slot.append(frame);
+}

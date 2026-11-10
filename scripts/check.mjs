@@ -1,7 +1,7 @@
 import { readFile, readdir, stat } from 'node:fs/promises';
 import { join, resolve } from 'node:path';
 const root=resolve('dist');let count=0;const errors=[];
-async function walk(dir){for(const entry of await readdir(dir,{withFileTypes:true})){const file=join(dir,entry.name);if(entry.isDirectory())await walk(file);else if(file.endsWith('.html')){
+async function walk(dir){for(const entry of await readdir(dir,{withFileTypes:true})){const file=join(dir,entry.name);if(entry.isDirectory())await walk(file);else if(file.endsWith('.html')&&!file.startsWith(join(root,'ads'))){
   count++;const html=await readFile(file,'utf8');
   const require=(condition,message)=>{if(!condition)errors.push(`${file}: ${message}`);};
   require((html.match(/<h1[\s>]/g)||[]).length===1,'Expected one H1');
