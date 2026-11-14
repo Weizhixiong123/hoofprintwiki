@@ -1,4 +1,13 @@
 export const sources = {
+  devMay: {"title":"Official May 27 dev update: starter balance, Caprilli tests and stable limits","url":"https://steamcommunity.com/games/3727090/announcements/detail/653729380381491353"},
+  devAugust: {"title":"Official August 12 dev update: Prestige, confidence and cross country","url":"https://steamcommunity.com/games/3727090/announcements/detail/714534951362494573"},
+  releaseFaq: {"title":"Publisher release FAQ: age, pregnancy, difficulty and mod support","url":"https://www.reddit.com/r/GamesWithHorses/comments/1xlu0dg/horses_of_hoofprint_bay_release_info_and/"},
+  demoOctober: {"title":"Official October demo announcement: saves and starter balance","url":"https://steamcommunity.com/games/3727090/announcements/detail/679637761984039524"},
+  westmore: {"title":"Westmore Saddlery: creator’s Nexus Mods profile","url":"https://www.nexusmods.com/profile/WestmoreSaddlery?gameId=10086"},
+  westmoreAscot: {"title":"Westmore Saddlery: Ascot collection and installation instructions","url":"https://www.nexusmods.com/horsesofhoofprintbay/mods/1"},
+  westmorePatreon: {"title":"Westmore Saddlery: creator’s Patreon","url":"https://www.patreon.com/WestmoreSaddlery"},
+  discordJoin: {"title":"Publisher reply: Discord invites and unusual join activity","url":"https://www.reddit.com/r/HorsesOfHoofprintBay/comments/1xs2rme/does_anyone_have_a_working_discord_link/"},
+  patch105: { title: 'Official Steam patch announcement: v1.0.3–v1.0.5 (November 13, 2026 UTC)', url: 'https://steamcommunity.com/games/3727090/announcements/detail/681892966116098106' },
   steam: { title: 'Official Steam store', url: 'https://store.steampowered.com/app/3727090/Horses_of_Hoofprint_Bay/?l=english' },
   supporterPack: { title: 'Official Steam store: Supporter Pack DLC', url: 'https://store.steampowered.com/app/5466190/Horses_of_Hoofprint_Bay_Supporter_Pack/?l=english' },
   soundtrack: { title: 'Official Steam store: Soundtrack', url: 'https://store.steampowered.com/app/5490650/?l=english' },
@@ -81,7 +90,7 @@ export const sources = {
   t_shopBug: { title: 'Steam discussion: Shop not updating items despite Prestige over 25 percent? (player report)', url: 'https://steamcommunity.com/app/3727090/discussions/0/574931717228500125/' },
   t_autoJump: { title: 'Steam discussion: Auto-Jump (player answers)', url: 'https://steamcommunity.com/app/3727090/discussions/0/574931717228486977/' },
   t_newDays: { title: 'Steam discussion: new days not loading (community helper reply)', url: 'https://steamcommunity.com/app/3727090/discussions/0/574931717228439372/' },
-  patch102: { title: 'Steam announcement: First Patch with Bugfixes and Improvements (v1.0.2), Nov 8, 2026', url: 'https://store.steampowered.com/news/app/3727090/view/1848664643353607' },
+  patch102: { title: 'Steam announcement: First Patch with Bugfixes and Improvements (v1.0.2), Nov 8, 2026', url: 'https://steamcommunity.com/games/3727090/announcements/detail/711165768310456526' },
   t_il2cpp: { title: 'Steam discussion: um how do u start up the game — “Failed to load il2cpp” (player reports)', url: 'https://steamcommunity.com/app/3727090/discussions/0/574931717228513787/' }
 };
 export const categories = [
@@ -95,26 +104,327 @@ export const categories = [
 ];
 export const articles = [
   {
-    path: '/guides/beginners-guide/', title: 'Beginner guide', category: 'getting-started', icon: 'book', image: 0,
-    description: 'Understand the care, training, and competition loop before expanding your yard.',
-    answer: 'Horses of Hoofprint Bay starts with a small, run-down yard and a mare. Caring for your horse, building her abilities, and entering competitions form the foundation for growing your stable.',
-    sections: [
-      ['Start with your horse', 'Spend time learning the care screen before planning a larger herd. Grooming and hoof care are part of the game’s health system, so they deserve attention alongside training. The in-game library is a useful companion when a term or care activity is unfamiliar.'],
-      ['Choose an early goal', 'A manageable first goal is to learn one complete care and training routine with your starting horse. This is an editorial suggestion, rather than a mandatory quest sequence. Read the current in-game goals and their requirements before spending money toward them.'],
-      ['Understand the progression loop', 'Training develops abilities used in competitions. Competition winnings can contribute to the next stage of your yard. As your stable grows, buildings and staff become part of managing the extra workload. Compare your next purchase with the needs of the horses you already own.'],
-      ['Expand with a plan', 'Before acquiring another horse, inspect your current space, available funds, and care workload. Exact purchase prices and building requirements are not documented here yet. Use the figures shown by your own game rather than assuming a screenshot reflects the current release.']
+  "path": "/guides/beginners-guide/",
+  "title": "Beginner guide: your first days",
+"seoTitle": "Horses of Hoofprint Bay: Beginner Guide: First Days & Tips | Wiki",
+  "category": "getting-started",
+  "icon": "book",
+  "image": 0,
+  "description": "Start Horses of Hoofprint Bay with a daily care routine, Caprilli preparation, a spending plan and the current difficulty settings.",
+  "answer": "Start by caring for your mare, reading the active goals and training for an event she can enter. Caprilli tests are the early competition step after the starter-stat rebalance. Build income before taking on more horses. The routine below is a suggested way to organize your first days; follow the objectives and prices in your current save.",
+  "sections": [
+    [
+      "A daily routine for your first horse",
+      [
+        {
+          "type": "steps",
+          "items": [
+            "Check your horse’s condition. Feed, water, groom and pick hooves as needed before choosing work; the [horse care guide](/guides/horse-care/) covers the supplies.",
+            "Read the current goals before spending. Choose one task you can finish with your existing horse and facilities rather than buying for several future plans at once.",
+            "Check the horse’s available training options. Use an appropriate course; if every option is locked, follow the [tired or ill horse checklist](/training/horse-too-tired-to-train/).",
+            "Leave enough money for the daily costs shown in your save. Review feed, health, training and income when the next day starts."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/assets/scene-3.jpg",
+          "alt": "Goals panel open over the yard, with an objective and coin reward",
+          "caption": "Use the Goals panel to check the current requirement and reward. This promotional screenshot illustrates the interface, not a mandatory opening-day quest order.",
+          "width": 1920,
+          "height": 1080,
+          "source": "steam"
+        }
+      ]
     ],
-    faq: [['Is this a racing game?', 'The official description focuses on stable management, horse care, show jumping, cross country, and trail riding.'], ['Can I try it first?', 'The Steam store lists a free demo. The publisher describes its progression limit as 25 in-game days.'], ['Is this guide a tested walkthrough?', 'No. This is an introduction based on official information, with planning suggestions clearly separated from verified game mechanics.']],
-    unknown: 'Exact tutorial order, early purchase costs, and optimal opening-day actions need release-version playtesting.', references: ['steam', 'launch']
-  },
+    [
+      "Choose the next purchase by the problem it solves",
+      [
+        {
+          "type": "table",
+          "caption": "A practical order for early spending",
+          "headers": [
+            "Your current problem",
+            "Check first",
+            "Related guide"
+          ],
+          "rows": [
+            [
+              "Cannot train",
+              "Available arena courses and horse condition",
+              "[Training](/guides/training/)"
+            ],
+            [
+              "Costs exceed income",
+              "One manageable income source and money settings",
+              "[Making money](/guides/money-making/)"
+            ],
+            [
+              "Need a better competition horse",
+              "Potential, Prestige and price",
+              "[Buying horses](/guides/buy-sell-horses/)"
+            ],
+            [
+              "No spare stalls",
+              "Adult and yearling housing separately",
+              "[Maximum horses](/guides/maximum-horses/)"
+            ],
+            [
+              "Care takes too long",
+              "Staff roles, wages and assignments",
+              "[Staff](/guides/staff/)"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "An upgrade that unlocks something you can use now is easier to justify than empty stalls. Read the purchase cost and daily upkeep together: a horse or building can be affordable today and expensive to maintain tomorrow. This is a planning checklist, not a tested optimal build order."
+        }
+      ]
+    ],
+    [
+      "Start competitions with Caprilli",
+      [
+        {
+          "type": "paragraph",
+          "text": "The May developer update explains that starter horses were rebalanced to lower stats. A fully trained starter could no longer reach the first show-jumping event, so Caprilli tests were added as the entry step. The October demo announcement confirms the lower-stat start. Older February-demo advice about immediately winning harder jumping events can therefore be misleading.",
+          "source": "devMay"
+        },
+        {
+          "type": "paragraph",
+          "text": "Practise gait changes and low obstacles, then read the event’s entry conditions. See the [competition guide](/guides/competitions/) and [controls](/guides/controls/). Repeatedly entering an unsuitable event is not a substitute for checking the horse’s potential."
+        }
+      ]
+    ],
+    [
+      "Difficulty, money and saves",
+      [
+        {
+          "type": "paragraph",
+          "text": "The official FAQ confirms easier competitions, increased Prestige gain and auto-jump. The v1.0.3 changelog adds money gain and cost multipliers; horse prices are excluded. Adjust the part you find difficult rather than assuming you need a new save.",
+          "source": "faq"
+        },
+        {
+          "type": "note",
+          "title": "Current achievement rules",
+          "text": "Since v1.0.5, edited or previously flagged saves can earn achievements again. Previously skipped conditions must be completed again. See [save files and achievements](/guides/save-files-and-achievements/).",
+          "source": "patch105"
+        },
+        {
+          "type": "paragraph",
+          "text": "October-demo saves transfer into the full game; February-demo saves do not. The demo stops at 25 game days, while the full game has no overall day limit. Horse ages are measured in game days, not human years.",
+          "source": "demoOctober"
+        }
+      ]
+    ],
+    [
+      "Before buying a second horse",
+      [
+        {
+          "type": "steps",
+          "items": [
+            "Decide whether it is for competitions, breeding or resale. Compare potential and traits with that purpose.",
+            "Check a free stall and your [stable groups](/guides/stable-groups/). Separate stallions from mares you do not want covered, including boarders.",
+            "Compare the daily workload with income. Add only as many horses as you can care for reliably."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "For custom tack or community help later, use the [Mods guide](/guides/mods/) and [official Discord entry points](/community/discord/). Neither is required to finish the introduction."
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "What should I do first?",
+      "Care for the starting mare, read the active goals and choose an achievable training task. Keep money for upkeep before expanding."
+    ],
+    [
+      "Why can my fully trained starter not enter show jumping?",
+      "The developers lowered starter stats and added Caprilli tests as an earlier step. Compare event requirements with the horse’s potential."
+    ],
+    [
+      "Can I make the game easier?",
+      "Yes. The FAQ lists competition difficulty, Prestige and auto-jump options; v1.0.3 adds money multipliers."
+    ],
+    [
+      "Will my demo save transfer?",
+      "October-demo saves do; February-demo saves do not."
+    ],
+    [
+      "Is this a tested day-by-day walkthrough?",
+      "No. It combines official mechanics with an editorial routine, not a guaranteed optimal quest sequence."
+    ]
+  ],
+  "unknown": "Exact opening quest order and an optimal spending route have not been playtested here. Use the current client’s objectives, prices and course requirements.",
+  "references": [
+    "steam",
+    "faq",
+    "devMay",
+    "demoOctober",
+    "patch105",
+    "t_pregnant"
+  ],
+  "updated": "2026-11-14"
+},
   {
-    path: '/guides/buy-sell-horses/', title: 'Buying & selling horses', category: 'horses', icon: 'horse', image: 0,
-    description: 'Where horse trading fits into the town and what to check before expanding.',
-    answer: 'The publisher confirms that you can buy and sell horses in the town of Hoofprint Bay. The precise shop navigation, prices, and transaction restrictions still need release-version verification.',
-    sections: [['Head to town', 'The town is a hub for horse trading as well as tack, feed, and competitions. Look for the horse sales location in your game’s town screen. The launch article includes a screenshot of the horse sales interface, but does not document a complete sequence of buttons.'], ['Before buying', 'As a planning checklist, review the horse information displayed by the game, check your balance, and inspect your yard’s available space. These checks help you decide whether a purchase fits your goals; they do not establish a verified list of purchase restrictions.'], ['Before selling', 'Consider whether the horse is part of your competition or breeding plans before confirming a sale. This wiki has not verified whether sold horses can be bought back. Do not assume that a transaction is reversible.']],
-    faq: [['Where are horses traded?', 'In town, according to the publisher’s launch article.'], ['How much does a horse cost?', 'A reliable price table has not been verified for this wiki. Check the current offer in your game.'], ['Is a second horse required immediately?', 'This wiki has not verified a mandatory early purchase sequence. Follow the goals shown in your game.']],
-    unknown: 'Shop labels, horse availability, sale values, refresh behavior, and capacity checks remain unverified.', references: ['launch', 'steam']
-  },
+  "path": "/guides/buy-sell-horses/",
+  "title": "Buying & selling horses: breeder guide",
+"seoTitle": "Horses of Hoofprint Bay: Buying & Selling Horses Guide | Wiki",
+  "category": "horses",
+  "icon": "horse",
+  "image": 9,
+  "description": "Find the town breeder, read a horse’s price and potential, plan stable space and decide whether to buy, train, breed or sell.",
+  "answer": "Select a horse at the town breeder, compare its age, current stats and potential, and read the displayed price before using Buy Horse. Higher Prestige improves breeder stock. Check a free stall, daily costs and the horse’s intended job before confirming a purchase.",
+  "sections": [
+    [
+      "How to buy a horse",
+      [
+        {
+          "type": "steps",
+          "items": [
+            "Visit the breeder from town once your save gives you access. If you are still in the introduction, check the active goals.",
+            "Select an offered horse. Read its information and price, then compare another candidate before deciding.",
+            "Choose for the task: potential for future competition or breeding, current training for immediate work, and condition and age for the care commitment.",
+            "Check [stable capacity](/guides/maximum-horses/) and your cash reserve. Use Buy Horse only after checking the selected horse and price."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/assets/scene-9.jpg",
+          "alt": "Town horse trader with selectable portraits, age, stat bars, price and a Buy Horse button",
+          "caption": "Compare the selected horse before confirming. Names and prices in this official promotional screenshot are examples, not today’s market.",
+          "width": 1920,
+          "height": 1080,
+          "source": "steam"
+        }
+      ]
+    ],
+    [
+      "Read the horse before reading the price",
+      [
+        {
+          "type": "table",
+          "caption": "Purchase checks by goal",
+          "headers": [
+            "Goal",
+            "Compare",
+            "Common mistake"
+          ],
+          "rows": [
+            [
+              "Compete soon",
+              "Training, remaining potential, age and event requirements",
+              "Buying a cheap horse that cannot qualify"
+            ],
+            [
+              "Breed",
+              "Potential, visible traits and the intended pairing",
+              "Assuming current training alone decides the foal"
+            ],
+            [
+              "Train and resell",
+              "Purchase price, room to train and upkeep",
+              "Treating sale revenue as guaranteed profit"
+            ],
+            [
+              "Keep a favourite",
+              "Space, care time and long-term cost",
+              "Spending the entire balance on the purchase"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Players distinguish potential from current training and report that the vet can reveal potential. For breeding, they recommend comparing potential rather than requiring fully trained parents. Read [breeding potential](/horses/breeding-potential/) before paying for a pairing.",
+          "source": "t_breedingStats"
+        }
+      ]
+    ],
+    [
+      "Why the breeder only offers weak horses",
+      [
+        {
+          "type": "paragraph",
+          "text": "The August developer update connects Prestige with the quality of horses offered. It names upgrades, competition wins, successful boarder care and high-quality horses as sources of Prestige. Failed events and neglect can reduce it.",
+          "source": "devAugust"
+        },
+        {
+          "type": "paragraph",
+          "text": "Work on [Prestige](/guides/prestige/) and inspect later offers if the current horses do not solve your problem. No particular stock-refresh interval is verified here. Buying an unsuitable horse simply to fill a stall adds upkeep without solving the original problem."
+        }
+      ]
+    ],
+    [
+      "Check housing, transport and groups separately",
+      [
+        {
+          "type": "paragraph",
+          "text": "Permanent stable space, yearling housing and the number of horses carried to town are separate limits. The developer’s May update gives 20 horses in a fully upgraded stable plus 13 yearlings, with extra paid boarding at the breeder. See [maximum horses](/guides/maximum-horses/) for source dates.",
+          "source": "devMay"
+        },
+        {
+          "type": "paragraph",
+          "text": "For several horses on a trip, use the [trailer guide](/competitions/trailer-and-multiple-horses/). Prepare a separate group before adding a stallion: players report accidental pregnancies without a breeding station.",
+          "source": "t_pregnant"
+        }
+      ]
+    ],
+    [
+      "Selling and horse flipping",
+      [
+        {
+          "type": "paragraph",
+          "text": "Players describe buying a less-trained horse, training it for several days and selling it for income. Compare proceeds with purchase cost and upkeep during that time. No verified profit-per-day ranking is available here.",
+          "source": "t_coins"
+        },
+        {
+          "type": "note",
+          "title": "Horse prices and money multipliers",
+          "text": "The v1.0.3–v1.0.5 announcement excludes horse prices from money settings. Changing those settings does not directly multiply buying or selling prices.",
+          "source": "patch105"
+        },
+        {
+          "type": "paragraph",
+          "text": "Before selling, check breeding and competition plans. Read the current transaction screen carefully. [Ferry export](/horses/import-and-export/) is a separate way to move horses between saves; do not assume selling and exporting have the same result. A guaranteed buyback method is not verified. For ongoing expenses, see [making money](/guides/money-making/)."
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "Where do I buy horses?",
+      "At the town breeder once available in your save. The official screenshot shows selecting a horse and using Buy Horse."
+    ],
+    [
+      "Why are offered horses weak?",
+      "The developer says Prestige determines stock quality. Improve Prestige and inspect later offers."
+    ],
+    [
+      "Does a low price mean a good deal?",
+      "Not necessarily. Compare age, health, training and potential with the job you want it to do."
+    ],
+    [
+      "Do money settings change horse prices?",
+      "No. The official announcement excludes horse prices."
+    ],
+    [
+      "Is flipping guaranteed profit?",
+      "No. It is a player-reported strategy; purchase price and upkeep still matter."
+    ]
+  ],
+  "unknown": "Current stock-refresh timing, reservation behavior, complete sale-button sequence and buyback rules have not been verified. No market-price formula is asserted.",
+  "references": [
+    "steam",
+    "devAugust",
+    "devMay",
+    "t_breedingStats",
+    "t_coins",
+    "t_pregnant",
+    "patch105"
+  ],
+  "updated": "2026-11-14"
+},
   {
     path: '/guides/horse-care/', title: 'Horse care guide', category: 'horses', icon: 'heart', image: 0, updated: '2026-11-10',
     description: 'Grooming, hoof care, and the role of injuries in everyday stable life.',
@@ -124,13 +434,195 @@ export const articles = [
     unknown: 'Care thresholds, injury probabilities, treatment costs, recovery durations, and the exact neglect threshold for animal welfare need in-game verification.', references: ['steam', 'faq', 'tmqdb', 'patch102']
   },
   {
-    path: '/guides/breeding/', title: 'Breeding guide', category: 'breeding', icon: 'leaf', image: 5, updated: '2026-11-10',
-    description: 'What foals can inherit, choosing a pairing, and the breeding lab.',
-    answer: 'Foals can inherit a combination of their parents’ coloring, white patterns, and personality traits. The official description also identifies a later breeding station lab that can preview possible foals.',
-    sections: [['Decide what you want from a pairing', 'You may be interested in a foal’s appearance, future abilities, or personality. Compare the information the game provides about each parent before committing. This is a planning approach, not a claim that a particular pairing guarantees a specific result.'], ['Understand inheritance', 'Official information confirms inheritance across coloring, white patterns, and personality. It does not publish a complete genetics model. Real-world coat genetics can provide context, but should not be used to calculate game outcomes without testing the actual implementation.'], ['The breeding station lab', 'The store describes an advanced breeding station lab with possible-foal previews and expanded stud services. Check the upgrade information in your current game for its exact unlock conditions and cost. A preview should not be interpreted as a published probability formula.'], ['Keep a useful breeding record', 'For your own comparisons, note the parents, visible traits, game version, and foal outcome. Repeated observations are more informative than a single attractive foal, but even a small set of outcomes cannot establish an exact inheritance percentage.'], ['After foaling: the v1.0.2 change', 'Patch v1.0.2 (November 8, 2026) responded to player feedback about mares losing stats around foaling. Horses with low stats now lose less: at most a tenth of their endurance, and never more than 5 points. The loss is reduced, not removed. See [Foals & yearlings](/horses/foals-and-yearlings/) for how foals grow up and what nursing costs the mare, and [Patch notes & updates](/guides/patch-notes/) for every v1.0.2 change.']],
-    faq: [['Are foal colors inherited?', 'The official store confirms a mix of parental coloring and white patterns.'], ['Can personality be inherited?', 'Yes, personality traits are included in the official inheritance description.'], ['Is a particular coat guaranteed?', 'This wiki has no verified guarantee or probability table for specific pairings.'], ['Does foaling still cost my mare stats?', 'Less than before. Since v1.0.2 the loss is capped at a tenth of endurance and at most 5 points.']],
-    unknown: 'Breeding costs, eligibility, pregnancy duration, guaranteed outcomes, and inheritance probabilities remain unverified.', references: ['steam', 'patch102']
-  },
+  "path": "/guides/breeding/",
+  "title": "Breeding guide: pairings, pregnancy & foals",
+"seoTitle": "Horses of Hoofprint Bay: Breeding Guide: Pregnancy & Foals | Wiki",
+  "category": "breeding",
+  "icon": "leaf",
+  "image": 5,
+  "updated": "2026-11-14",
+  "description": "Plan pairings, compare potential, prevent accidental pregnancies and prepare housing for the eight-day pregnancy and growing foal.",
+  "answer": "Plan a mare-and-stallion pairing around appearance, traits or potential, and prepare housing before covering. The publisher confirms an eight-game-day pregnancy and four days from birth to yearling. The breeding-station lab previews possible foals without guaranteeing a chosen result. Separate stallions from mares you do not want pregnant.",
+  "sections": [
+    [
+      "Before covering a mare",
+      [
+        {
+          "type": "steps",
+          "items": [
+            "Choose a main goal: coat, personality or future performance. Compare both parents against that goal.",
+            "Check potential and visible traits. Players say potential matters rather than current training; see [potential and foal gender](/horses/breeding-potential/) for the evidence.",
+            "Prepare care for the mare, then plan yearling space and a later adult stall using the [capacity checklist](/guides/maximum-horses/).",
+            "Read the available covering option, requirements and fee in your save. Record the parents and the expected due day shown by the game."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/assets/scene-5.jpg",
+          "alt": "Mare and foal together at the care post with feeding and grooming tools",
+          "caption": "Plan care for both animals. This official promotional frame illustrates a nursing pair; it does not establish inheritance odds.",
+          "width": 1920,
+          "height": 1080,
+          "source": "steam"
+        }
+      ]
+    ],
+    [
+      "What the breeding-station stages add",
+      [
+        {
+          "type": "table",
+          "caption": "Breeding station functions",
+          "headers": [
+            "Stage",
+            "Function",
+            "Source scope"
+          ],
+          "rows": [
+            [
+              "1",
+              "Live covering",
+              "Community building documentation"
+            ],
+            [
+              "2",
+              "Fresh semen and foal simulator",
+              "Community documentation; lab also confirmed by Steam"
+            ],
+            [
+              "3",
+              "Freezing semen",
+              "Community building documentation"
+            ]
+          ],
+          "source": "tmqdb"
+        },
+        {
+          "type": "paragraph",
+          "text": "Read [buildings and upgrades](/buildings/) for older baseline costs and compare the current screen. Since v1.0.3, money settings can change costs. The simulator helps inspect possible outcomes; no guaranteed foal-selection method or verified probability distribution is presented here."
+        }
+      ]
+    ],
+    [
+      "Pregnancy and the next housing change",
+      [
+        {
+          "type": "table",
+          "caption": "A timeline in game days",
+          "headers": [
+            "Stage",
+            "Timing",
+            "Prepare"
+          ],
+          "rows": [
+            [
+              "Pregnancy",
+              "8 game days; publisher confirmation",
+              "Care and the mare’s current work restrictions"
+            ],
+            [
+              "Foal with mare",
+              "First 4 days after birth; publisher confirmation",
+              "Daily care and space for the pair"
+            ],
+            [
+              "Yearling",
+              "From around age 4 to adulthood around age 12; player reports",
+              "Paddock, then an adult stall"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "These are game days, not real days or years. See [foals and yearlings](/horses/foals-and-yearlings/) for housing problems and timeline sources.",
+          "source": "releaseFaq"
+        },
+        {
+          "type": "paragraph",
+          "text": "The v1.0.2 patch reduced low-stat mares’ loss around foaling: at most a tenth of endurance, capped at 5 points. It reduces rather than removes the loss. Nursing mares can also go on walks with foals, as described by the August developer update.",
+          "source": "patch102"
+        }
+      ]
+    ],
+    [
+      "Separate potential, training and coat inheritance",
+      [
+        {
+          "type": "paragraph",
+          "text": "Steam confirms inherited coloring, white patterns and personality. The developer says the game does not use realistic color genetics, so a real-world genotype chart cannot reliably predict these foals.",
+          "source": "t_genotype"
+        },
+        {
+          "type": "paragraph",
+          "text": "Players report that parents do not need full training if potential is already known. Training lost during repeated pregnancies does not by itself mean potential changed. Compare [colors and patterns](/horses/colors-and-patterns/) and the [trait list](/horses/traits-and-quirks/) for your pairing goal.",
+          "source": "t_breedingStats"
+        },
+        {
+          "type": "note",
+          "title": "No guaranteed perfect foal",
+          "text": "No confirmed numerical inheritance formula, conception percentages or way to choose foal sex is asserted here. Record the parents, version and outcomes when comparing your own lines."
+        }
+      ]
+    ],
+    [
+      "Prevent unwanted pregnancies",
+      [
+        {
+          "type": "paragraph",
+          "text": "Players report that a stallion can cover a mare in the same group without a breeding station. Boarded mares are affected too, with reports of fines and lost Prestige. Separation or gelding are the reported prevention options.",
+          "source": "t_pregnant"
+        },
+        {
+          "type": "steps",
+          "items": [
+            "Keep stallions in separate [stable groups](/guides/stable-groups/).",
+            "Leave room in the appropriate adult group before a yearling boarder matures.",
+            "Check assignments after horses grow up or return from another location."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Compare the care commitment and time until sale with [other income sources](/guides/money-making/) before covering several mares at once."
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "How long is pregnancy?",
+      "The publisher confirms eight in-game days. Ages are in game days, not years."
+    ],
+    [
+      "When does a foal become a yearling?",
+      "Four days after birth according to the publisher; players report adulthood around age 12."
+    ],
+    [
+      "Must I fully train the parents?",
+      "Players report that potential matters rather than current training, and the vet can reveal it."
+    ],
+    [
+      "Does the lab guarantee a chosen foal?",
+      "No guaranteed selection method or odds are verified here; Steam confirms previews of possible foals."
+    ],
+    [
+      "Why did a boarder get pregnant?",
+      "Players report covering in a shared group without a breeding station. Separate stallions and boarded mares."
+    ]
+  ],
+  "unknown": "Current covering eligibility, fees and conception probabilities need client verification. Potential rules and adulthood timing include player reports; pregnancy and the four-day foal stage are publisher-confirmed.",
+  "references": [
+    "steam",
+    "releaseFaq",
+    "devAugust",
+    "tmqdb",
+    "t_genotype",
+    "t_breedingStats",
+    "t_pregnant",
+    "patch102",
+    "patch105",
+    "t_yearlings"
+  ]
+},
   {
     path: '/guides/training/', title: 'Training guide', category: 'training', icon: 'flag', image: 4, updated: '2026-11-07',
     description: 'How training relates to strength, confidence, and competition readiness.',
@@ -140,21 +632,238 @@ export const articles = [
     unknown: 'Per-session gains in the community wiki need in-game verification; limits, fatigue behaviour, and the best schedule still need testing.', references: ['steam', 'launch', 'tmqdb']
   },
   {
-    path: '/guides/competitions/', title: 'Competition guide', category: 'competitions', icon: 'trophy', image: 1,
-    description: 'An introduction to show jumping, cross country, and preparing to enter.',
-    answer: 'Horses of Hoofprint Bay includes show jumping and cross-country competitions with prize money. Training is part of preparing your horse to qualify.',
-    sections: [['Show jumping and cross country', 'Both disciplines are confirmed by the official store and the publisher. They provide goals for developing a horse, but this wiki does not yet provide a complete list of classes or course layouts.'], ['Before entering', 'Read the entry screen, compare its requirements with your horse, and review any displayed costs. This is a suggested preparation checklist. Entry thresholds, penalties, and reward schedules must be documented from the released game.'], ['Use winnings thoughtfully', 'Competition prizes support the stable-building loop. Decide whether your next spending priority is the current horse’s needs or expanding the yard. This is general planning advice, not a tested profit-maximizing strategy.']],
-    faq: [['What competitions are available?', 'Official sources name show jumping and cross country.'], ['Can competitions earn money?', 'Yes, prize money is explicitly part of the game description.'], ['Where are exact rewards listed?', 'Use the current in-game competition information; this wiki has not verified a reward table.']],
-    unknown: 'Classes, eligibility, entry fees, scoring formulas, and prize tables remain unverified.', references: ['steam', 'launch']
-  },
+  "path": "/guides/competitions/",
+  "title": "Competition guide: Caprilli, jumping & cross country",
+"seoTitle": "Horses of Hoofprint Bay: Competitions: Caprilli & Jumping | Wiki",
+  "category": "competitions",
+  "icon": "trophy",
+  "image": 1,
+  "description": "Prepare for Caprilli, show jumping or cross country, plan trailer transport and troubleshoot entry and jump timing.",
+  "answer": "Choose an event your horse can qualify for, prepare its condition and tack, and arrange transport to town. Caprilli was added for the rebalanced starters; cross country is aimed at stronger late-game horses. If entry fails, update: v1.0.4 specifically fixes being unable to enter competitions.",
+  "sections": [
+    [
+      "Choose the right competition",
+      [
+        {
+          "type": "table",
+          "caption": "The three disciplines",
+          "headers": [
+            "Discipline",
+            "Practise",
+            "Progression context"
+          ],
+          "rows": [
+            [
+              "Caprilli",
+              "Gait transitions and low obstacles",
+              "Added after starter stats were lowered"
+            ],
+            [
+              "Show jumping",
+              "Approach, speed and jump timing",
+              "Check event conditions against training and potential"
+            ],
+            [
+              "Cross country",
+              "Strength management and harder combinations",
+              "Described as a late-game challenge"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The May update explains Caprilli, while the August update introduces cross country. A visible course does not mean the current horse can qualify. Inspect the entry panel before paying or changing a breeding plan.",
+          "source": "devMay"
+        },
+        {
+          "type": "image",
+          "src": "/assets/scene-1.jpg",
+          "alt": "Horse and rider jumping with round, gait and condition indicators above",
+          "caption": "The competition HUD shows the round and horse indicators. Read the requirements in your current client; this promotional frame is not a threshold table.",
+          "width": 1920,
+          "height": 1080,
+          "source": "steam"
+        }
+      ]
+    ],
+    [
+      "Before leaving for town",
+      [
+        {
+          "type": "steps",
+          "items": [
+            "Compare the event conditions with training, potential and condition. If the horse cannot progress far enough, choose another event or [a better-suited horse](/guides/buy-sell-horses/).",
+            "Groom the horse and check tack and rider clothing. The developer links dirty horses and inappropriate clothing to lost Prestige.",
+            "Load the right horse using the [trailer guide](/competitions/trailer-and-multiple-horses/). Transport and qualification are separate checks.",
+            "Keep money for the fee shown. Read the selected horse and event before confirming."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This is a preparation checklist, not a published universal list of entry rules. Read current fees and thresholds from your save.",
+          "source": "devAugust"
+        }
+      ]
+    ],
+    [
+      "Caprilli gait changes and jump timing",
+      [
+        {
+          "type": "paragraph",
+          "text": "Steam players recommend changing gait around the boundary between instruction boxes, using the rider’s position as a cue. That is a timing tip rather than an official scoring formula. Practise on a familiar course and compare the results.",
+          "source": "t_caprilli"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use [jumping tips](/training/jumping-tips/) for approach and timing, [confidence](/training/confidence/) for unprompted gait changes, and [controls](/guides/controls/) for rebinding. Change one thing per practice run so it is easier to see what helped."
+        },
+        {
+          "type": "paragraph",
+          "text": "The FAQ recommends auto-jump and easier competitions. The v1.0.3 notes also fix auto-jump at the brick wall and the scary dunes obstacle.",
+          "source": "faq"
+        }
+      ]
+    ],
+    [
+      "Cross-country route choices",
+      [
+        {
+          "type": "paragraph",
+          "text": "The August update describes a shorter route with harder obstacles versus a longer route with easier jumps on some courses. Choose according to remaining strength. Maria can give feedback on mistakes during training.",
+          "source": "devAugust"
+        },
+        {
+          "type": "paragraph",
+          "text": "Learn an obstacle sequence in training before assuming the shortest route is best. A cleaner approach may be more useful than a faster gait if repeated refusals or mistakes are the actual problem."
+        }
+      ]
+    ],
+    [
+      "Cannot enter, or losing Prestige?",
+      [
+        {
+          "type": "paragraph",
+          "text": "Install v1.0.5 or newer before repeating lengthy entry troubleshooting: v1.0.4 lists a fix for being unable to enter. Use the [cannot-enter checklist](/competitions/cannot-enter/) to distinguish transport, a requirement message and an unresponsive button.",
+          "source": "patch105"
+        },
+        {
+          "type": "paragraph",
+          "text": "Wins contribute to Prestige; failed events, dirty horses and unsuitable clothing can reduce it. See [Prestige](/guides/prestige/) if poor results coincide with weak breeder offers. Prizes are one part of [making money](/guides/money-making/), not guaranteed profit from every entry.",
+          "source": "devAugust"
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "Which event should I start with?",
+      "Caprilli was added as the early step after starter stats were lowered. Read current requirements."
+    ],
+    [
+      "Why can I not enter?",
+      "Update first: v1.0.4 lists a fix. Then check the horse, transport, condition and exact entry message."
+    ],
+    [
+      "Can I use auto-jump?",
+      "Yes. The official FAQ recommends it as an accessibility option."
+    ],
+    [
+      "Is the shortest cross-country route best?",
+      "The developer describes a trade-off between shorter, harder routes and longer, easier ones, depending on strength."
+    ],
+    [
+      "Do I need another horse for show jumping?",
+      "Possibly. The developer said a fully trained rebalanced starter could no longer reach the first show-jumping event."
+    ]
+  ],
+  "unknown": "Current event fees, stat thresholds, scoring weights and prize tables have not been independently verified. Forum timing advice remains player-reported.",
+  "references": [
+    "steam",
+    "devMay",
+    "devAugust",
+    "faq",
+    "t_caprilli",
+    "t_jumping",
+    "t_trailer",
+    "patch105"
+  ],
+  "updated": "2026-11-14"
+},
   {
-    path: '/buildings/', title: 'Buildings & upgrades', category: 'buildings', icon: 'home', image: 2, updated: '2026-11-07',
-    description: 'More horse space, new training courses, and a growing stable.',
-    answer: 'Building upgrades add room for horses and unlock staff, training courses, and breeding options. According to the community-maintained TMQ Horse Game Database, the stable grows from 4 stalls to 8, 14, and 20, costing 2,500, 10,000, and 50,000, and each stable level adds a stable group. The yearling paddock holds 6 yearlings, or 13 after its upgrade, without using stable stalls.',
-    sections: [['Stable capacity', 'Level 1 holds 4 horses and costs 10 per day to run. Level 2 holds 8 (2,500 to build, 30 per day, 2 days). Level 3 holds 14 (10,000, 80 per day, 3 days). Level 4 holds 20 (50,000, 200 per day, 4 days). Each upgrade adds a stable group, which lets you separate mares, geldings, and stallions. A maxed-out stable full of horses unlocks the achievement Full House.'], ['Yearling paddock and pasture', 'The yearling paddock is its own group and does not use stable stalls: level 1 holds 6 yearlings (1,500), level 2 holds 13 (10,000). The pasture is upgraded separately for 200, 1,000, 5,000, and 10,000; it does not add stable capacity.'], ['Main house and staff', 'The main house unlocks staff. Level 1: Laura (groom) and Maria (riding instructor for you). Level 2 (5,000): Fiete (groom), Julia (gives riding lessons), Tara (trainer), and Bianca (yearling trainer). Level 3 (20,000): Lucas (groom) and the trainers Meilin and Markus.'], ['Breeding station', 'Level 1 (1,500) allows live covering. Level 2 (5,000) adds taking fresh semen and the foal simulator, which previews possible foals. Level 3 (15,000) adds freezing semen.'], ['Riding arena and parking lot', 'The riding arena is required for training. Level 1 (500) offers the basic courses; level 2 (5,000) adds Caprilli 2, Show Jumping 3, Cross Country 1, gridwork, rhythm training, and random lunging; level 3 (10,000) adds Show Jumping 4. The parking lot holds your trailer: 2, 4, or 10 horses for 200, 500, or 1,500. It also limits how many horses you can buy or sell per day.'], ['Feed storage', 'Storage for hay, grain, and treats grows from 30/30/30 to 65/70/40 and then 110/150/50. From level 3 it becomes a separate building.'], ['Plan your next upgrade', 'Every building adds daily running costs, so check your income before upgrading. If you want more horses, the stable and parking lot matter most; for training, the arena; for breeding, the breeding station and yearling paddock.']],
-    faq: [['How many horses can my stable hold?', '4 at the start, up to 20 after three upgrades, according to the community wiki.'], ['Do yearlings use stable stalls?', 'No. They live in the yearling paddock, which holds 6 or 13.'], ['How do I unlock Julia and the trainers?', 'Upgrade the main house to level 2; more trainers come with level 3.'], ['How much does a fully upgraded stable cost?', '2,500 + 10,000 + 50,000 = 62,500, plus higher daily running costs.']],
-    unknown: 'All costs and capacities come from the community wiki and may change with patches; check them in your game.', references: ['steam', 'tmqdb', 'achievements']
-  },
+  "path": "/buildings/",
+  "title": "Buildings & upgrades",
+  "category": "buildings",
+  "icon": "home",
+  "image": 2,
+  "updated": "2026-11-14",
+  "description": "More horse space, new training courses, and a growing stable.",
+  "answer": "Building upgrades add room for horses and unlock staff, training courses, and breeding options. According to the community-maintained TMQ Horse Game Database, the stable grows from 4 stalls to 8, 14, and 20, costing 2,500, 10,000, and 50,000, and each stable level adds a stable group. The yearling paddock holds 6 yearlings, or 13 after its upgrade, without using stable stalls.",
+  "sections": [
+    [
+      "Stable capacity",
+      "Level 1 holds 4 horses and costs 10 per day to run. Level 2 holds 8 (2,500 to build, 30 per day, 2 days). Level 3 holds 14 (10,000, 80 per day, 3 days). Level 4 holds 20 (50,000, 200 per day, 4 days). Each upgrade adds a stable group, which lets you separate mares, geldings, and stallions. A maxed-out stable full of horses unlocks the achievement Full House."
+    ],
+    [
+      "Yearling paddock and pasture",
+      "The yearling paddock is its own group and does not use stable stalls: level 1 holds 6 yearlings (1,500), level 2 holds 13 (10,000). The pasture is upgraded separately for 200, 1,000, 5,000, and 10,000; it does not add stable capacity."
+    ],
+    [
+      "Main house and staff",
+      "The main house unlocks staff. Level 1: Laura (groom) and Maria (riding instructor for you). Level 2 (5,000): Fiete (groom), Julia (gives riding lessons), Tara (trainer), and Bianca (yearling trainer). Level 3 (20,000): Lucas (groom) and the trainers Meilin and Markus."
+    ],
+    [
+      "Breeding station",
+      "Level 1 (1,500) allows live covering. Level 2 (5,000) adds taking fresh semen and the foal simulator, which previews possible foals. Level 3 (15,000) adds freezing semen."
+    ],
+    [
+      "Riding arena and parking lot",
+      "The riding arena is required for training. Level 1 (500) offers the basic courses; level 2 (5,000) adds Caprilli 2, Show Jumping 3, Cross Country 1, gridwork, rhythm training, and random lunging; level 3 (10,000) adds Show Jumping 4. The parking lot holds your trailer: 2, 4, or 10 horses for 200, 500, or 1,500. It also limits how many horses you can buy or sell per day."
+    ],
+    [
+      "Feed storage",
+      "Storage for hay, grain, and treats grows from 30/30/30 to 65/70/40 and then 110/150/50. From level 3 it becomes a separate building."
+    ],
+    [
+      "Plan your next upgrade",
+      "Every building adds daily running costs, so check your income before upgrading. If you want more horses, the stable and parking lot matter most; for training, the arena; for breeding, the breeding station and yearling paddock."
+    ],
+    [
+      "Current money settings and upgrade decisions",
+      [
+        {
+          "type": "paragraph",
+          "text": "Since v1.0.3, arena upgrades increase lesson income and stable upgrades increase boarding fees. Money settings can change costs, so the older community prices above are baseline references rather than quotes for every save. Review [income](/guides/money-making/), [housing limits](/guides/maximum-horses/) and [staff assignments](/guides/staff-not-working/) before choosing the next upgrade.",
+          "source": "patch105"
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "How many horses can my stable hold?",
+      "4 at the start, up to 20 after three upgrades, according to the community wiki."
+    ],
+    [
+      "Do yearlings use stable stalls?",
+      "No. They live in the yearling paddock, which holds 6 or 13."
+    ],
+    [
+      "How do I unlock Julia and the trainers?",
+      "Upgrade the main house to level 2; more trainers come with level 3."
+    ],
+    [
+      "How much does a fully upgraded stable cost?",
+      "2,500 + 10,000 + 50,000 = 62,500, plus higher daily running costs."
+    ]
+  ],
+  "unknown": "All costs and capacities come from the community wiki and may change with patches; check them in your game.",
+  "references": [
+    "steam",
+    "tmqdb",
+    "achievements",
+    "patch105"
+  ]
+},
   {
     path: '/horses/colors-and-patterns/', title: 'Horse colors & patterns', category: 'horses', icon: 'palette', image: 5, updated: '2026-11-07',
     description: 'Coloring, white markings, and what is known about coat variation.',
@@ -172,13 +881,77 @@ export const articles = [
     unknown: 'Trait names, effect values, compatibility rules, and inheritance chances need in-game verification. This wiki has not tested the community save-editing method.', references: ['steam', 'launch', 'personalityGuide']
   },
   {
-    path: '/guides/staff/', title: 'Staff guide', category: 'buildings', icon: 'users', image: 6,
-    description: 'Hiring help for a larger herd and understanding staff unlocks.',
-    answer: 'You can hire staff to help with care and training. Advanced building stages can unlock staff applications, according to the official store description.',
-    sections: [['Help for a growing yard', 'The staff system supports managing more horses as your yard expands. Before hiring, check the job description displayed by the game rather than assuming every employee handles every task.'], ['Applications and buildings', 'Building progression is connected to staff applications. If you cannot see a hiring option, inspect the upgrade descriptions in your current game. This wiki has not verified the precise unlock stage.'], ['Compare cost with your needs', 'A useful planning question is which recurring task you need help with. Read any displayed pay and assignment details before hiring. No wage table or efficiency ranking has been tested for this wiki.'], ['Riding instructor Julia: fill every slot', 'Players report that Julia costs 100 per day and can give up to 8 lessons a day, but only one lesson per assigned slot. If you assign two horses, she gives two lessons. To use all 8 lessons, assign a horse to each slot; the same horse can go into several slots. One player notes the trainer can handle three horses a day.'], ['Trainers that overwork horses', 'If training staff keep causing injuries such as tendon problems, players recommend leveling up (training) your staff. You can also assign horses only to the staff member who trains them well.'], ['What Maria does', 'Players report that Maria rarely speaks: she gives riding tips, such as suggesting a canter, when you make a mistake at a jump.']],
-    faq: [['Can staff train horses?', 'The official store describes staff helping with both care and training.'], ['Why does Julia only give one lesson per horse?', 'Each assigned slot is one lesson. Put the same horse into several slots to give more lessons with it, according to players.'], ['How are applications unlocked?', 'Advanced building stages are identified as an unlock source.'], ['Which employee is best?', 'This wiki has not verified named staff, wages, or comparative performance.']],
-    unknown: 'Full staff roles, wages, and efficiency remain unverified; the details above are player reports.', references: ['steam', 't_julia', 't_staffOverwork', 't_maria']
-  },
+  "path": "/guides/staff/",
+  "title": "Staff guide",
+  "category": "buildings",
+  "icon": "users",
+  "image": 6,
+  "description": "Hiring help for a larger herd and understanding staff unlocks.",
+  "answer": "You can hire staff to help with care and training. Advanced building stages can unlock staff applications, according to the official store description.",
+  "sections": [
+    [
+      "Help for a growing yard",
+      "The staff system supports managing more horses as your yard expands. Before hiring, check the job description displayed by the game rather than assuming every employee handles every task."
+    ],
+    [
+      "Applications and buildings",
+      "Building progression is connected to staff applications. If you cannot see a hiring option, inspect the upgrade descriptions in your current game. This wiki has not verified the precise unlock stage."
+    ],
+    [
+      "Compare cost with your needs",
+      "A useful planning question is which recurring task you need help with. Read any displayed pay and assignment details before hiring. No wage table or efficiency ranking has been tested for this wiki."
+    ],
+    [
+      "Riding instructor Julia: fill every slot",
+      "Players report that Julia costs 100 per day and can give up to 8 lessons a day, but only one lesson per assigned slot. If you assign two horses, she gives two lessons. To use all 8 lessons, assign a horse to each slot; the same horse can go into several slots. One player notes the trainer can handle three horses a day."
+    ],
+    [
+      "Trainers that overwork horses",
+      "If training staff keep causing injuries such as tendon problems, players recommend leveling up (training) your staff. You can also assign horses only to the staff member who trains them well."
+    ],
+    [
+      "What Maria does",
+      "Players report that Maria rarely speaks: she gives riding tips, such as suggesting a canter, when you make a mistake at a jump."
+    ],
+    [
+      "Troubleshoot assignments before hiring more",
+      [
+        {
+          "type": "paragraph",
+          "text": "For fewer lessons than expected, use the [staff-not-working checklist](/guides/staff-not-working/). Compare filled slots with the horse’s condition, not just the number of different horses assigned. Since v1.0.3, upgrading the arena raises lesson income; review [money and costs](/guides/money-making/) before comparing that income with the current wage.",
+          "source": "patch105"
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "Can staff train horses?",
+      "The official store describes staff helping with both care and training."
+    ],
+    [
+      "Why does Julia only give one lesson per horse?",
+      "Each assigned slot is one lesson. Put the same horse into several slots to give more lessons with it, according to players."
+    ],
+    [
+      "How are applications unlocked?",
+      "Advanced building stages are identified as an unlock source."
+    ],
+    [
+      "Which employee is best?",
+      "No comparative performance ranking has been tested here. The named roles and wages above include player reports; use current job descriptions and assignments."
+    ]
+  ],
+  "unknown": "Full staff roles, wages, and efficiency remain unverified; the details above are player reports.",
+  "references": [
+    "steam",
+    "t_julia",
+    "t_staffOverwork",
+    "t_maria",
+    "patch105"
+  ],
+  "updated": "2026-11-14"
+},
   {
     path: '/guides/demo-vs-full-game/', title: 'Demo vs full game', category: 'getting-started', icon: 'book', image: 3,
     description: 'The confirmed day limit, release status, and how to read older screenshots.',
@@ -228,20 +1001,85 @@ export const articles = [
     unknown: 'Prices change with sales and exchange rates. Future sales have not been announced. The Supporter Pack store page does not explain how to claim the Discord role.', references: ['steam', 'supporterPack', 'soundtrack', 't_regional', 't_pricing', 'launch']
   },
   {
-    path: '/guides/crashes-and-launch-errors/', title: 'Crashes & launch errors', category: 'help', icon: 'check', image: 6, updated: '2026-11-10',
+    path: '/guides/crashes-and-launch-errors/', title: 'Crashes & launch errors', category: 'help', icon: 'check', image: 6, updated: '2026-11-14',
     description: 'Fixes and next steps when Horses of Hoofprint Bay crashes, will not start, or shows a black or grey screen.',
     answer: 'If Horses of Hoofprint Bay crashes or will not start, first update the game and restart Steam. For crashes, the developer asks players to send a bug report with F8 in game, or email the log files to support@thoglistudios.com. For the Windows error “an application control policy has blocked this file (0x11C7)”, players suggest checking the .exe properties and running it as administrator.',
-    sections: [['Report the crash to the developers', 'The developer’s advice for crashes is to send a bug report with more information using the F8 key in game, or to send your log files to support@thoglistudios.com. The log files are called player.log and player-prev.log. For the demo, the developer gave the folder C:\\Users\\USERNAME\\AppData\\LocalLow\\ThogliStudios\\Horses of Hoofprint Bay Demo; the full game is likely in a similar ThogliStudios folder.'], ['“Failed to start process” (0x11C7) on Windows', 'Some players see “failed to start process for this game: an application control policy has blocked this file (0x11C7)” on Windows 11. A community helper suggests it is likely a permission problem: open the properties of the game’s .exe and try launching it as an administrator. If Windows security policies are managed by your workplace or school, you may not be able to change this yourself.'], ['Black or grey screen', 'In the February demo, a bug froze the first riding lesson on a grey screen for fresh installs of version 0.1.8; players report it was fixed by an update. On Linux and Steam Deck, players with black screens suggest reinstalling and setting the compatibility tool to Proton Experimental.'], ['Crashes when starting a new day', 'Players reported the game crashing when loading the next day after riding or training. A community helper said on November 6 that a small patch had fixed it, and v1.0.2 (November 8) fixes several further bugs that could make the game hang. Update the game first; if the crash still happens, send a bug report with F8.'], ['“Failed to load il2cpp”', 'Since early November, some players see “Failed to load il2cpp” when starting the full game, sometimes with a Windows message that the game is not signed correctly. No official fix or explanation has been posted. Update to the latest version (v1.0.2 or newer) and use “Verify integrity of game files” in Steam, a general Steam troubleshooting step. One player guessed that graphics drivers might be involved, based on a different game; this is unconfirmed, so it is not a recommended fix. Report the error with your log files.'], ['Error message popups (v1.0.2)', 'v1.0.2 adds an option to enable error message popups. Turning it on can show what went wrong, which makes your bug report more useful.']],
+    sections: [['Report the crash to the developers', 'The developer’s advice for crashes is to send a bug report with more information using the F8 key in game, or to send your log files to support@thoglistudios.com. The log files are called player.log and player-prev.log. For the demo, the developer gave the folder C:\\Users\\USERNAME\\AppData\\LocalLow\\ThogliStudios\\Horses of Hoofprint Bay Demo; the full game is likely in a similar ThogliStudios folder.'], ['“Failed to start process” (0x11C7) on Windows', 'Some players see “failed to start process for this game: an application control policy has blocked this file (0x11C7)” on Windows 11. A community helper suggests it is likely a permission problem: open the properties of the game’s .exe and try launching it as an administrator. If Windows security policies are managed by your workplace or school, you may not be able to change this yourself.'], ['Black or grey screen', 'In the February demo, a bug froze the first riding lesson on a grey screen for fresh installs of version 0.1.8; players report it was fixed by an update. On Linux and Steam Deck, players with black screens suggest reinstalling and setting the compatibility tool to Proton Experimental.'], ['Crashes when starting a new day', 'Players reported the game crashing when loading the next day after riding or training. A community helper said on November 6 that a small patch had fixed it, and v1.0.2 (November 8) fixes several further bugs that could make the game hang. Update the game first; if the crash still happens, send a bug report with F8.'], ['“Failed to load il2cpp”', 'Since early November, some players see “Failed to load il2cpp” when starting the full game, sometimes with a Windows message that the game is not signed correctly. No official fix or explanation has been posted. Update to the current version (v1.0.5 as of November 14, 2026) and use “Verify integrity of game files” in Steam, a general Steam troubleshooting step. One player guessed that graphics drivers might be involved, based on a different game; this is unconfirmed, so it is not a recommended fix. Report the error with your log files.'], ['Error message popups (v1.0.2)', 'v1.0.2 adds an option to enable error message popups. Turning it on can show what went wrong, which makes your bug report more useful.']],
     faq: [['How do I report a bug?', 'Press F8 in game, or email your log files to support@thoglistudios.com, as the developer recommends.'], ['Where are the log files?', 'In the ThogliStudios folder under AppData\\LocalLow, named player.log and player-prev.log.'], ['My whole PC restarts when I launch the game. Is that the game?', 'Other players had not seen it in the demo. It may be specific to your computer; a bug report helps the developers check.'], ['What does “Failed to load il2cpp” mean?', 'The game cannot load part of its engine. There is no official fix yet; update the game, verify the game files in Steam, and report it.'], ['Which version fixes the most crashes?', 'v1.0.2 (November 8, 2026) fixes several hangs and the save invalidation after crashes.']],
-    unknown: 'The cause of “Failed to load il2cpp” and the exact log folder of the full game are not confirmed.', references: ['t_crashes', 't_launchError', 't_deckLinux', 't_newDays', 't_il2cpp', 'patch102']
+    unknown: 'The cause of “Failed to load il2cpp” and the exact log folder of the full game are not confirmed.', references: ['t_crashes', 't_launchError', 't_deckLinux', 't_newDays', 't_il2cpp', 'patch102', 'patch105']
   },
   {
-    path: '/guides/save-files-and-achievements/', title: 'Save problems & disabled achievements', category: 'help', icon: 'check', image: 3, updated: '2026-11-10',
-    description: 'What to do when a save is corrupted, achievements are disabled because the save “was edited”, or a save disappears.',
-    answer: 'If Horses of Hoofprint Bay says your save was “edited outside the game” and disables achievements, you most likely did nothing wrong: the developers confirmed a bug that invalidated saves after the game or your PC crashed. Patch v1.0.2 (November 8, 2026) greatly reduces the chance of it happening and lets you roll back to backups without losing achievements, but it cannot repair saves that were already flagged. Those stay without achievements, so update the game and back up your save folder.',
-    sections: [['“This save was edited outside the game”', 'The developers confirmed that saves could be wrongly invalidated when the game or your PC crashed, which is why players saw this message without touching their files. Patch v1.0.2 fixes the most likely cause and creates validation files for backups. However, the developers cannot tell a falsely invalidated save from one that was really edited, so an already flagged save cannot be revalidated: you can keep playing it without achievements, or start a new save.'], ['Achievements not unlocking at all', 'A different issue: some players who started on launch day only received the first achievement. One player reports achievements began working after quitting and restarting the game. The game has 47 Steam achievements in total.'], ['Corrupted saves after crashes', 'Players reported saves that would not load after repeated crashes. v1.0.2 handles file errors more safely and keeps validation files with backups, so if a save still breaks you can roll back to a backup without losing achievements. Update the game first, then send a bug report with F8 if a save still fails to load.'], ['Saves missing after playing the demo again', 'Players who loaded old demo saves after starting the full game report that their new full-game save stopped appearing in the menu, although the file was still in the folder. v1.0.2 fixes one cause of overwritten saves: the name check was case-sensitive while folder names are not, so two saves whose names differed only in capital letters could overwrite each other. Give each save a clearly different name, avoid deleting saves from inside the demo, and keep a copy of your save folder.'], ['Demo saves', 'According to the developer FAQ, October demo saves carry over to the full game and February demo saves do not.']],
-    faq: [['Why are my achievements disabled?', 'A bug invalidated saves after crashes. The developers confirmed it and reduced the risk in v1.0.2.'], ['Can I get achievements back on an old save?', 'No. The developers say already flagged saves cannot be revalidated; start a new save or play on without achievements.'], ['Can I import a save file manually?', 'No confirmed method has been shared yet. Keep a backup of the save folder.'], ['Does the game have cloud saves?', 'Yes, Steam Cloud is listed on the store page.'], ['How many achievements are there?', '47.']],
-    unknown: 'Whether v1.0.2 prevents every case of save corruption is not confirmed. Recovering a save that no longer loads still depends on backups.', references: ['t_achievements', 't_saveLocked', 't_corrupted', 't_importSave', 'faq', 'steam', 'patch102']
+    "path": "/guides/save-files-and-achievements/",
+    "title": "Save problems & disabled achievements",
+    "category": "help",
+    "icon": "check",
+    "image": 3,
+    "updated": "2026-11-14",
+    "description": "How v1.0.5 restores achievement eligibility for old saves, what must be earned again, and how to handle missing or damaged save files.",
+    "answer": "Update to v1.0.5 if your save previously showed the “no achievements” icon. The developers removed save validation, so all saves, including saves flagged after crashes or edited outside the game, can earn Steam achievements again. Previously skipped achievements are not awarded retroactively: you must complete their conditions again. This change does not promise to repair a save file that will not load.",
+    "sections": [
+      [
+        "Achievements on previously flagged saves (v1.0.5)",
+        "The official November 13, 2026 announcement (UTC) says save validation was removed in v1.0.5 because accidental invalidation could not be eliminated. Old saves with the “no achievements” icon can earn achievements again. You do not need to start over solely because of that icon. Complete the achievement condition again; the game cannot retroactively award achievements skipped while the save was flagged."
+      ],
+      [
+        "Why older advice says to start a new save",
+        "Under v1.0.2, the developers could not revalidate a save that had already been flagged. That advice was superseded by v1.0.5, which removes validation for all saves. Update before deciding to abandon an existing save."
+      ],
+      [
+        "Achievements not unlocking at all",
+        "A different issue: some players who started on launch day only received the first achievement. One player reports achievements began working after quitting and restarting the game. The game has 47 Steam achievements in total."
+      ],
+      [
+        "Backups and saves that will not load",
+        "The v1.0.3 changelog increases backups to 50 days. Keep a separate copy of your save folder before restoring a backup or editing files. Achievement eligibility and file recovery are different issues: removing validation does not confirm that a damaged or missing file can be repaired. If it still will not load, try an available backup and report the problem with F8."
+      ],
+      [
+        "Saves missing after playing the demo again",
+        "Players who loaded old demo saves after starting the full game report that their new full-game save stopped appearing in the menu, although the file was still in the folder. v1.0.2 fixes one cause of overwritten saves: the name check was case-sensitive while folder names are not, so two saves whose names differed only in capital letters could overwrite each other. Give each save a clearly different name, avoid deleting saves from inside the demo, and keep a copy of your save folder."
+      ],
+      [
+        "Demo saves",
+        "According to the developer FAQ, October demo saves carry over to the full game and February demo saves do not."
+      ]
+    ],
+    "faq": [
+      [
+        "Can I get achievements back on an old save?",
+        "Yes. In v1.0.5, even previously flagged saves can earn achievements again. You must complete any skipped achievement conditions again."
+      ],
+      [
+        "Do I need a new save because achievements were disabled?",
+        "No. Update to v1.0.5 and continue the existing save if it loads."
+      ],
+      [
+        "Does v1.0.5 repair corrupted save files?",
+        "The announcement restores achievement eligibility, but does not promise to repair files that will not load. Keep backups and report remaining problems."
+      ],
+      [
+        "Can I import a save file manually?",
+        "No confirmed method has been shared yet. Keep a backup of the save folder."
+      ],
+      [
+        "Does the game have cloud saves?",
+        "Yes, Steam Cloud is listed on the store page."
+      ],
+      [
+        "How many achievements are there?",
+        "47."
+      ]
+    ],
+    "unknown": "The official announcement does not give a method to repair every damaged or missing save file. Update to the current version and keep separate backups.",
+    "references": [
+      "t_achievements",
+      "t_saveLocked",
+      "t_corrupted",
+      "t_importSave",
+      "faq",
+      "steam",
+      "patch102",
+      "patch105"
+    ]
   },
   {
     path: '/horses/starter-horse/', title: 'Starter horse', category: 'horses', icon: 'horse', image: 0, updated: '2026-11-07',
@@ -260,13 +1098,158 @@ export const articles = [
     unknown: 'The full name list comes from the community wiki; individual names and how each one looks need in-game verification.', references: ['tmqdb', 't_specialCoats', 't_combining', 't_customHorses', 'steam']
   },
   {
-    path: '/guides/mods/', title: 'Mods & custom tack', category: 'getting-started', icon: 'palette', image: 4,
-    description: 'Where to find Horses of Hoofprint Bay mods and custom tack, and why there is no Steam Workshop.',
-    answer: 'Horses of Hoofprint Bay has no Steam Workshop. Mods, including custom tack, are shared by community creators, mostly on Patreon, with install instructions. The official Discord has a dedicated channel for mods.',
-    sections: [['No Steam Workshop', 'The game is described by the community as mod-friendly, but there is no Workshop page on Steam. Mods are hosted by their creators instead.'], ['Where players find mods', 'A community helper on the Steam forum points to several Patreon creators who publish mods and install guides, including WestmoreSaddlery, Tackandmoremclain, NameOfAMoon, and threelilies. Custom tack (saddles, bridles, and other equipment) is a popular category.'], ['Discord mod channel', 'The official Discord server has a channel dedicated to mods. The developer says the Discord invite is on the Thogli Studios website.'], ['Save editing', 'A separate community guide explains how to edit horse personalities in the save file. Editing your save may disable achievements, because the game can detect saves that were changed outside it.'], ['Stay safe', 'Mods are unofficial. Back up your saves before installing anything, download only from creators you trust, and expect mods to break when the game updates.']],
-    faq: [['Is there a Steam Workshop?', 'No.'], ['Where can I get custom tack?', 'From community creators, mainly on Patreon, according to players.'], ['Will mods disable achievements?', 'Not confirmed. Editing saves outside the game can disable achievements, so back up first.']],
-    unknown: 'Official mod support documentation and whether mods affect achievements are not confirmed.', references: ['t_workshop', 'personalityGuide', 't_discordDev']
-  },
+  "path": "/guides/mods/",
+  "title": "Mods & custom tack: sources, install checks & help",
+"seoTitle": "Horses of Hoofprint Bay: Mods & Custom Tack Installation | Wiki",
+  "category": "getting-started",
+  "icon": "palette",
+  "image": 4,
+  "description": "Find Horses of Hoofprint Bay mods, Westmore Saddlery tack and official modding help, with version checks and current achievement rules.",
+  "answer": "Use each creator’s original page for Horses of Hoofprint Bay mods and installation instructions. The publisher encourages tack and clothing mods, but there is no developer-managed Steam Workshop integration. Check whether a download is a texture pack or a gameplay mod, and whether it supports the Demo or full game before installing.",
+  "sections": [
+    [
+      "Where to find mods and custom tack",
+      [
+        {
+          "type": "table",
+          "caption": "Choose the right source",
+          "headers": [
+            "Looking for",
+            "Start here",
+            "Check"
+          ],
+          "rows": [
+            [
+              "Westmore Saddlery tack",
+              "[Creator and installation guide](/guides/westmore-saddlery/)",
+              "Individual pack requirements"
+            ],
+            [
+              "Community mod discussions",
+              "[Official Discord entry points](/community/discord/)",
+              "Pinned instructions and current creator links"
+            ],
+            [
+              "Tack and clothing modding information",
+              "Publisher FAQ and studio press-kit links",
+              "Use the current official instructions"
+            ],
+            [
+              "A specific gameplay mod",
+              "Its author’s original download page",
+              "Required loader, dependencies and supported version"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The publisher explicitly encourages tack and clothing mods and links instructions in the release FAQ. That support does not mean every community modification is an official release or compatible with every version.",
+          "source": "releaseFaq"
+        }
+      ]
+    ],
+    [
+      "A version-aware installation routine",
+      [
+        {
+          "type": "steps",
+          "items": [
+            "Read the creator’s current description, supported version and dependencies before downloading.",
+            "Close the game and make a separate backup of saves and any files you will replace.",
+            "Use the folder and extraction layout named by that pack. Check Demo versus full game; do not infer the path from an unrelated mod.",
+            "Restart fully and check the location described by the creator, such as the tack shop for a tack pack.",
+            "Test one new pack at a time so a problem can be traced without removing unrelated content."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/assets/scene-0.jpg",
+          "alt": "Horse care interface with tack controls beside the horse",
+          "caption": "The base game already has tack and appearance controls. A mod’s new shop items and installation requirements depend on that particular pack.",
+          "width": 1920,
+          "height": 1080,
+          "source": "steam"
+        }
+      ]
+    ],
+    [
+      "Westmore Saddlery and missing items",
+      [
+        {
+          "type": "paragraph",
+          "text": "The [Westmore guide](/guides/westmore-saddlery/) links the creator’s Nexus Mods and Patreon pages. Its Ascot listing specifies a Demo folder, unchanged JSON and PNG names, a complete restart and checking the tack shop. Treat those as that pack’s instructions rather than a universal full-game installation method.",
+          "source": "westmoreAscot"
+        },
+        {
+          "type": "paragraph",
+          "text": "For missing content, check version, folder, extraction nesting and filenames before downloading again. If a gameplay mod needs a loader, installing it like a texture pack is not a verified method."
+        }
+      ]
+    ],
+    [
+      "Achievements after v1.0.5",
+      [
+        {
+          "type": "paragraph",
+          "text": "The developers removed save validation in v1.0.5. Edited saves and those previously flagged can earn achievements again; skipped conditions need completing again. This replaces older advice that editing necessarily disables achievements.",
+          "source": "patch105"
+        },
+        {
+          "type": "note",
+          "title": "Compatibility is still pack-specific",
+          "text": "Achievement eligibility does not establish mod compatibility or repair damaged files. Keep backups and follow the author’s update notes. See [save problems](/guides/save-files-and-achievements/)."
+        }
+      ]
+    ],
+    [
+      "Get useful help",
+      [
+        {
+          "type": "paragraph",
+          "text": "For a mod problem, include the creator, pack version, game version, installation folder and exact symptom. Read [Discord joining help](/community/discord/) if the official invitation appears expired. For the base game, use F8 or studio support as described in [crash troubleshooting](/guides/crashes-and-launch-errors/)."
+        },
+        {
+          "type": "paragraph",
+          "text": "This wiki does not rehost creator files or claim that installing a mod is required to play. Download and pricing decisions remain with the creator’s current listing."
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "Is there a Steam Workshop?",
+      "The publisher says there is no developer-managed Steam Workshop integration. Use original creator pages."
+    ],
+    [
+      "Where do I get Westmore Saddlery content?",
+      "Use the creator’s Nexus Mods profile and Patreon, linked in the dedicated guide."
+    ],
+    [
+      "Can I use Demo instructions in the full game?",
+      "Do not assume so. Use the instructions matching the version and pack."
+    ],
+    [
+      "Do mods disable achievements?",
+      "v1.0.5 permits achievements on edited saves. Compatibility of each mod is still a separate question."
+    ],
+    [
+      "Where can I ask for help?",
+      "Use the creator’s support information or the official Discord’s current mod channels."
+    ]
+  ],
+  "unknown": "Individual packs, loaders and supported versions have not been installed or benchmarked here. Follow each creator’s current compatibility notes.",
+  "references": [
+    "steam",
+    "releaseFaq",
+    "westmore",
+    "westmoreAscot",
+    "westmorePatreon",
+    "t_discordDev",
+    "discordJoin",
+    "patch105"
+  ],
+  "updated": "2026-11-14"
+},
   {
     path: '/horses/breeding-potential/', title: 'Breeding potential & foal gender', category: 'breeding', icon: 'leaf', image: 5,
     description: 'Does training affect foals? How potential works, checking stats with the vet, hidden stud traits, and colt vs filly odds.',
@@ -284,13 +1267,98 @@ export const articles = [
     unknown: 'The exact boarder penalty and vet prices may vary; they come from player reports.', references: ['t_pregnant', 't_gelding', 't_castrating', 'stableGroups']
   },
   {
-    path: '/horses/foals-and-yearlings/', title: 'Foals & yearlings', category: 'breeding', icon: 'leaf', image: 5, updated: '2026-11-10',
-    description: 'When foals and yearlings grow up, what happens without stable space, and how pregnancy affects the mare.',
-    answer: 'Players report that a foal stays with its mother in the stable for 4 days, then moves to the yearling paddock, and becomes a young adult around day 12. If a yearling grows up while your stable is full, it is sent away; you can find it again at the sale barn in town. The yearling paddock holds 6 yearlings, or 13 after its upgrade, according to the community wiki.',
-    sections: [['How long foals take to grow', 'Horse ages are counted in in-game days. Players report that a foal spends its first 4 days with its mother in the stable, then lives in the yearling paddock until about day 12, when it becomes a young adult. A demo player tracked a foal from birth on day 13 to adulthood on day 25, which matches. You can care for and train yearlings while they are in the paddock.'], ['Make room before a yearling grows up', 'When a yearling ages up in the yearling paddock and there is no free space in the stable, it is sent away. Players report that you can get it back from the sale barn in town once you have made room.'], ['Pregnancy and nursing cost the mare training', 'Mares do not gain stats during late pregnancy and nursing, and horses lose stats when they are not trained. After player feedback, v1.0.2 drastically reduced the loss for horses with low stats: at most a tenth of the horse’s endurance, and never more than 5 points. Mares still need some training once the foal is a yearling. v1.0.2 also fixed the wrong list of available courses for a senior horse with a foal.'], ['Breeding options', 'Besides covering a mare, players describe collecting semen at the breeding station and using it fresh or freezing it.'], ['Moving a yearling into the paddock', 'If a foal became a yearling before you built the yearling paddock, it may stay in the stable, and dragging it to the paddock may not work. A player solved this by selecting the yearling, opening Manage, and moving it through the stable groups. The paddock holds 6 yearlings at level 1 and 13 at level 2.']],
-    faq: [['When do yearlings become adults?', 'Players report around day 12 after birth: 4 days with the mother, then the yearling paddock.'], ['My yearling disappeared. Where is it?', 'Probably at the sale barn in town, if your stable was full when it aged up.'], ['Why did my mare lose strength?', 'Mares do not gain stats in late pregnancy or while nursing. Since v1.0.2 the loss is capped at a tenth of endurance and at most 5 points.']],
-    unknown: 'Growth timings in the release version need in-game verification; the demo report may differ.', references: ['t_yearlings', 't_boardedBack', 't_loseStats', 't_paddock', 'tmqdb', 'patch102']
-  },
+  "path": "/horses/foals-and-yearlings/",
+  "title": "Foals & yearlings",
+  "category": "breeding",
+  "icon": "leaf",
+  "image": 5,
+  "updated": "2026-11-14",
+  "description": "When foals and yearlings grow up, what happens without stable space, and how pregnancy affects the mare.",
+  "answer": "Players report that a foal stays with its mother in the stable for 4 days, then moves to the yearling paddock, and becomes a young adult around day 12. If a yearling grows up while your stable is full, it is sent away; you can find it again at the sale barn in town. The yearling paddock holds 6 yearlings, or 13 after its upgrade, according to the community wiki.",
+  "sections": [
+    [
+      "How long foals take to grow",
+      "Horse ages are counted in in-game days. Players report that a foal spends its first 4 days with its mother in the stable, then lives in the yearling paddock until about day 12, when it becomes a young adult. A demo player tracked a foal from birth on day 13 to adulthood on day 25, which matches. You can care for and train yearlings while they are in the paddock."
+    ],
+    [
+      "Make room before a yearling grows up",
+      "When a yearling ages up in the yearling paddock and there is no free space in the stable, it is sent away. Players report that you can get it back from the sale barn in town once you have made room."
+    ],
+    [
+      "Pregnancy and nursing cost the mare training",
+      "Mares do not gain stats during late pregnancy and nursing, and horses lose stats when they are not trained. After player feedback, v1.0.2 drastically reduced the loss for horses with low stats: at most a tenth of the horse’s endurance, and never more than 5 points. Mares still need some training once the foal is a yearling. v1.0.2 also fixed the wrong list of available courses for a senior horse with a foal."
+    ],
+    [
+      "Breeding options",
+      "Besides covering a mare, players describe collecting semen at the breeding station and using it fresh or freezing it."
+    ],
+    [
+      "Moving a yearling into the paddock",
+      "If a foal became a yearling before you built the yearling paddock, it may stay in the stable, and dragging it to the paddock may not work. A player solved this by selecting the yearling, opening Manage, and moving it through the stable groups. The paddock holds 6 yearlings at level 1 and 13 at level 2."
+    ],
+    [
+      "Pregnancy-to-adult timeline",
+      [
+        {
+          "type": "table",
+          "caption": "Plan housing before each move",
+          "headers": [
+            "Stage",
+            "Game days",
+            "Evidence"
+          ],
+          "rows": [
+            [
+              "Pregnancy",
+              "8 days",
+              "Publisher FAQ"
+            ],
+            [
+              "Foal with mother",
+              "4 days after birth",
+              "Publisher FAQ"
+            ],
+            [
+              "Adulthood",
+              "Around age 12 after birth",
+              "Steam player reports"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Eight pregnancy days occur before the foal’s own age begins. Plan the yearling paddock first and an adult stall later. The [maximum-horses checklist](/guides/maximum-horses/) separates those spaces; the [breeding guide](/guides/breeding/) covers pairings.",
+          "source": "releaseFaq"
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "When do yearlings become adults?",
+      "Players report around day 12 after birth: 4 days with the mother, then the yearling paddock."
+    ],
+    [
+      "My yearling disappeared. Where is it?",
+      "Probably at the sale barn in town, if your stable was full when it aged up."
+    ],
+    [
+      "Why did my mare lose strength?",
+      "Mares do not gain stats in late pregnancy or while nursing. Since v1.0.2 the loss is capped at a tenth of endurance and at most 5 points."
+    ]
+  ],
+  "unknown": "The publisher confirms eight-day pregnancy and the four-day foal stage. Adulthood around age 12 and missing-horse recovery include player reports and need current-client verification.",
+  "references": [
+    "t_yearlings",
+    "t_boardedBack",
+    "t_loseStats",
+    "t_paddock",
+    "tmqdb",
+    "patch102",
+    "releaseFaq",
+    "devMay"
+  ]
+},
   {
     path: '/competitions/breeds-and-disciplines/', title: 'Breeds & disciplines', category: 'competitions', icon: 'trophy', image: 1,
     description: 'Are there dressage, barrel racing, western riding, or other horse breeds? What is and is not in the game.',
@@ -356,13 +1424,74 @@ export const articles = [
     unknown: 'Exact feed amounts and the hay mechanics in the release version need verification.', references: ['t_hungryBoarders', 't_superHungry', 't_treats', 'patch102']
   },
   {
-    path: '/training/jumping-tips/', title: 'Jumping tips', category: 'training', icon: 'trophy', image: 1,
-    description: 'Jump timing for verticals, oxers, and water jumps, plus jump markers and auto-jump for hard competitions.',
-    answer: 'Jump timing depends on the obstacle and speed. For verticals, approach slower and jump closer to gain height. For oxers, jump earlier to carry momentum. The water jump is the widest and needs more speed. At a gallop, take off earlier than at a canter. If it is still too hard, turn on jump markers or auto-jump in the settings.',
-    sections: [['Timing by obstacle', 'Players share these rules of thumb: verticals need height, so jump slower and closer to the obstacle; oxers need width, so jump earlier; the water jump is the widest and needs more speed. A simple starting point: at a canter, take off from a distance roughly equal to the jump’s height.'], ['Speed changes the take-off point', 'The faster the horse, the further away you need to jump. At a canter you can be fairly close; at a gallop, jump earlier.'], ['Practice with jump markers', 'The settings include optional jump markers. Players note they only appear in training, not in competitions, but they help you learn the take-off points. Upgrading the practice ring gives more practice.'], ['Auto-jump', 'The accessibility settings include auto-jump. You still have to manage speed and strength, but not the precise timing.'], ['Competition pacing', 'Players report that faults cost 4 penalty points and time penalties add 1 point per 4 seconds over the limit. Keep a canter or gallop to make the time, but do not exhaust the horse too early. Strength runs out faster when the horse’s endurance is low.'], ['Caprilli timing', 'In the Caprilli test, switch gaits roughly when the rider’s foot is above the line between the two gait instructions.']],
-    faq: [['How do I time jumps?', 'Jump closer and slower for verticals, earlier for oxers, faster for water.'], ['Is there an easy mode for jumping?', 'Yes, auto-jump in the accessibility settings.'], ['Do jump markers work in competitions?', 'No, players say only in training.']],
-    unknown: 'Penalty values and timing come from player reports and need in-game verification.', references: ['t_jumping', 't_mediumComp', 't_praise', 't_caprilli', 'faq']
-  },
+  "path": "/training/jumping-tips/",
+  "title": "Jumping tips",
+  "category": "training",
+  "icon": "trophy",
+  "image": 1,
+  "description": "Jump timing for verticals, oxers, and water jumps, plus jump markers and auto-jump for hard competitions.",
+  "answer": "Jump timing depends on the obstacle and speed. For verticals, approach slower and jump closer to gain height. For oxers, jump earlier to carry momentum. The water jump is the widest and needs more speed. At a gallop, take off earlier than at a canter. If it is still too hard, turn on jump markers or auto-jump in the settings.",
+  "sections": [
+    [
+      "Timing by obstacle",
+      "Players share these rules of thumb: verticals need height, so jump slower and closer to the obstacle; oxers need width, so jump earlier; the water jump is the widest and needs more speed. A simple starting point: at a canter, take off from a distance roughly equal to the jump’s height."
+    ],
+    [
+      "Speed changes the take-off point",
+      "The faster the horse, the further away you need to jump. At a canter you can be fairly close; at a gallop, jump earlier."
+    ],
+    [
+      "Practice with jump markers",
+      "The settings include optional jump markers. Players note they only appear in training, not in competitions, but they help you learn the take-off points. Upgrading the practice ring gives more practice."
+    ],
+    [
+      "Auto-jump",
+      "The accessibility settings include auto-jump. You still have to manage speed and strength, but not the precise timing."
+    ],
+    [
+      "Competition pacing",
+      "Players report that faults cost 4 penalty points and time penalties add 1 point per 4 seconds over the limit. Keep a canter or gallop to make the time, but do not exhaust the horse too early. Strength runs out faster when the horse’s endurance is low."
+    ],
+    [
+      "Caprilli timing",
+      "In the Caprilli test, switch gaits roughly when the rider’s foot is above the line between the two gait instructions."
+    ],
+    [
+      "Update before retrying known obstacles",
+      [
+        {
+          "type": "paragraph",
+          "text": "v1.0.3 fixes auto-jump at the brick wall and the scary dunes obstacle; v1.0.4 fixes blocked competition entry. Update before assuming the problem is your timing. Use [cannot enter](/competitions/cannot-enter/) for entry failures and [competition preparation](/guides/competitions/) for training and transport.",
+          "source": "patch105"
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "How do I time jumps?",
+      "Jump closer and slower for verticals, earlier for oxers, faster for water."
+    ],
+    [
+      "Is there an easy mode for jumping?",
+      "Yes, auto-jump in the accessibility settings."
+    ],
+    [
+      "Do jump markers work in competitions?",
+      "No, players say only in training."
+    ]
+  ],
+  "unknown": "Penalty values and timing come from player reports and need in-game verification.",
+  "references": [
+    "t_jumping",
+    "t_mediumComp",
+    "t_praise",
+    "t_caprilli",
+    "faq",
+    "patch105"
+  ],
+  "updated": "2026-11-14"
+},
   {
     path: '/guides/controls/', title: 'Controls & key bindings', category: 'getting-started', icon: 'book', image: 4,
     description: 'Default keys for riding, jumping, praising, and switching paths, plus rebinding and accessibility options.',
@@ -372,13 +1501,222 @@ export const articles = [
     unknown: 'A full official key list needs in-game verification.', references: ['t_controls', 't_praise', 't_switchPaths', 't_crashes', 'faq', 'steam']
   },
   {
-    path: '/guides/money-making/', title: 'How to make money', category: 'getting-started', icon: 'trophy', image: 3,
-    description: 'Early ways to earn coins: boarding horses, flipping horses, competitions, lessons, and avoiding costly mistakes.',
-    answer: 'The most reliable ways to make money early in Horses of Hoofprint Bay are boarding horses and flipping horses: buy a cheap horse from the breeder, train it for a few days, and sell it for a profit. Competition prizes and riding lessons add more. Avoid losing money to vet bills and accidental pregnancies of boarded mares.',
-    sections: [['Boarding horses', 'Players say boarding is one of the best early income sources. Training boarders can now be sent home early once their training goal is reached, paying the schooling fee plus boarding for the days they stayed. Feed boarders well; neglect costs money and prestige.'], ['Flipping horses', 'Buy a cheap horse from the breeder in town, train it for a few days, then sell it. Players report this can be very profitable.'], ['Competitions and lessons', 'Competitions pay prize money, and riding lessons on your horses bring income, though lessons cost the horse some strength and endurance.'], ['Avoid expensive mistakes', 'Keep stallions away from boarded mares: players lost around 500 and prestige when a boarder got pregnant. Vet bills add up, so keep horses fed and groomed to prevent illness. Do not grow too fast; more horses mean more costs.'], ['Difficulty settings', 'The difficulty settings include easier competitions and increased prestige gain, which can make progression smoother.']],
-    faq: [['What is the fastest way to make money early?', 'Boarding and flipping horses, according to players.'], ['Can I send boarders home early?', 'Yes, training boarders can be sent home once their training is complete.'], ['Why am I always in debt?', 'Vet bills and penalties add up. Keep horses healthy and grow slowly.']],
-    unknown: 'The full release has slower progression than the demo; exact profit figures need in-game testing.', references: ['t_coins', 't_sendHome', 't_pregnant', 'faq']
-  },
+  "path": "/guides/money-making/",
+  "title": "How to make money: income, costs & settings",
+"seoTitle": "Horses of Hoofprint Bay: Money Guide: Income & Costs | Wiki",
+  "category": "getting-started",
+  "icon": "trophy",
+  "image": 3,
+  "description": "Compare boarders, lessons, competitions and horse sales, control daily costs and use money multipliers without old exploits.",
+  "answer": "Build cash flow you can maintain: boarders and training horses for resale are player-recommended early options, with lessons and competition prizes adding income. Since v1.0.3, money gain and cost multipliers are adjustable. Arena upgrades raise lesson earnings and stable upgrades raise boarding fees; horse prices are excluded from multipliers.",
+  "sections": [
+    [
+      "Compare income before expanding",
+      [
+        {
+          "type": "table",
+          "caption": "Income sources and trade-offs",
+          "headers": [
+            "Income",
+            "Requires",
+            "What reduces returns"
+          ],
+          "rows": [
+            [
+              "[Boarders](/guides/boarders/)",
+              "Contract, space and daily care",
+              "Neglect, workload, unwanted pregnancy"
+            ],
+            [
+              "[Train and sell](/guides/buy-sell-horses/)",
+              "Purchase funds, time and a stall",
+              "Purchase price and upkeep"
+            ],
+            [
+              "[Lessons](/training/riding-lesson-corrections/)",
+              "Horse and manual work or staff",
+              "Wages and lost training"
+            ],
+            [
+              "[Competitions](/guides/competitions/)",
+              "Qualifying horse, preparation, transport",
+              "Fees and unsuccessful entries"
+            ],
+            [
+              "[Breeding](/guides/breeding/)",
+              "Facilities, horses and time",
+              "Upkeep and uncertain sale outcomes"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Players recommend boarding and horse flipping in the Steam money discussion. These are strategies to compare in your save, not tested guarantees of the highest hourly profit.",
+          "source": "t_coins"
+        }
+      ]
+    ],
+    [
+      "A manageable early cash-flow plan",
+      [
+        {
+          "type": "steps",
+          "items": [
+            "Read active goals and daily costs. Note the cash balance before adding a commitment.",
+            "Pick an income source you can already support. Boarders need care capacity; resale horses need time and a stall.",
+            "Review the next day’s actual income and expenses. Stabilize the routine before adding another horse or employee.",
+            "Upgrade the facility used by that income source. Arena upgrades raise lessons; stable upgrades raise boarding fees."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/assets/scene-6.jpg",
+          "alt": "Office folders for Horses, Boarders, Staff, Medical Report, Statistics and Build and Upgrade",
+          "caption": "Review records, contracts and building costs before expanding. The screenshot shows the official office interface, not a tested income projection.",
+          "width": 1920,
+          "height": 1080,
+          "source": "steam"
+        }
+      ]
+    ],
+    [
+      "Money settings and facility income",
+      [
+        {
+          "type": "paragraph",
+          "text": "The v1.0.3 changelog adds separate money gain and cost settings. Horse prices are explicitly excluded because horses can be bought and sold; lower costs do not directly discount a horse.",
+          "source": "patch105"
+        },
+        {
+          "type": "table",
+          "caption": "Confirmed economy changes",
+          "headers": [
+            "Change",
+            "Practical effect"
+          ],
+          "rows": [
+            [
+              "Income and cost multipliers",
+              "Adjust progression to your preferred pace"
+            ],
+            [
+              "Riding arena upgrades",
+              "Higher lesson earnings"
+            ],
+            [
+              "Stable upgrades",
+              "Higher boarding fees"
+            ],
+            [
+              "Tack resale uses the cost multiplier in v1.0.4",
+              "The old buy-and-resell loop is closed"
+            ]
+          ],
+          "source": "patch105"
+        },
+        {
+          "type": "paragraph",
+          "text": "Exact slider ranges and payback times are not given. Compare [building costs](/buildings/) with the current fees in your save; older screenshots can predate these settings."
+        }
+      ]
+    ],
+    [
+      "Know when the money arrives",
+      [
+        {
+          "type": "paragraph",
+          "text": "Community documentation places boarding payment at the end of a stay. Players report that training boarders can leave once their goal is complete, paying for the days stayed plus the schooling fee. Do not spend an expected payout as though it is already in the bank.",
+          "source": "t_sendHome"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lessons create retraining work too. If Julia gives fewer than expected, check every assignment slot. Use the [staff checklist](/guides/staff-not-working/) before comparing wages with expected income.",
+          "source": "t_julia"
+        }
+      ]
+    ],
+    [
+      "Check expenses before another purchase",
+      [
+        {
+          "type": "table",
+          "caption": "Cash-flow review",
+          "headers": [
+            "Expense",
+            "Check"
+          ],
+          "rows": [
+            [
+              "Buildings",
+              "Upfront cost and daily upkeep; empty stalls do not earn income"
+            ],
+            [
+              "Staff",
+              "Current wage and actual assignments"
+            ],
+            [
+              "Feed and medicine",
+              "Enough supplies and cash for existing horses"
+            ],
+            [
+              "Boarder penalties",
+              "Separate stallions and mares and keep care reliable"
+            ],
+            [
+              "Resale horses",
+              "Purchase price, holding time and upkeep"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Players report a 500-coin fine and lost Prestige for an accidentally pregnant boarder. That is a dated example, not a guaranteed amount under every money setting. Prevent it with [stable groups](/guides/stable-groups/).",
+          "source": "t_pregnant"
+        },
+        {
+          "type": "note",
+          "title": "If progression feels too grindy",
+          "text": "Use the current money settings rather than outdated exploits. v1.0.5 also permits achievements on all saves; previously skipped conditions still need completing again.",
+          "source": "patch105"
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "What earns money fastest early?",
+      "Players recommend boarding and training cheap horses for resale. No controlled current comparison establishes a guaranteed fastest method."
+    ],
+    [
+      "Do boarders pay daily?",
+      "Fees accumulate for the stay and are paid when it ends according to community documentation."
+    ],
+    [
+      "Why does Julia earn less than expected?",
+      "Check all assignment slots and horse condition; one assignment does not automatically fill every lesson slot."
+    ],
+    [
+      "Do settings change horse prices?",
+      "No. The official announcement excludes them from money multipliers."
+    ],
+    [
+      "Can tack resale give infinite money?",
+      "The v1.0.4 changelog closes that loop by applying the cost multiplier to resale."
+    ]
+  ],
+  "unknown": "Income, multiplier ranges and profits depend on the current client and settings. No unverified hourly-income or payback figures are presented.",
+  "references": [
+    "patch105",
+    "t_coins",
+    "t_sendHome",
+    "t_julia",
+    "t_lessonStats",
+    "t_pregnant",
+    "tmqdb",
+    "steam"
+  ],
+  "updated": "2026-11-14"
+},
   {
     path: '/competitions/trailer-and-multiple-horses/', title: 'Trailer & entering multiple horses', category: 'competitions', icon: 'trophy', image: 1,
     description: 'How to load horses into the trailer and enter several horses in competitions on the same day.',
@@ -388,12 +1726,73 @@ export const articles = [
     unknown: 'Trailer capacities and upgrade costs need in-game verification.', references: ['t_trailer', 't_multiTown']
   },
   {
-    path: '/guides/achievements/', title: 'Achievements list', category: 'getting-started', icon: 'trophy', image: 1, updated: '2026-11-07',
-    description: 'All 47 Horses of Hoofprint Bay achievements, including the 9 hidden ones, with how many players have unlocked each.',
-    answer: 'Horses of Hoofprint Bay has 47 Steam achievements, 9 of them hidden. Almost everyone gets Move in (100%) and Visit Some Trees (96.9%); the rarest, at 0.0% when checked on November 7, 2026, include Pro Trainer (1000 trainings), Huge Competition Successes (1000 wins), Direct Descendant, All the Quirks in the World, and Mission Complete.',
-    sections: [['Getting started and trail rides', 'Move in: reach your yard for the first time (100% of players). Visit Some Trees: visit the forest for the first time (96.9%). A Salty Breeze: visit the beach for the first time (8.0%). Climb a Mountain: visit the mountains for the first time (4.6%). Now I’ve Seen Everything: complete all different training courses and trails (0.1%).'], ['Training and competitions', 'A little training goes a long way: finish 10 trainings (93.7%). Practice makes perfect: finish 100 trainings (51.5%). Pro Trainer: finish 1000 trainings (0.0%). Some Competition Successes: win 10 competitions (49.3%). Big Competition Successes: win 100 competitions (3.0%). Huge Competition Successes: win 1000 competitions (0.0%). Competition All-Star: win each competition (0.2%).'], ['Breeding', 'Here I Am: breed your first foal (78.8%). All Grown Up: have a foal grow up to an adult (59.4%). A Lot of Foals: breed 20 foals (4.0%). A WHOLE Lot of Foals: breed 100 foals (0.1%). Expert Broodmare: have one mare give birth to 8 foals (1.2%). Widespread Genes: have one stallion cover or artificially inseminate 50 mares (3.2%). A Frozen Legacy: freeze semen (2.4%). No more babies: geld a stallion (13.5%). Direct Descendant: breed a 100/100 foal descended from your starter horse (0.0%).'], ['Business and money', 'Breeding for Profit: sell a horse you bred (50.9%). Horse Flipper: sell 10 horses (15.0%). Successful Business: sell 50 horses (0.7%). Line go up: have 10,000 money in your account (20.8%). Making a Small Fortune: have 100,000 (0.9%). More Money than you can spend: have 250,000 (0.6%). Prestigious: reach 50% prestige (10.0%). Highly Prestigious: reach 99% prestige (0.2%).'], ['Your yard and long-term play', 'A Forever Home: have a horse move to the retirement farm (1.8%). It’s been a While: play 100 in-game days (9.9%). A Year in Hoofprint Bay: play 365 in-game days in a single save (0.3%). All Decked Out: own all tack available at the shop (2.2%). All the Help you can Get: hire all staff (0.4%). A Proper Estate: have all buildings at max stage (1.1%). Full House: have a maxed-out stable full of horses (0.1%). All the Quirks in the World: discover all personality traits (0.0%). Mission Complete: complete all quests (0.0%).'], ['Hidden achievements (spoilers)', 'That’s too easy...: win a “Low” competition with a 100/100 horse (0.1%). Well, that needs some work: come in last in a competition (18.7%). Oops!: accidentally breed a boarder mare (27.3%). The boys are fighting: two stallions fight over a mare (16.5%). Copy & Paste: breed a foal that is almost identical to the mare (15.4%). A Whole Life: have a horse you bred retire at your yard (0.1%). A Friendly Neighbour: get the emergency food delivery from the shopkeeper (15.1%). Retriever of Lost Items: find all lost objects (2.8%). Empty Nest: have no horse of your own at your farm (5.7%).'], ['Do settings affect achievements?', 'Players report that auto-jump does not disable achievements. Achievements can be disabled if the game decides your save was edited outside the game, which some players see after crashes; see the save problems guide.']],
-    faq: [['How many achievements does Horses of Hoofprint Bay have?', '47 Steam achievements, 9 of them hidden.'], ['What are the hardest achievements?', 'Pro Trainer, Huge Competition Successes, Direct Descendant, All the Quirks in the World, and Mission Complete were all at 0.0% on November 7, 2026.'], ['Does auto-jump disable achievements?', 'No, according to players.'], ['How do I get the Oops! achievement?', 'Let a stallion cover a boarder mare. Be aware that this costs a fine and prestige.']],
-    unknown: 'Global unlock rates change over time; the figures reflect November 7, 2026. Quest lists and the locations of lost objects need in-game verification.', references: ['achievements', 't_autoJump', 't_saveLocked']
+    "path": "/guides/achievements/",
+    "title": "Achievements list",
+    "category": "getting-started",
+    "icon": "trophy",
+    "image": 1,
+    "updated": "2026-11-14",
+    "description": "All 47 Horses of Hoofprint Bay achievements, including the 9 hidden ones, with how many players have unlocked each.",
+    "answer": "Horses of Hoofprint Bay has 47 Steam achievements, 9 of them hidden. Almost everyone gets Move in (100%) and Visit Some Trees (96.9%); the rarest, at 0.0% when checked on November 7, 2026, include Pro Trainer (1000 trainings), Huge Competition Successes (1000 wins), Direct Descendant, All the Quirks in the World, and Mission Complete.",
+    "sections": [
+      [
+        "Getting started and trail rides",
+        "Move in: reach your yard for the first time (100% of players). Visit Some Trees: visit the forest for the first time (96.9%). A Salty Breeze: visit the beach for the first time (8.0%). Climb a Mountain: visit the mountains for the first time (4.6%). Now I’ve Seen Everything: complete all different training courses and trails (0.1%)."
+      ],
+      [
+        "Training and competitions",
+        "A little training goes a long way: finish 10 trainings (93.7%). Practice makes perfect: finish 100 trainings (51.5%). Pro Trainer: finish 1000 trainings (0.0%). Some Competition Successes: win 10 competitions (49.3%). Big Competition Successes: win 100 competitions (3.0%). Huge Competition Successes: win 1000 competitions (0.0%). Competition All-Star: win each competition (0.2%)."
+      ],
+      [
+        "Breeding",
+        "Here I Am: breed your first foal (78.8%). All Grown Up: have a foal grow up to an adult (59.4%). A Lot of Foals: breed 20 foals (4.0%). A WHOLE Lot of Foals: breed 100 foals (0.1%). Expert Broodmare: have one mare give birth to 8 foals (1.2%). Widespread Genes: have one stallion cover or artificially inseminate 50 mares (3.2%). A Frozen Legacy: freeze semen (2.4%). No more babies: geld a stallion (13.5%). Direct Descendant: breed a 100/100 foal descended from your starter horse (0.0%)."
+      ],
+      [
+        "Business and money",
+        "Breeding for Profit: sell a horse you bred (50.9%). Horse Flipper: sell 10 horses (15.0%). Successful Business: sell 50 horses (0.7%). Line go up: have 10,000 money in your account (20.8%). Making a Small Fortune: have 100,000 (0.9%). More Money than you can spend: have 250,000 (0.6%). Prestigious: reach 50% prestige (10.0%). Highly Prestigious: reach 99% prestige (0.2%)."
+      ],
+      [
+        "Your yard and long-term play",
+        "A Forever Home: have a horse move to the retirement farm (1.8%). It’s been a While: play 100 in-game days (9.9%). A Year in Hoofprint Bay: play 365 in-game days in a single save (0.3%). All Decked Out: own all tack available at the shop (2.2%). All the Help you can Get: hire all staff (0.4%). A Proper Estate: have all buildings at max stage (1.1%). Full House: have a maxed-out stable full of horses (0.1%). All the Quirks in the World: discover all personality traits (0.0%). Mission Complete: complete all quests (0.0%)."
+      ],
+      [
+        "Hidden achievements (spoilers)",
+        "That’s too easy...: win a “Low” competition with a 100/100 horse (0.1%). Well, that needs some work: come in last in a competition (18.7%). Oops!: accidentally breed a boarder mare (27.3%). The boys are fighting: two stallions fight over a mare (16.5%). Copy & Paste: breed a foal that is almost identical to the mare (15.4%). A Whole Life: have a horse you bred retire at your yard (0.1%). A Friendly Neighbour: get the emergency food delivery from the shopkeeper (15.1%). Retriever of Lost Items: find all lost objects (2.8%). Empty Nest: have no horse of your own at your farm (5.7%)."
+      ],
+      [
+        "Do settings affect achievements?",
+        "Players report that auto-jump does not disable achievements. In v1.0.5, the developers removed save validation entirely: all saves, including edited saves and those previously flagged after crashes, can earn achievements. Previously skipped conditions must be completed again; achievements are not awarded retroactively. See [save problems and achievements](/guides/save-files-and-achievements/)."
+      ]
+    ],
+    "faq": [
+      [
+        "How many achievements does Horses of Hoofprint Bay have?",
+        "47 Steam achievements, 9 of them hidden."
+      ],
+      [
+        "What are the hardest achievements?",
+        "Pro Trainer, Huge Competition Successes, Direct Descendant, All the Quirks in the World, and Mission Complete were all at 0.0% on November 7, 2026."
+      ],
+      [
+        "Does auto-jump disable achievements?",
+        "No, according to players."
+      ],
+      [
+        "How do I get the Oops! achievement?",
+        "Let a stallion cover a boarder mare. Be aware that this costs a fine and prestige."
+      ],
+      [
+        "Can an edited or previously flagged save earn achievements?",
+        "Yes, since v1.0.5. Complete any previously skipped achievement conditions again."
+      ]
+    ],
+    "unknown": "Global unlock rates change over time; the figures reflect November 7, 2026. Quest lists and the locations of lost objects need in-game verification.",
+    "references": [
+      "achievements",
+      "t_autoJump",
+      "t_saveLocked",
+      "patch105"
+    ]
   },
   {
     path: '/horses/traits-and-quirks/', title: 'Traits & quirks list', category: 'horses', icon: 'heart', image: 0, updated: '2026-11-07',
@@ -412,12 +1811,68 @@ export const articles = [
     unknown: 'Exact percentages for the first tack and clothing upgrades are uncertain even in the community wiki, and values may change with patches.', references: ['tmqdb', 'faq', 't_shopBug', 'achievements']
   },
   {
-    path: '/guides/boarders/', title: 'Boarders guide', category: 'buildings', icon: 'home', image: 2, updated: '2026-11-07',
-    description: 'Part board, full board, and schooling board explained: daily fees, what care each needs, and how to avoid penalties.',
-    answer: 'Boarders are other people’s horses you keep for a fee. Requests appear in the Boarders binder in your office, and how many you get depends on your prestige. The community wiki lists three types: Part Board (50 per day, hay and water only), Full Board (90 per day, plus grooming, grain, and medical care), and Schooling Board, where you also train the horse to a target. The fee is paid at the end of the stay and is reduced or cancelled if you neglect the horse.',
-    sections: [['Finding boarders', 'Open the Boarders binder in your office to see current requests. According to the community wiki, the number of daily offers depends on your prestige, and boarders take up stable space like your own horses.'], ['The three board types', 'Part Board: you provide stable and pasture space, hay, water, and mucking out, but no grooming, grain, or medical care; 50 per day. Full Board: grooming, hay and grain, and medical care; the owners ride the horse off-screen; 90 per day. Schooling Board: like full board, plus you must train the horse to the required confidence, strength, and endurance; a one-time schooling fee is paid on top.'], ['Getting paid', 'The fee is paid at the end of the stay, and neglect reduces or cancels it. Players report that schooling boarders can be sent home early once their training goal is reached, paying the schooling fee plus boarding for the days they stayed. Successful stays raise your prestige.'], ['Avoid penalties', 'Feed full boarders to the middle of the green condition bar, because their owners ride them and they get hungry. Keep stallions out of the boarders’ stable group: if a boarder mare gets pregnant, you pay a fine of 500, receive no fee, and lose prestige. This also unlocks the hidden achievement Oops!.'], ['Yearling boarders', 'The boarders folder only shows “yearling” or “adult”, not the exact age. A player reports that a yearling boarder matured during its stay and was moved into the only pasture with space, which was the stallion pasture. Keep a spare spot in the right group before accepting yearlings.'], ['No requests after stable level 3?', 'One player reports getting no new boarding requests after upgrading the stable to level 3. No answer has been posted yet. Because offers depend on prestige, check whether you lost prestige recently, and make sure you have free stalls.']],
-    faq: [['How much do boarders pay?', 'The community wiki lists 50 per day for Part Board and 90 per day for Full Board, paid at the end of the stay.'], ['Why are my boarders always hungry?', 'Full boarders are ridden by their owners. Feed them to the middle of the green bar.'], ['What happens if a boarder mare gets pregnant?', 'A fine of 500, no fee, and a loss of prestige.'], ['Why am I not getting boarding requests?', 'Offers depend on prestige and free space. One player reports no requests after stable level 3, which may be a bug.']],
-    unknown: 'Fees come from the community wiki. The schooling fee and the rules for daily requests need in-game verification.', references: ['tmqdb', 't_hungryBoarders', 't_sendHome', 't_pregnant', 't_boarderAge', 't_boardLevel3']
+    "path": "/guides/boarders/",
+    "title": "Boarders guide",
+    "category": "buildings",
+    "icon": "home",
+    "image": 2,
+    "updated": "2026-11-14",
+    "description": "Part board, full board, and schooling board explained: daily fees, what care each needs, and how to avoid penalties.",
+    "answer": "Boarders are other people’s horses you keep for a fee. Requests appear in the Boarders binder in your office, and their number depends on prestige. Part Board, Full Board and Schooling Board require different care. Since v1.0.3, upgrading the stable increases boarding fees. Payment is made at the end of the stay and is reduced or cancelled for neglect.",
+    "sections": [
+      [
+        "Finding boarders",
+        "Open the Boarders binder in your office to see current requests. According to the community wiki, the number of daily offers depends on your prestige, and boarders take up stable space like your own horses."
+      ],
+      [
+        "The three board types",
+        "Part Board: you provide stable and pasture space, hay, water, and mucking out, but no grooming, grain, or medical care; 50 per day. Full Board: grooming, hay and grain, and medical care; the owners ride the horse off-screen; 90 per day. Schooling Board: like full board, plus you must train the horse to the required confidence, strength, and endurance; a one-time schooling fee is paid on top. Since v1.0.3, stable upgrades increase boarding fees. The older community figures of 50 per day for Part Board and 90 for Full Board are reference figures, not guaranteed payouts for every stable level or money setting. Check the current offer in your game."
+      ],
+      [
+        "Getting paid",
+        "The fee is paid at the end of the stay, and neglect reduces or cancels it. Players report that schooling boarders can be sent home early once their training goal is reached, paying the schooling fee plus boarding for the days they stayed. Successful stays raise your prestige."
+      ],
+      [
+        "Avoid penalties",
+        "Feed full boarders to the middle of the green condition bar, because their owners ride them and they get hungry. Keep stallions out of the boarders’ stable group: if a boarder mare gets pregnant, you pay a fine of 500, receive no fee, and lose prestige. This also unlocks the hidden achievement Oops!."
+      ],
+      [
+        "Yearling boarders",
+        "The boarders folder only shows “yearling” or “adult”, not the exact age. A player reports that a yearling boarder matured during its stay and was moved into the only pasture with space, which was the stallion pasture. Keep a spare spot in the right group before accepting yearlings."
+      ],
+      [
+        "No requests after stable level 3?",
+        "One player reports getting no new boarding requests after upgrading the stable to level 3. No answer has been posted yet. Because offers depend on prestige, check whether you lost prestige recently, and make sure you have free stalls."
+      ]
+    ],
+    "faq": [
+      [
+        "How much do boarders pay?",
+        "Since v1.0.3, stable upgrades increase boarding fees. The older community figures of 50 per day for Part Board and 90 for Full Board are reference figures, not guaranteed payouts for every stable level or money setting. Check the current offer in your game."
+      ],
+      [
+        "Why are my boarders always hungry?",
+        "Full boarders are ridden by their owners. Feed them to the middle of the green bar."
+      ],
+      [
+        "What happens if a boarder mare gets pregnant?",
+        "A fine of 500, no fee, and a loss of prestige."
+      ],
+      [
+        "Why am I not getting boarding requests?",
+        "Offers depend on prestige and free space. One player reports no requests after stable level 3, which may be a bug."
+      ]
+    ],
+    "unknown": "The older fee figures come from the community wiki. The official changelog confirms fees rise with stable upgrades, but gives no per-level table or exact multiplier formula.",
+    "references": [
+      "tmqdb",
+      "t_hungryBoarders",
+      "t_sendHome",
+      "t_pregnant",
+      "t_boarderAge",
+      "t_boardLevel3",
+      "patch105"
+    ]
   },
   {
     path: '/horses/import-and-export/', title: 'Import & export horses', category: 'horses', icon: 'horse', image: 2, updated: '2026-11-10',
@@ -428,11 +1883,745 @@ export const articles = [
     unknown: 'The exact import steps, file locations, and whether imported horses keep all traits need in-game verification.', references: ['tmqdb', 't_retirementField', 't_exporting', 'achievements', 'patch102']
   },
   {
-    path: '/guides/patch-notes/', title: 'Patch notes & updates', category: 'help', icon: 'check', image: 6, updated: '2026-11-10',
-    description: 'Every Horses of Hoofprint Bay update so far, including the v1.0.2 patch that fixes save corruption, hangs, and mare stat loss.',
-    answer: 'The latest update is v1.0.2, released on November 8, 2026 (22:41 UTC). It targets the bug that invalidated saves after a game or PC crash, fixes several hangs and the “two brushes at once” bug, and greatly reduces how many stats mares lose when they have a foal. It does not repair saves that were already flagged: those stay without achievements.',
-    sections: [['v1.0.2 (November 8, 2026): saves and achievements', 'The developers call the save invalidation caused by crashes the most pressing bug. All file operations are now wrapped to handle permission and file errors, and save validation files are also created for backups, so you can roll back to a backup without losing achievements if corruption still happens. Demo saves can also be loaded from backup files. The fix is not retroactive: the developers cannot tell falsely invalidated saves from tampered ones, so an already flagged save cannot be revalidated. Affected players have to start a new save or keep playing without achievements.'], ['v1.0.2: gameplay changes', 'Horses with low stats now lose fewer stats: the maximum loss is a tenth of the horse’s endurance, and never more than 5 points. The developers made this change after feedback about mares losing stats when having a foal. Clicking clothes now attaches them to the mouse instead of equipping them immediately, the hay racks show their fill stages more clearly so hay no longer seems to get “lost”, and the sound has been rebalanced. A new option can show error message popups.'], ['v1.0.2: bug fixes', 'Fixed: selecting two draggable items at once (brush, feed, medicine, tack, clothes, yard tool, or horse); Esc not leaving the wardrobe after opening shelves; a horse being exportable more than once; wrong available courses for a senior horse with a foal; the custom-coloured show jacket appearing too early; a picked-up yard horse not dropping when zooming out; imported horses with medical issues getting the wrong start date, so the issue might never resolve; and saves being overwritten because the name check was case-sensitive while folder names are not.'], ['v1.0.1 (release) and v1.0.0', 'v1.0.1 is the release version from November 4, 2026. It uses the Steam client language as the game’s default language and updates the credits. v1.0.0 resized the tack in the care screen to better match the riding view.'], ['Earlier hotfix', 'Before v1.0.2, a community helper reported on November 6 that a small patch fixed crashes when loading a new day. It does not appear as a separate entry in the official changelog.'], ['Future updates', 'The game launched as a finished product without a content roadmap. The developers say they will keep fixing bugs and keep the game as stable as possible, but they are not promising new features or content.']],
-    faq: [['What is the latest version of Horses of Hoofprint Bay?', 'v1.0.2, released on November 8, 2026.'], ['Does v1.0.2 bring back my disabled achievements?', 'No. It prevents the problem in future, but saves that were already flagged cannot be revalidated.'], ['Do mares still lose stats after foaling?', 'Less than before: v1.0.2 caps the loss at a tenth of endurance and at most 5 points.'], ['Will there be more updates?', 'Bug fixes, yes. New content is not promised.']],
-    unknown: 'This page lists the official changelog as of November 10, 2026. Whether every reported bug is fixed for every player is not confirmed.', references: ['patch102', 'launch', 't_newDays']
-  }
+    "path": "/guides/patch-notes/",
+    "title": "Patch notes & updates",
+    "category": "help",
+    "icon": "check",
+    "image": 6,
+    "updated": "2026-11-14",
+    "description": "Horses of Hoofprint Bay patch notes through v1.0.5: money multipliers, achievements on old saves, 50-day backups and competition fixes.",
+    "answer": "The latest version listed in the official announcement checked on November 14, 2026 is v1.0.5. The November 13 announcement (19:32 UTC; November 14 at 03:32 in China) groups the v1.0.3–v1.0.5 changelogs: adjustable money earnings and costs, higher income after building upgrades, more backups, competition fixes, and achievement eligibility for all saves.",
+    "sections": [
+      [
+        "v1.0.5: achievements on all saves",
+        "Save validation has been removed. All saves can earn Steam achievements, including edited saves and those previously flagged after crashes. Previously skipped achievements must be completed again; they are not awarded retroactively. This supersedes the v1.0.2 advice to start a new save solely because achievements were disabled. Coin icons are also back to normal. See [save problems and achievements](/guides/save-files-and-achievements/)."
+      ],
+      [
+        "v1.0.4: competitions, selling tack and graphics",
+        "Fixed not being able to enter competitions. Selling tack now uses the cost multiplier to prevent infinite money from buying and reselling tack or clothes. The update also fixes a stray minus sign in the breeder’s cover cost and graphical glitches in mountain trails, beach trails and the yard overview."
+      ],
+      [
+        "v1.0.3: money settings, income and backups",
+        "Added money gain and money cost multipliers. Horse prices are fixed rather than affected by those settings because horses can be bought and sold. Riding arena upgrades now increase lesson earnings, and stable upgrades increase boarding fees. Backups were increased to 50 days. The changelog also lists a save-selection popup for recently disabled achievements, removal of saved course statistics and Unity Analytics, fixes for repeated snorting when zooming, auto-jump at the brick wall, the scary jump in the dunes, and the dunes pier position. See [how to make money](/guides/money-making/)."
+      ],
+      [
+        "v1.0.2 (November 8, 2026 UTC): saves and achievements",
+        "This earlier patch improved file-error handling, created validation files for backups and reduced accidental save invalidation after crashes. At the time it did not restore achievement eligibility to already flagged saves. v1.0.5 supersedes that limitation by removing validation."
+      ],
+      [
+        "v1.0.2: gameplay changes",
+        "Horses with low stats now lose fewer stats: the maximum loss is a tenth of the horse’s endurance, and never more than 5 points. The developers made this change after feedback about mares losing stats when having a foal. Clicking clothes now attaches them to the mouse instead of equipping them immediately, the hay racks show their fill stages more clearly so hay no longer seems to get “lost”, and the sound has been rebalanced. A new option can show error message popups."
+      ],
+      [
+        "v1.0.2: bug fixes",
+        "Fixed: selecting two draggable items at once (brush, feed, medicine, tack, clothes, yard tool, or horse); Esc not leaving the wardrobe after opening shelves; a horse being exportable more than once; wrong available courses for a senior horse with a foal; the custom-coloured show jacket appearing too early; a picked-up yard horse not dropping when zooming out; imported horses with medical issues getting the wrong start date, so the issue might never resolve; and saves being overwritten because the name check was case-sensitive while folder names are not."
+      ],
+      [
+        "v1.0.1 (release) and v1.0.0",
+        "v1.0.1 is the release version from November 4, 2026. It uses the Steam client language as the game’s default language and updates the credits. v1.0.0 resized the tack in the care screen to better match the riding view."
+      ],
+      [
+        "Earlier hotfix",
+        "Before v1.0.2, a community helper reported on November 6 that a small patch fixed crashes when loading a new day. It does not appear as a separate entry in the official changelog."
+      ],
+      [
+        "Future updates",
+        "The game launched as a finished product without a content roadmap. The developers say they will keep fixing bugs and keep the game as stable as possible, but they are not promising new features or content."
+      ]
+    ],
+    "faq": [
+      [
+        "What is the latest version of Horses of Hoofprint Bay?",
+        "v1.0.5 is the latest version listed in the official announcement checked on November 14, 2026."
+      ],
+      [
+        "Can old saves earn achievements again?",
+        "Yes. v1.0.5 removes save validation, including for previously flagged and edited saves. Complete previously skipped achievement conditions again."
+      ],
+      [
+        "Can I adjust money earnings and costs?",
+        "Yes. v1.0.3 adds separate money gain and money cost multipliers. Horse prices are not affected by these settings."
+      ],
+      [
+        "Which update fixes being unable to enter competitions?",
+        "The v1.0.4 changelog lists this fix. Update to v1.0.5 or newer."
+      ],
+      [
+        "Do mares still lose stats after foaling?",
+        "Less than before: v1.0.2 caps the loss at a tenth of endurance and at most 5 points."
+      ],
+      [
+        "Will there be more updates?",
+        "Bug fixes, yes. New content is not promised."
+      ]
+    ],
+    "unknown": "Checked against the official announcement on November 14, 2026. It groups v1.0.3, v1.0.4 and v1.0.5 in one post; separate release times are not given there. Exact multiplier ranges and income formulas still need in-game verification.",
+    "references": [
+      "patch102",
+      "launch",
+      "t_newDays",
+      "patch105"
+    ]
+  },
+{
+  "path": "/community/discord/",
+  "title": "Official Discord: joining & invite problems",
+"seoTitle": "Horses of Hoofprint Bay: Discord: Joining & Invite Help | Wiki",
+  "category": "help",
+  "icon": "users",
+  "image": 6,
+  "description": "Find the official Horses of Hoofprint Bay Discord entry points, troubleshoot an expired invite message and get mod or bug-report help.",
+  "answer": "Use the Discord entry in the game’s main menu or the link provided by Thogli Studios. If an invite appears expired, try the official entry again later: the publisher says unusual join activity can temporarily block new joins even when an invite is set not to expire. This wiki does not control the server.",
+  "sections": [
+    [
+      "Where to find the official invitation",
+      [
+        {
+          "type": "paragraph",
+          "text": "Open the game’s main menu or visit [Thogli Studios](https://thoglistudios.com/) and use its current Discord entry. The developer’s Steam reply directs players to the studio website. Official entry points are more reliable than an old copied invitation.",
+          "source": "t_discordDev"
+        },
+        {
+          "type": "steps",
+          "items": [
+            "Use the current in-game or studio-site invitation.",
+            "Open it while signed into the Discord account you want to use.",
+            "Read the server’s rules and any onboarding instructions. Access depends on the current server setup."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "We do not publish substitute invite codes or claim to have tested joining with your account. If the menu or website changes, use the studio’s support information rather than assuming a similarly named server is official."
+        }
+      ]
+    ],
+    [
+      "An expired or invalid invite message",
+      [
+        {
+          "type": "paragraph",
+          "text": "In a November thread, publisher Alice explained that the invitations were set not to expire but unusual join activity sometimes caused Discord to block new joins until manually resolved. This is one documented cause, not a diagnosis of every failed invitation.",
+          "source": "discordJoin"
+        },
+        {
+          "type": "table",
+          "caption": "Invite checks",
+          "headers": [
+            "Symptom",
+            "Next action"
+          ],
+          "rows": [
+            [
+              "Official link appears expired",
+              "Reopen the latest official entry and try later; check studio announcements"
+            ],
+            [
+              "Browser fails to open the app",
+              "Try that same official invitation from Discord; the developer describes this workaround on Steam"
+            ],
+            [
+              "Joined but cannot see a channel",
+              "Complete visible onboarding and read current server instructions"
+            ],
+            [
+              "Still cannot join",
+              "Tell studio support the exact message and official entry point used"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "No instant fix or guaranteed waiting period is verified. Do not post private account details while asking for help."
+        }
+      ]
+    ],
+    [
+      "Mod channels and bug reports",
+      [
+        {
+          "type": "paragraph",
+          "text": "Players describe a mod channel in the official server. Read pinned instructions and the creator’s own notes. Our [Mods guide](/guides/mods/) separates texture content from mods needing extra software; [Westmore Saddlery](/guides/westmore-saddlery/) links the creator’s original pages."
+        },
+        {
+          "type": "paragraph",
+          "text": "For game bugs, the developer also recommends F8 or emailing logs to support@thoglistudios.com. Include version, symptoms and whether mods are installed. Joining Discord is not required to use those support routes.",
+          "source": "t_crashes"
+        },
+        {
+          "type": "note",
+          "title": "Independent guide",
+          "text": "This wiki cannot approve server access or remove Discord restrictions. Ask the studio or creator for account-specific or file-specific help."
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "Where is the official Discord link?",
+      "Use the game’s main menu or the current entry on the Thogli Studios website."
+    ],
+    [
+      "Why does the invitation appear expired?",
+      "The publisher documented temporary blocks from unusual join activity. Other causes remain possible."
+    ],
+    [
+      "Can this wiki give another code?",
+      "We do not control the server or publish replacement invitation codes."
+    ],
+    [
+      "Do I need Discord to report bugs?",
+      "No. The developer also recommends F8 or emailing logs to studio support."
+    ]
+  ],
+  "unknown": "Live invitation acceptance, account eligibility and channel permissions have not been tested. The publisher reply describes a past issue, not a universal diagnosis.",
+  "references": [
+    "studio",
+    "t_discordDev",
+    "discordJoin",
+    "discord",
+    "t_crashes"
+  ],
+  "updated": "2026-11-14"
+},
+{
+  "path": "/guides/westmore-saddlery/",
+  "title": "Westmore Saddlery: downloads & installation",
+"seoTitle": "Horses of Hoofprint Bay: Westmore Saddlery Install Guide | Wiki",
+  "category": "getting-started",
+  "icon": "palette",
+  "image": 0,
+  "description": "Find Westmore Saddlery’s own custom tack pages, choose Demo or full-game instructions and troubleshoot missing items.",
+  "answer": "Westmore Saddlery is an independent custom-content creator. Use its Nexus Mods profile and Patreon for collections and installation guides. Check each pack’s game version: the Ascot listing specifically names the Demo folder, which must not be assumed to be correct for a full-game installation.",
+  "sections": [
+    [
+      "Original download pages",
+      [
+        {
+          "type": "paragraph",
+          "text": "Start with [Westmore Saddlery on Nexus Mods](https://www.nexusmods.com/profile/WestmoreSaddlery?gameId=10086) or [the creator’s Patreon](https://www.patreon.com/WestmoreSaddlery). The profile describes hand-drawn tack and links installation help. This guide links original pages rather than rehosting files.",
+          "source": "westmore"
+        },
+        {
+          "type": "table",
+          "caption": "Where to start",
+          "headers": [
+            "Page",
+            "Purpose"
+          ],
+          "rows": [
+            [
+              "[Creator profile](https://www.nexusmods.com/profile/WestmoreSaddlery?gameId=10086)",
+              "Identify the creator and collections"
+            ],
+            [
+              "[Ascot collection](https://www.nexusmods.com/horsesofhoofprintbay/mods/1)",
+              "Read that pack’s requirements and instructions"
+            ],
+            [
+              "[Patreon](https://www.patreon.com/WestmoreSaddlery)",
+              "Updates and illustrated installation help"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This creator is not the developer. Availability, pricing and compatibility belong to the individual pack and may change; check its current post."
+        }
+      ]
+    ],
+    [
+      "Install for the correct version",
+      [
+        {
+          "type": "steps",
+          "items": [
+            "Read the requirements first and confirm Demo versus full game.",
+            "Back up saves and files you would replace, then close the game.",
+            "For Ascot, the listing says to extract the ZIP and copy the contents of PUT IN FILES to its specified Mods/Tack folder. Keep JSON and PNG filenames unchanged.",
+            "Completely restart, then check the in-game tack shop as directed by that pack."
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Do not confuse save folders",
+          "text": "The Ascot listing names the Demo’s Saves~/Mods/Tack directory and requires an existing save so folders exist. For the full game, use the creator’s current full-game instructions rather than guessing a folder.",
+          "source": "westmoreAscot"
+        },
+        {
+          "type": "paragraph",
+          "text": "Other packs can have different requirements. Texture-pack instructions should not be reused for a gameplay mod that needs a loader."
+        }
+      ]
+    ],
+    [
+      "New tack does not appear",
+      [
+        {
+          "type": "table",
+          "caption": "Installation checks",
+          "headers": [
+            "Check",
+            "Reason"
+          ],
+          "rows": [
+            [
+              "Version and folder",
+              "Demo and full game use different save locations"
+            ],
+            [
+              "Extracted contents",
+              "An extra enclosing folder can hide the intended files"
+            ],
+            [
+              "Original filenames",
+              "The creator says not to rename JSON or PNG files"
+            ],
+            [
+              "Full restart",
+              "Required by the Ascot instructions"
+            ],
+            [
+              "Where you looked",
+              "That pack adds items to the tack shop"
+            ]
+          ],
+          "source": "westmoreAscot"
+        },
+        {
+          "type": "paragraph",
+          "text": "If it still fails, tell the creator the pack, game version, folder and exact symptom. See [Discord entry points](/community/discord/) for community help; do not publish a complete save or private account information."
+        }
+      ]
+    ],
+    [
+      "Achievements and compatibility",
+      [
+        {
+          "type": "paragraph",
+          "text": "v1.0.5 permits achievements on edited and previously flagged saves. That does not guarantee every third-party file works. See [save files and achievements](/guides/save-files-and-achievements/) for current rules and backup advice.",
+          "source": "patch105"
+        },
+        {
+          "type": "paragraph",
+          "text": "The broader [Mods guide](/guides/mods/) explains the difference between tack, clothing, coat changes and gameplay mods. Keep each creator’s requirements with its download."
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "Is this official DLC?",
+      "No. Westmore Saddlery is an independent fan-made content project."
+    ],
+    [
+      "Where are downloads?",
+      "On the creator’s Nexus Mods profile and Patreon; open the individual pack’s current post."
+    ],
+    [
+      "Why are items missing in my full game?",
+      "Check whether you followed Demo instructions. Use the creator’s directions for your actual version."
+    ],
+    [
+      "Should I rename files?",
+      "The Ascot listing says not to rename its JSON or PNG files."
+    ],
+    [
+      "Does this wiki host the packs?",
+      "No. Files remain on the creator’s original pages."
+    ]
+  ],
+  "unknown": "These packs have not been installed or tested here against v1.0.5. Check compatibility, pricing and folder instructions on each current creator post.",
+  "references": [
+    "westmore",
+    "westmoreAscot",
+    "westmorePatreon",
+    "patch105"
+  ],
+  "updated": "2026-11-14"
+},
+{
+  "path": "/guides/maximum-horses/",
+  "title": "Maximum horses & full-stable checklist",
+  "category": "buildings",
+  "icon": "home",
+  "image": 2,
+  "description": "Understand stable limits, yearling housing, paid boarding and what to check before a growing foal needs an adult stall.",
+  "answer": "The developer’s May update gives a fully upgraded stable capacity of 20 horses plus 13 yearlings in a separate paddock, with extra paid boarding at the breeder. Adult housing, yearling housing and trailer space are different limits. Check the current upgrade screen and leave adult space before a yearling grows up.",
+  "sections": [
+    [
+      "Which limit have you reached?",
+      [
+        {
+          "type": "table",
+          "caption": "Housing and transport",
+          "headers": [
+            "Place",
+            "Published capacity",
+            "Scope"
+          ],
+          "rows": [
+            [
+              "Fully upgraded stable",
+              "20 horses",
+              "May 2026 developer figure, subject to change"
+            ],
+            [
+              "Upgraded yearling paddock",
+              "13 yearlings",
+              "Separate from adult stalls"
+            ],
+            [
+              "Paid boarding at the breeder",
+              "As many as affordable",
+              "Ongoing fees still apply"
+            ],
+            [
+              "Trailer",
+              "Read the parking-lot upgrade",
+              "Transport rather than permanent housing"
+            ]
+          ],
+          "source": "devMay"
+        },
+        {
+          "type": "paragraph",
+          "text": "A spare trailer slot does not create a stall, and a spare yearling place cannot house every adult. Check the building that matches the problem rather than automatically buying a stable upgrade."
+        }
+      ]
+    ],
+    [
+      "Before buying or breeding",
+      [
+        {
+          "type": "steps",
+          "items": [
+            "Count adults, boarders and empty stalls in your stable.",
+            "Review pregnancies and [foal growth](/horses/foals-and-yearlings/) to identify upcoming moves.",
+            "Check space in the right [stable group](/guides/stable-groups/). Keep stallions separate from mares you do not want covered.",
+            "Compare upgrades, a sale, [export](/horses/import-and-export/) or paid boarding with available cash, including daily upkeep."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/assets/scene-11.jpg",
+          "alt": "Horse Overview listing the herd, ages, condition and Stable Group columns",
+          "caption": "Use the overview to review ages and groups before the next housing change. Horses and numbers in this official screenshot are examples.",
+          "width": 1920,
+          "height": 1080,
+          "source": "steam"
+        }
+      ]
+    ],
+    [
+      "If a yearling grows up with no room",
+      [
+        {
+          "type": "paragraph",
+          "text": "Players report that a yearling becoming adult without stable space can be sent away. Others suggest checking the sale barn in town after making room. This is a recovery report, not a promise that every missing horse can be recovered.",
+          "source": "t_boardedBack"
+        },
+        {
+          "type": "paragraph",
+          "text": "Inspect the herd overview and recent messages before advancing more days or buying a replacement. If the result looks inconsistent, keep a backup and report it with F8. The [foal guide](/horses/foals-and-yearlings/) also covers moving yearlings through the management screen."
+        }
+      ]
+    ],
+    [
+      "Choose an expansion that earns its upkeep",
+      [
+        {
+          "type": "paragraph",
+          "text": "The [building guide](/buildings/) lists older community stable stages of 4, 8, 14 and 20 stalls. Compare them with the current screen. Since v1.0.3, stable upgrades also raise boarding fees, while money settings can affect costs.",
+          "source": "patch105"
+        },
+        {
+          "type": "paragraph",
+          "text": "If housing is the bottleneck, more stalls can help. If care time or cash is already strained, review [staff](/guides/staff/) or [income](/guides/money-making/) before increasing the herd. This is planning guidance, not a tested optimal order."
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "Can I keep more than 20 horses?",
+      "The developer says extra horses can be boarded at the breeder while you can afford the fees."
+    ],
+    [
+      "Do yearlings use adult stalls?",
+      "Community documentation gives them a separate paddock; they need adult space when grown."
+    ],
+    [
+      "Does the trailer increase stable capacity?",
+      "No. Transport and housing are separate checks."
+    ],
+    [
+      "Where did my grown-up yearling go?",
+      "Players suggest checking the sale barn if the stable was full. Recovery is not guaranteed."
+    ]
+  ],
+  "unknown": "Developer capacity figures were subject to change. Check current limits and fees; recovery advice is based on player reports.",
+  "references": [
+    "devMay",
+    "tmqdb",
+    "t_boardedBack",
+    "t_yearlings",
+    "patch105",
+    "steam"
+  ],
+  "updated": "2026-11-14"
+},
+{
+  "path": "/guides/staff-not-working/",
+  "title": "Staff not working? Assignments & Julia lessons",
+"seoTitle": "Horses of Hoofprint Bay: Staff Not Working: Julia & Slots | Wiki",
+  "category": "help",
+  "icon": "users",
+  "image": 6,
+  "description": "Check staff jobs, horse assignments, Julia’s lesson slots and horse condition before paying for more employees or starting over.",
+  "answer": "Check the employee’s role and every assignment slot. Players report Julia gives one lesson per filled slot: assigning two horses once does not automatically schedule eight lessons. The same horse can occupy several slots. Compare horse condition and lost training with wages before increasing the workload.",
+  "sections": [
+    [
+      "Check the employee’s actual job",
+      [
+        {
+          "type": "paragraph",
+          "text": "The store confirms staff for care and training, with applications linked to building progression. Maria’s riding feedback and Julia’s student lessons are different jobs. Read the role on the current staff screen before expecting work to happen.",
+          "source": "steam"
+        },
+        {
+          "type": "image",
+          "src": "/assets/scene-6.jpg",
+          "alt": "Office with the Staff folder between Boarders and Medical Report",
+          "caption": "Use Staff to review employees and assignments. This identifies the office entry point, not a complete assignment screen.",
+          "width": 1920,
+          "height": 1080,
+          "source": "steam"
+        }
+      ]
+    ],
+    [
+      "Julia gives only one lesson per horse",
+      [
+        {
+          "type": "paragraph",
+          "text": "In a release-week Steam thread, a player assigned two horses and expected all eight lessons to be distributed. A reply explains that each slot needs an assignment, with the same horse allowed in several slots.",
+          "source": "t_julia"
+        },
+        {
+          "type": "steps",
+          "items": [
+            "Count Julia’s filled slots rather than distinct horses.",
+            "Assign a horse to each intended slot within the limits shown. The same horse may fill more than one.",
+            "Review next-day lessons, income and horse condition before increasing the schedule.",
+            "If assignment fails, record the exact message and version."
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Use current wages and limits",
+          "text": "The original player thread reports 100 per day and eight lessons. Treat those as dated figures; the values in your current save take precedence."
+        }
+      ]
+    ],
+    [
+      "Diagnose the symptom",
+      [
+        {
+          "type": "table",
+          "caption": "Staff checks",
+          "headers": [
+            "Symptom",
+            "Check",
+            "Next guide"
+          ],
+          "rows": [
+            [
+              "Too few lessons",
+              "Filled slots and horse condition",
+              "[Lesson corrections](/training/riding-lesson-corrections/)"
+            ],
+            [
+              "Trainer cannot use horse",
+              "Health, exhaustion and available work",
+              "[Training locked](/training/horse-too-tired-to-train/)"
+            ],
+            [
+              "Maria says little",
+              "Her job is riding feedback, not automatic lessons",
+              "[Staff roles](/guides/staff/)"
+            ],
+            [
+              "Income did not rise as expected",
+              "Arena upgrades affect lessons; stable upgrades affect boarding",
+              "[Money](/guides/money-making/)"
+            ]
+          ]
+        }
+      ]
+    ],
+    [
+      "Training loss and unresolved errors",
+      [
+        {
+          "type": "paragraph",
+          "text": "Players report that lesson horses lose some strength and endurance. More lessons therefore create retraining work too. Check the horse after a day of lessons before assuming that filling every slot gives the best net result.",
+          "source": "t_lessonStats"
+        },
+        {
+          "type": "paragraph",
+          "text": "For a reproducible issue, update, keep a backup and report with F8. Include staff member, assignments, horse conditions and daily result. No checked announcement promises to fix every staff problem, and starting another save is not the first diagnostic step."
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "Why does Julia give only two lessons?",
+      "Players report one lesson per filled slot. Fill the intended slots rather than expecting automatic distribution."
+    ],
+    [
+      "Can a horse occupy several slots?",
+      "Yes, according to the Steam reply. Watch condition and training afterwards."
+    ],
+    [
+      "Does Maria give student lessons?",
+      "She is described as giving feedback on your riding during training, a different job from Julia."
+    ],
+    [
+      "Should I start over?",
+      "First check role, assignments and horse condition. Update and report a reproducible issue."
+    ]
+  ],
+  "unknown": "Assignment behavior is player-reported. Current wages, workload limits and every staff bug have not been independently tested.",
+  "references": [
+    "steam",
+    "t_julia",
+    "t_lessonStats",
+    "t_maria",
+    "t_staffOverwork",
+    "patch105"
+  ],
+  "updated": "2026-11-14"
+},
+{
+  "path": "/competitions/cannot-enter/",
+  "title": "Cannot enter competitions: checks & patch fix",
+"seoTitle": "Horses of Hoofprint Bay: Cannot Enter Competitions: Fixes | Wiki",
+  "category": "help",
+  "icon": "trophy",
+  "image": 1,
+  "description": "Check the v1.0.4 entry fix, transport, selected horse, condition and the event’s own requirements before repeating an attempt.",
+  "answer": "Update first: v1.0.4 lists a fix for being unable to enter competitions. Then check transport, the selected horse, condition and the exact entry message. A starter that cannot meet a show-jumping requirement may need a Caprilli event or another horse rather than a bug workaround.",
+  "sections": [
+    [
+      "Install the fix first",
+      [
+        {
+          "type": "paragraph",
+          "text": "The November 13, 2026 UTC announcement groups v1.0.3–v1.0.5 and lists the competition-entry fix under v1.0.4. Install v1.0.5 or newer, restart and compare the same horse and event.",
+          "source": "patch105"
+        },
+        {
+          "type": "paragraph",
+          "text": "The announcement does not identify every cause or say all blocked entries are bugs. Continue with the checks below if entry still fails."
+        }
+      ]
+    ],
+    [
+      "Match the symptom to a check",
+      [
+        {
+          "type": "table",
+          "caption": "Entry troubleshooting",
+          "headers": [
+            "What happens",
+            "Check next"
+          ],
+          "rows": [
+            [
+              "Horse missing in town",
+              "Selected horse and [trailer loading](/competitions/trailer-and-multiple-horses/)"
+            ],
+            [
+              "Requirement message",
+              "Exact condition versus horse stats, health and work availability"
+            ],
+            [
+              "Max-trained starter cannot qualify",
+              "Appropriate Caprilli event; see [progression](/guides/competitions/)"
+            ],
+            [
+              "Button does nothing",
+              "Update, restart and record version, horse, event and message"
+            ],
+            [
+              "Entry works but results are poor",
+              "Practise [jumping](/training/jumping-tips/) and [confidence](/training/confidence/)"
+            ]
+          ]
+        }
+      ]
+    ],
+    [
+      "A repeatable checklist",
+      [
+        {
+          "type": "steps",
+          "items": [
+            "Read the event and all displayed requirements. Keep the exact wording if asking for help.",
+            "Confirm the selected horse was brought to town; transport and qualification are separate.",
+            "Check condition and available work. Use [training locked](/training/horse-too-tired-to-train/) if work options are unavailable.",
+            "Choose an event appropriate to training and potential, attempt entry and note the result."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This is a diagnostic routine, not a verified universal list of entry conditions. No complete current stat-threshold table is asserted here."
+        }
+      ]
+    ],
+    [
+      "The starter rebalance can explain the mismatch",
+      [
+        {
+          "type": "paragraph",
+          "text": "Caprilli was added because lower-stat starters could no longer reach the first show-jumping event even when fully trained. Older February-demo advice may therefore point a new player to an unsuitable event.",
+          "source": "devMay"
+        },
+        {
+          "type": "paragraph",
+          "text": "If potential is exhausted, further training may not fix the mismatch. Compare [buying a horse](/guides/buy-sell-horses/) with a [breeding plan](/guides/breeding/), or use the official difficulty options. If a suitable horse still cannot enter after updating, report with F8 and include the version and message."
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "Which patch fixes entry?",
+      "The official changelog lists the fix in v1.0.4. Install v1.0.5 or newer."
+    ],
+    [
+      "Is blocked entry always a bug?",
+      "No. Check transport, selected horse and event conditions."
+    ],
+    [
+      "Why does my fully trained starter fail requirements?",
+      "The developers lowered starter stats and added Caprilli as the earlier step."
+    ],
+    [
+      "What belongs in a report?",
+      "Version, horse, event, exact message and what happened after trying."
+    ]
+  ],
+  "unknown": "The patch does not document every requirement or cause. Exact current fees and thresholds need client verification.",
+  "references": [
+    "patch105",
+    "devMay",
+    "faq",
+    "t_trailer",
+    "t_multiTown",
+    "steam"
+  ],
+  "updated": "2026-11-14"
+}
 ];

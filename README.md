@@ -28,6 +28,17 @@ npm run check
 
 添加攻略时填写 path、title、category、icon、image、description、answer、sections、faq、unknown、references。链接、搜索索引和分类页随构建生成。
 
+`sections` 兼容 `[标题, 字符串]`，也可以使用 `[标题, 内容块数组]`。内容块由 `src/article.mjs` 渲染，支持 `paragraph`、`steps`、`list`、`table`、`image`、`note`。文字中的 `[说明](/站内路径/)` 会自动添加当前语言前缀；HTTPS 外链会保留原地址。
+
+- 表格填写 `caption`、`headers`、`rows`，每行列数必须一致；手机端在表格容器内横向滚动。
+- 截图填写本地 `src`、`alt`、`caption`、实际 `width` 和 `height`，并将原始来源加入 `public/assets/credits.json`。点击截图可打开原图。
+- 内容块可用 `source` 引用来源登记表的键，并在文章 `references` 中包含该来源。
+- `src/related.mjs` 为每篇攻略指定三个相关推荐；新增页面时同时填写相关路径和德语译文。
+- `seoTitle` 可覆盖默认 SEO 标题，德语条目应填写自己的对应标题。
+- 搜索索引和阅读时间会读取步骤、表格、截图说明等内容块，不依赖浏览器执行后才出现正文。
+
+本次选题证据、CSV 指标含义及验证限制见 [内容研究记录](docs/content-research-2026-11-14.md)。原始 CSV 保持为本地输入，不需要随站点部署。
+
 ## 多语言（英语 / 德语）
 
 - 英文页面位于根路径，德语页面位于 `/de/`，路径与英文一一对应（如 `/de/guides/breeding/`）。

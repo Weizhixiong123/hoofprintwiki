@@ -1,44 +1,56 @@
-﻿[
-    {
-        "file":  "scene-0.jpg",
-        "source":  "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/a0251fa39505c8122c77d89cbc83c22d4a47756e/ss_a0251fa39505c8122c77d89cbc83c22d4a47756e.1920x1080.jpg?t=1793830906",
-        "credit":  "Thogli Studios / Horses of Hoofprint Bay Steam store",
-        "retrieved":  "2026-11-06"
-    },
-    {
-        "file":  "scene-1.jpg",
-        "source":  "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/7161ba4a0f2b1cd8163d4941795903e8e9e69629/ss_7161ba4a0f2b1cd8163d4941795903e8e9e69629.1920x1080.jpg?t=1793830906",
-        "credit":  "Thogli Studios / Horses of Hoofprint Bay Steam store",
-        "retrieved":  "2026-11-06"
-    },
-    {
-        "file":  "scene-2.jpg",
-        "source":  "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/0f3331b87e4c2f6a22379c97b624484bd9113b06/ss_0f3331b87e4c2f6a22379c97b624484bd9113b06.1920x1080.jpg?t=1793830906",
-        "credit":  "Thogli Studios / Horses of Hoofprint Bay Steam store",
-        "retrieved":  "2026-11-06"
-    },
-    {
-        "file":  "scene-3.jpg",
-        "source":  "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/739d5af410b5fbe1bb05a83eb9e01838021f5f45/ss_739d5af410b5fbe1bb05a83eb9e01838021f5f45.1920x1080.jpg?t=1793830906",
-        "credit":  "Thogli Studios / Horses of Hoofprint Bay Steam store",
-        "retrieved":  "2026-11-06"
-    },
-    {
-        "file":  "scene-4.jpg",
-        "source":  "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/02c271dde602800a8aa1949bba350a5ab9bdee45/ss_02c271dde602800a8aa1949bba350a5ab9bdee45.1920x1080.jpg?t=1793830906",
-        "credit":  "Thogli Studios / Horses of Hoofprint Bay Steam store",
-        "retrieved":  "2026-11-06"
-    },
-    {
-        "file":  "scene-5.jpg",
-        "source":  "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/3fc7648f2e1ea574bbbdd4a1380ab0d14a583005/ss_3fc7648f2e1ea574bbbdd4a1380ab0d14a583005.1920x1080.jpg?t=1793830906",
-        "credit":  "Thogli Studios / Horses of Hoofprint Bay Steam store",
-        "retrieved":  "2026-11-06"
-    },
-    {
-        "file":  "scene-6.jpg",
-        "source":  "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/99e0740d6b32881bcef9b7865aeb6276cac38d80/ss_99e0740d6b32881bcef9b7865aeb6276cac38d80.1920x1080.jpg?t=1793830906",
-        "credit":  "Thogli Studios / Horses of Hoofprint Bay Steam store",
-        "retrieved":  "2026-11-06"
-    }
+[
+  {
+    "file": "scene-0.jpg",
+    "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/a0251fa39505c8122c77d89cbc83c22d4a47756e/ss_a0251fa39505c8122c77d89cbc83c22d4a47756e.1920x1080.jpg?t=1793830906",
+    "credit": "Thogli Studios / Horses of Hoofprint Bay Steam store",
+    "retrieved": "2026-11-06"
+  },
+  {
+    "file": "scene-1.jpg",
+    "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/7161ba4a0f2b1cd8163d4941795903e8e9e69629/ss_7161ba4a0f2b1cd8163d4941795903e8e9e69629.1920x1080.jpg?t=1793830906",
+    "credit": "Thogli Studios / Horses of Hoofprint Bay Steam store",
+    "retrieved": "2026-11-06"
+  },
+  {
+    "file": "scene-2.jpg",
+    "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/0f3331b87e4c2f6a22379c97b624484bd9113b06/ss_0f3331b87e4c2f6a22379c97b624484bd9113b06.1920x1080.jpg?t=1793830906",
+    "credit": "Thogli Studios / Horses of Hoofprint Bay Steam store",
+    "retrieved": "2026-11-06"
+  },
+  {
+    "file": "scene-3.jpg",
+    "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/739d5af410b5fbe1bb05a83eb9e01838021f5f45/ss_739d5af410b5fbe1bb05a83eb9e01838021f5f45.1920x1080.jpg?t=1793830906",
+    "credit": "Thogli Studios / Horses of Hoofprint Bay Steam store",
+    "retrieved": "2026-11-06"
+  },
+  {
+    "file": "scene-4.jpg",
+    "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/02c271dde602800a8aa1949bba350a5ab9bdee45/ss_02c271dde602800a8aa1949bba350a5ab9bdee45.1920x1080.jpg?t=1793830906",
+    "credit": "Thogli Studios / Horses of Hoofprint Bay Steam store",
+    "retrieved": "2026-11-06"
+  },
+  {
+    "file": "scene-5.jpg",
+    "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/3fc7648f2e1ea574bbbdd4a1380ab0d14a583005/ss_3fc7648f2e1ea574bbbdd4a1380ab0d14a583005.1920x1080.jpg?t=1793830906",
+    "credit": "Thogli Studios / Horses of Hoofprint Bay Steam store",
+    "retrieved": "2026-11-06"
+  },
+  {
+    "file": "scene-6.jpg",
+    "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/99e0740d6b32881bcef9b7865aeb6276cac38d80/ss_99e0740d6b32881bcef9b7865aeb6276cac38d80.1920x1080.jpg?t=1793830906",
+    "credit": "Thogli Studios / Horses of Hoofprint Bay Steam store",
+    "retrieved": "2026-11-06"
+  },
+  {
+    "file": "scene-9.jpg",
+    "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/6bb900e6a49d425f9a67fdfed7c9c2d07267502e/ss_6bb900e6a49d425f9a67fdfed7c9c2d07267502e.1920x1080.jpg?t=1793830906",
+    "credit": "Thogli Studios / Horses of Hoofprint Bay Steam store",
+    "retrieved": "2026-11-14"
+  },
+  {
+    "file": "scene-11.jpg",
+    "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/0e9db0dc0017802d0bc7b2bbbddbe684e901340a/ss_0e9db0dc0017802d0bc7b2bbbddbe684e901340a.1920x1080.jpg?t=1793830906",
+    "credit": "Thogli Studios / Horses of Hoofprint Bay Steam store",
+    "retrieved": "2026-11-14"
+  }
 ]

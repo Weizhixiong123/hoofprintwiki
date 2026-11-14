@@ -11,30 +11,300 @@ export const de = {
   },
   articles: {
     '/guides/beginners-guide/': {
-      title: 'Einsteiger-Anleitung',
-      description: 'Verstehe den Kreislauf aus Pflege, Training und Turnieren, bevor du deinen Hof vergrößerst.',
-      answer: 'Horses of Hoofprint Bay beginnt mit einem kleinen, heruntergekommenen Hof und einer Stute. Die Pflege deines Pferdes, das Trainieren ihrer Fähigkeiten und die Teilnahme an Turnieren bilden die Grundlage, um deinen Stall wachsen zu lassen.',
-      sections: [
-        ['Beginne mit deinem Pferd', 'Nimm dir Zeit, den Pflegebildschirm kennenzulernen, bevor du eine größere Herde planst. Putzen und Hufpflege sind Teil des Gesundheitssystems und verdienen genauso viel Aufmerksamkeit wie das Training. Die Bibliothek im Spiel hilft, wenn dir ein Begriff oder eine Pflegeaktion unbekannt ist.'],
-        ['Setze dir ein frühes Ziel', 'Ein gut machbares erstes Ziel ist, mit deinem Startpferd eine komplette Pflege- und Trainingsroutine zu lernen. Das ist ein redaktioneller Vorschlag, keine verpflichtende Questreihe. Lies die aktuellen Ziele im Spiel und ihre Bedingungen, bevor du Geld dafür ausgibst.'],
-        ['Den Spielkreislauf verstehen', 'Training entwickelt Fähigkeiten, die du bei Turnieren brauchst. Preisgelder helfen beim nächsten Ausbau deines Hofs. Wenn dein Stall wächst, helfen Gebäude und Personal bei der zusätzlichen Arbeit. Vergleiche jeden Kauf mit den Bedürfnissen der Pferde, die du schon hast.'],
-        ['Mit Plan erweitern', 'Bevor du ein weiteres Pferd kaufst, prüfe deinen Platz, dein Geld und den Pflegeaufwand. Genaue Kaufpreise und Gebäudebedingungen sind hier noch nicht dokumentiert. Verlasse dich auf die Zahlen in deinem eigenen Spiel, nicht auf alte Screenshots.']
-      ],
-      faq: [['Ist das ein Rennspiel?', 'Die offizielle Beschreibung dreht sich um Stallverwaltung, Pferdepflege, Springreiten, Geländeritte und Ausritte.'], ['Kann ich das Spiel vorher testen?', 'Laut Steam-Store gibt es eine kostenlose Demo. Laut Publisher ist sie auf 25 Spieltage begrenzt.'], ['Ist diese Anleitung ein getesteter Walkthrough?', 'Nein. Es ist eine Einführung auf Basis offizieller Informationen; Planungstipps sind klar von bestätigten Spielmechaniken getrennt.']],
-      unknown: 'Genaue Tutorial-Reihenfolge, frühe Kaufpreise und die besten Aktionen am ersten Tag müssen in der Vollversion getestet werden.'
-    },
+  "title": "Einsteiger-Anleitung: die ersten Tage",
+"seoTitle": "Horses of Hoofprint Bay: Einsteiger: Erste Tage und Tipps | Wiki",
+  "description": "Starte mit Pferdepflege, Caprilli-Vorbereitung und einem Ausgabenplan. Nutze die aktuellen Schwierigkeits- und Geldeinstellungen.",
+  "answer": "Versorge zuerst deine Stute, lies die aktiven Ziele und trainiere für eine passende Prüfung. Nach der Anpassung der Startwerte ist Caprilli der frühe Turniereinstieg. Baue Einnahmen auf, bevor du mehr Pferde hältst. Die folgende Routine ist ein Planungsvorschlag; Aufgaben und Preise deines Spielstands haben Vorrang.",
+  "sections": [
+    [
+      "Eine tägliche Routine",
+      [
+        {
+          "type": "steps",
+          "items": [
+            "Prüfe den Zustand deines Pferdes. Füttere, tränke, putze und kratze die Hufe nach Bedarf aus. Die [Pflege-Anleitung](/guides/horse-care/) erklärt die Hilfsmittel.",
+            "Lies die Ziele vor einem Kauf. Wähle eine Aufgabe, die du mit deinem Pferd und den vorhandenen Anlagen erfüllen kannst.",
+            "Prüfe verfügbare Trainings. Sind alle gesperrt, nutze die [Checkliste für müde oder kranke Pferde](/training/horse-too-tired-to-train/).",
+            "Behalte Geld für die angezeigten täglichen Kosten. Prüfe am nächsten Tag Futter, Gesundheit, Training und Einnahmen."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/assets/scene-3.jpg",
+          "alt": "Ziele-Fenster auf dem Hof mit Aufgabe und Geldbelohnung",
+          "caption": "Prüfe hier Bedingungen und Belohnungen. Der offizielle Werbe-Screenshot zeigt die Oberfläche, keine verbindliche Aufgabenreihenfolge.",
+          "width": 1920,
+          "height": 1080,
+          "source": "steam"
+        }
+      ]
+    ],
+    [
+      "Kaufe für den aktuellen Engpass",
+      [
+        {
+          "type": "table",
+          "caption": "Frühe Ausgaben planen",
+          "headers": [
+            "Problem",
+            "Zuerst prüfen",
+            "Anleitung"
+          ],
+          "rows": [
+            [
+              "Kein Training möglich",
+              "Parcours und Pferdezustand",
+              "[Training](/guides/training/)"
+            ],
+            [
+              "Kosten übersteigen Einnahmen",
+              "Tragbare Einnahmequelle und Geldeinstellungen",
+              "[Geld verdienen](/guides/money-making/)"
+            ],
+            [
+              "Besseres Turnierpferd nötig",
+              "Potenzial, Prestige und Preis",
+              "[Pferdekauf](/guides/buy-sell-horses/)"
+            ],
+            [
+              "Keine freie Box",
+              "Erwachsenen- und Jährlingsplätze getrennt",
+              "[Kapazitäten](/guides/maximum-horses/)"
+            ],
+            [
+              "Pflege dauert zu lange",
+              "Personalrollen, Löhne und Zuweisungen",
+              "[Personal](/guides/staff/)"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ein Ausbau für eine sofort nutzbare Funktion lässt sich leichter begründen als leere Boxen. Vergleiche Kaufpreis und laufende Kosten zusammen. Diese Checkliste ist keine getestete optimale Baureihenfolge."
+        }
+      ]
+    ],
+    [
+      "Mit Caprilli beginnen",
+      [
+        {
+          "type": "paragraph",
+          "text": "Laut Mai-Entwicklungsbericht wurden die Startwerte gesenkt. Selbst vollständig trainierte Startpferde erreichten dadurch das erste Springturnier nicht mehr; deshalb kamen Caprilli-Prüfungen hinzu. Die Oktober-Demo bestätigt den Einstieg mit niedrigeren Werten. Tipps aus der Februar-Demo können daher auf zu schwierige Prüfungen verweisen.",
+          "source": "devMay"
+        },
+        {
+          "type": "paragraph",
+          "text": "Übe Gangwechsel und niedrige Hindernisse und lies die Teilnahmebedingungen. Nutze [Turniere](/guides/competitions/) und [Steuerung](/guides/controls/). Wiederholte Meldungen ersetzen nicht die Prüfung des Potenzials."
+        }
+      ]
+    ],
+    [
+      "Schwierigkeit, Geld und Spielstände",
+      [
+        {
+          "type": "paragraph",
+          "text": "Die offizielle FAQ nennt leichtere Turniere, mehr Prestigegewinn und Auto-Sprung. Seit v1.0.3 gibt es getrennte Einnahmen- und Kostenmultiplikatoren; Pferdepreise sind ausgenommen. Passe den schwierigen Teil an, bevor du neu anfängst.",
+          "source": "faq"
+        },
+        {
+          "type": "note",
+          "title": "Aktuelle Erfolgsregeln",
+          "text": "Seit v1.0.5 können bearbeitete und früher markierte Spielstände wieder Erfolge erhalten. Übersprungene Bedingungen musst du erneut erfüllen. Siehe [Spielstände und Erfolge](/guides/save-files-and-achievements/).",
+          "source": "patch105"
+        },
+        {
+          "type": "paragraph",
+          "text": "Spielstände der Oktober-Demo werden übernommen, die der Februar-Demo nicht. Die Demo endet nach 25 Spieltagen; die Vollversion hat kein allgemeines Tageslimit. Pferdealter wird in Spieltagen angegeben, nicht in Jahren.",
+          "source": "demoOctober"
+        }
+      ]
+    ],
+    [
+      "Vor dem zweiten Pferd",
+      [
+        {
+          "type": "steps",
+          "items": [
+            "Bestimme den Zweck: Turnier, Zucht oder Weiterverkauf. Vergleiche dafür Potenzial und Eigenschaften.",
+            "Prüfe freie Boxen und [Stallgruppen](/guides/stable-groups/). Trenne Hengste von Stuten, die nicht gedeckt werden sollen, auch Pensionsstuten.",
+            "Vergleiche Pflegeaufwand und Einnahmen. Halte nur so viele Pferde, wie du zuverlässig versorgen kannst."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Für eigenes Sattelzeug oder Hilfe gibt es [Mods](/guides/mods/) und die [offiziellen Discord-Einstiege](/community/discord/). Beides ist für den Spielstart nicht erforderlich."
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "Was mache ich zuerst?",
+      "Versorge die Startstute, lies die Ziele und wähle ein erreichbares Training. Behalte Geld für laufende Kosten."
+    ],
+    [
+      "Warum reicht mein austrainiertes Startpferd nicht fürs Springen?",
+      "Die Startwerte wurden gesenkt und Caprilli als frühere Stufe eingeführt. Vergleiche Bedingungen und Potenzial."
+    ],
+    [
+      "Kann ich das Spiel erleichtern?",
+      "Ja. Die FAQ nennt Turnierschwierigkeit, Prestige und Auto-Sprung; v1.0.3 ergänzt Geldmultiplikatoren."
+    ],
+    [
+      "Wird mein Demo-Spielstand übernommen?",
+      "Der Oktober-Demo ja, der Februar-Demo nicht."
+    ],
+    [
+      "Ist das ein getesteter Tages-Walkthrough?",
+      "Nein. Offizielle Mechaniken werden mit einer redaktionellen Routine verbunden, ohne eine optimale Aufgabenfolge zu versprechen."
+    ]
+  ],
+  "unknown": "Genaue Startaufgaben und eine optimale Ausgabenfolge wurden hier nicht getestet. Nutze Ziele, Preise und Anforderungen des aktuellen Spiels."
+},
     '/guides/buy-sell-horses/': {
-      title: 'Pferde kaufen & verkaufen',
-      description: 'Wo der Pferdehandel in der Stadt stattfindet und was du vor einer Erweiterung prüfen solltest.',
-      answer: 'Laut Publisher kannst du in der Stadt Hoofprint Bay Pferde kaufen und verkaufen. Die genaue Navigation, Preise und Einschränkungen müssen in der Vollversion noch geprüft werden.',
-      sections: [
-        ['Ab in die Stadt', 'Die Stadt ist der Ort für Pferdehandel, Sattelzeug, Futter und Turniere. Suche auf dem Stadtbildschirm den Pferdeverkauf. Der Launch-Artikel zeigt einen Screenshot der Verkaufsoberfläche, beschreibt aber keine vollständige Klickfolge.'],
-        ['Vor dem Kauf', 'Als Checkliste: Sieh dir die Pferdeinformationen im Spiel an, prüfe deinen Kontostand und den freien Platz auf deinem Hof. Diese Punkte helfen bei der Entscheidung, sind aber keine bestätigte Liste von Kaufbeschränkungen.'],
-        ['Vor dem Verkauf', 'Überlege, ob das Pferd Teil deiner Turnier- oder Zuchtpläne ist, bevor du einen Verkauf bestätigst. Ob verkaufte Pferde zurückgekauft werden können, ist hier nicht geprüft. Gehe nicht davon aus, dass ein Verkauf rückgängig gemacht werden kann.']
-      ],
-      faq: [['Wo werden Pferde gehandelt?', 'In der Stadt, laut Launch-Artikel des Publishers.'], ['Wie viel kostet ein Pferd?', 'Eine verlässliche Preistabelle ist hier noch nicht geprüft. Sieh dir das aktuelle Angebot im Spiel an.'], ['Muss ich sofort ein zweites Pferd kaufen?', 'Eine verpflichtende frühe Kaufreihenfolge ist hier nicht bestätigt. Folge den Zielen in deinem Spiel.']],
-      unknown: 'Bezeichnungen im Laden, Verfügbarkeit von Pferden, Verkaufswerte, Aktualisierung des Angebots und Platzprüfungen sind ungeprüft.'
-    },
+  "title": "Pferde kaufen und verkaufen: Züchter-Anleitung",
+"seoTitle": "Horses of Hoofprint Bay: Pferde kaufen und verkaufen | Wiki",
+  "description": "Finde den Züchter, vergleiche Preis und Potenzial und plane Stallplätze für Kauf, Training, Zucht oder Verkauf.",
+  "answer": "Wähle beim Züchter in der Stadt ein Pferd, vergleiche Alter, Training und Potenzial und lies den Preis vor Buy Horse. Höheres Prestige verbessert das Angebot. Prüfe eine freie Box, laufende Kosten und den Zweck des Pferdes vor der Bestätigung.",
+  "sections": [
+    [
+      "So kaufst du ein Pferd",
+      [
+        {
+          "type": "steps",
+          "items": [
+            "Besuche den Züchter in der Stadt, sobald dein Spielstand Zugang bietet. Prüfe während der Einführung zuerst die aktiven Ziele.",
+            "Wähle ein angebotenes Pferd. Vergleiche Informationen und Preis mit einem weiteren Kandidaten.",
+            "Kaufe für den Zweck: Potenzial für spätere Turniere oder Zucht, Training für sofortige Arbeit, Alter und Gesundheit für den Pflegeaufwand.",
+            "Prüfe [Stallplätze](/guides/maximum-horses/) und Geldreserve. Bestätige Buy Horse erst nach Kontrolle von Pferd und Preis."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/assets/scene-9.jpg",
+          "alt": "Pferdehändler mit Porträts, Alter, Wertebalken, Preis und Buy-Horse-Schaltfläche",
+          "caption": "Vergleiche das gewählte Pferd vor dem Kauf. Namen und Preise im offiziellen Werbebild sind Beispiele, kein aktueller Markt.",
+          "width": 1920,
+          "height": 1080,
+          "source": "steam"
+        }
+      ]
+    ],
+    [
+      "Erst das Pferd, dann den Preis prüfen",
+      [
+        {
+          "type": "table",
+          "caption": "Kaufkriterien nach Ziel",
+          "headers": [
+            "Ziel",
+            "Vergleichen",
+            "Häufiger Fehler"
+          ],
+          "rows": [
+            [
+              "Bald Turniere reiten",
+              "Training, Potenzial, Alter und Bedingungen",
+              "Billiges Pferd kann trotzdem nicht starten"
+            ],
+            [
+              "Züchten",
+              "Potenzial, sichtbare Eigenschaften, Paarung",
+              "Training mit Vererbung gleichsetzen"
+            ],
+            [
+              "Trainieren und verkaufen",
+              "Kaufpreis, Trainingsraum und Unterhalt",
+              "Erlös für garantierten Gewinn halten"
+            ],
+            [
+              "Lieblingspferd behalten",
+              "Platz, Zeit und langfristige Kosten",
+              "Das ganze Guthaben ausgeben"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Spieler unterscheiden Potenzial und Training und berichten, dass der Tierarzt Potenzial prüfen kann. Für die Zucht empfehlen sie Potenzial statt zwingend vollständig trainierter Eltern. Siehe [Zuchtpotenzial](/horses/breeding-potential/).",
+          "source": "t_breedingStats"
+        }
+      ]
+    ],
+    [
+      "Warum der Züchter nur schwache Pferde anbietet",
+      [
+        {
+          "type": "paragraph",
+          "text": "Der August-Bericht verbindet Prestige mit der Qualität der angebotenen Pferde. Gebäudeausbau, Turniersiege, gute Pensionspflege und hochwertige Pferde bringen Prestige; Niederlagen und Vernachlässigung können es verringern.",
+          "source": "devAugust"
+        },
+        {
+          "type": "paragraph",
+          "text": "Verbessere [Prestige](/guides/prestige/) und prüfe spätere Angebote, wenn aktuell kein Pferd passt. Ein fester Angebotswechsel ist hier nicht bestätigt. Ein ungeeignetes Pferd nur für eine freie Box zu kaufen erhöht die Kosten ohne den Engpass zu lösen."
+        }
+      ]
+    ],
+    [
+      "Plätze, Transport und Gruppen trennen",
+      [
+        {
+          "type": "paragraph",
+          "text": "Dauerhafte Stallplätze, Jährlingsplätze und Transportplätze sind verschiedene Grenzen. Im Mai nannte das Studio 20 Pferde im voll ausgebauten Stall plus 13 Jährlinge und zusätzliche bezahlte Pension beim Züchter. Quellenstand und Checkliste: [Maximale Pferdezahl](/guides/maximum-horses/).",
+          "source": "devMay"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nutze für mehrere Pferde die [Anhänger-Anleitung](/competitions/trailer-and-multiple-horses/). Bereite vor einem Hengstkauf eine getrennte Gruppe vor: Spieler melden ungewollte Trächtigkeit ohne Zuchtstation.",
+          "source": "t_pregnant"
+        }
+      ]
+    ],
+    [
+      "Verkauf und Pferdehandel",
+      [
+        {
+          "type": "paragraph",
+          "text": "Spieler beschreiben den Kauf wenig trainierter Pferde, einige Trainingstage und anschließenden Verkauf als Einnahmequelle. Ziehe Kaufpreis und Unterhalt vom Erlös ab. Eine geprüfte Rangliste nach Tagesgewinn gibt es hier nicht.",
+          "source": "t_coins"
+        },
+        {
+          "type": "note",
+          "title": "Pferdepreise und Geldmultiplikatoren",
+          "text": "Die Ankündigung zu v1.0.3–v1.0.5 nimmt Pferdepreise von den Geldeinstellungen aus. Diese multiplizieren Kauf- und Verkaufspreise nicht direkt.",
+          "source": "patch105"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prüfe vor dem Verkauf Zucht- und Turnierpläne sowie den aktuellen Bestätigungsbildschirm. [Fährenexport](/horses/import-and-export/) verschiebt Pferde zwischen Spielständen und ist ein anderer Vorgang. Ein garantierter Rückkauf ist nicht geprüft. Für Unterhalt siehe [Geld verdienen](/guides/money-making/)."
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "Wo kaufe ich Pferde?",
+      "Beim Züchter in der Stadt, sobald verfügbar. Der offizielle Screenshot zeigt die Auswahl und Buy Horse."
+    ],
+    [
+      "Warum sind angebotene Pferde schwach?",
+      "Laut Studio beeinflusst Prestige die Qualität. Verbessere es und prüfe spätere Angebote."
+    ],
+    [
+      "Ist billig automatisch gut?",
+      "Nein. Vergleiche Alter, Gesundheit, Training und Potenzial mit dem Zweck."
+    ],
+    [
+      "Ändern Geldeinstellungen Pferdepreise?",
+      "Nein. Die offizielle Ankündigung nimmt sie aus."
+    ],
+    [
+      "Ist Weiterverkauf garantierter Gewinn?",
+      "Nein. Es ist eine Spielerstrategie; Kaufpreis und Unterhalt bleiben relevant."
+    ]
+  ],
+  "unknown": "Angebotswechsel, Reservierung, vollständige Verkaufsschritte und Rückkaufregeln sind nicht geprüft. Eine Preisformel wird nicht behauptet."
+},
     '/guides/horse-care/': {
       title: 'Pferdepflege',
       description: 'Putzen, Hufpflege und die Rolle von Verletzungen im Stallalltag.',
@@ -49,19 +319,178 @@ export const de = {
       unknown: 'Pflegeschwellen, Verletzungswahrscheinlichkeiten, Behandlungskosten, Heilungsdauer und die genaue Grenze, ab der der Tierschutz eingreift, müssen im Spiel geprüft werden.'
     },
     '/guides/breeding/': {
-      title: 'Zucht-Anleitung',
-      description: 'Was Fohlen erben können, wie du eine Verpaarung wählst und das Zuchtlabor.',
-      answer: 'Fohlen können eine Mischung aus Fellfarben, weißen Abzeichen und Charaktereigenschaften ihrer Eltern erben. Die offizielle Beschreibung nennt außerdem ein späteres Labor in der Zuchtstation, das mögliche Fohlen vorab zeigt.',
-      sections: [
-        ['Entscheide, was du von einer Verpaarung willst', 'Dir kann das Aussehen, die künftigen Fähigkeiten oder der Charakter eines Fohlens wichtig sein. Vergleiche die Informationen zu beiden Elternteilen, bevor du dich festlegst. Das ist ein Planungsansatz, keine Garantie für ein bestimmtes Ergebnis.'],
-        ['Vererbung verstehen', 'Offiziell bestätigt ist die Vererbung von Fellfarbe, weißen Abzeichen und Charakter. Ein vollständiges Genetikmodell wurde nicht veröffentlicht. Echte Fellgenetik kann Hintergrundwissen liefern, sollte aber nicht zur Berechnung von Spielergebnissen genutzt werden.'],
-        ['Das Labor der Zuchtstation', 'Der Store beschreibt ein erweitertes Zuchtlabor mit Vorschau möglicher Fohlen und erweiterten Deckdiensten. Prüfe die Ausbauinformationen in deinem Spiel für genaue Freischaltbedingungen und Kosten. Eine Vorschau ist keine veröffentlichte Wahrscheinlichkeitsformel.'],
-        ['Führe ein nützliches Zuchtbuch', 'Notiere für deine eigenen Vergleiche die Eltern, sichtbare Merkmale, die Spielversion und das Ergebnis. Mehrere Beobachtungen sagen mehr als ein einzelnes schönes Fohlen, aber auch einige Ergebnisse ergeben keine genaue Vererbungsquote.'],
-        ['Nach dem Abfohlen: die Änderung in v1.0.2', 'Patch v1.0.2 (8. November 2026) reagierte auf Rückmeldungen zu Stuten, die beim Abfohlen Werte verlieren. Pferde mit niedrigen Werten verlieren jetzt weniger: höchstens ein Zehntel ihrer Ausdauer und nie mehr als 5 Punkte. Der Verlust ist verringert, nicht abgeschafft. Wie Fohlen aufwachsen und was das Säugen die Stute kostet, steht unter [Fohlen & Jährlinge](/horses/foals-and-yearlings/); alle Änderungen von v1.0.2 findest du unter [Patch-Notes & Updates](/guides/patch-notes/).']
-      ],
-      faq: [['Werden Fellfarben vererbt?', 'Der Store bestätigt eine Mischung aus den Fellfarben und weißen Abzeichen der Eltern.'], ['Kann der Charakter vererbt werden?', 'Ja, Charaktereigenschaften sind Teil der offiziellen Beschreibung der Vererbung.'], ['Ist eine bestimmte Fellfarbe garantiert?', 'Für bestimmte Verpaarungen gibt es hier keine geprüfte Garantie oder Wahrscheinlichkeitstabelle.'], ['Kostet das Abfohlen meine Stute noch Werte?', 'Weniger als vorher. Seit v1.0.2 ist der Verlust auf ein Zehntel der Ausdauer und höchstens 5 Punkte begrenzt.']],
-      unknown: 'Zuchtkosten, Voraussetzungen, Trächtigkeitsdauer, garantierte Ergebnisse und Vererbungswahrscheinlichkeiten sind ungeprüft.'
-    },
+  "title": "Zucht-Anleitung: Paarung, Trächtigkeit und Fohlen",
+"seoTitle": "Horses of Hoofprint Bay: Zucht: Trächtigkeit und Fohlen | Wiki",
+  "description": "Vergleiche Zuchtpotenzial, verhindere ungewollte Trächtigkeit und plane Plätze für die achttägige Trächtigkeit und das Fohlen.",
+  "answer": "Plane die Paarung nach Aussehen, Eigenschaften oder Potenzial und bereite Plätze vor dem Decken vor. Der Publisher bestätigt acht Spieltage Trächtigkeit und vier Tage vom Fohlen zum Jährling. Das Labor zeigt mögliche Fohlen, garantiert aber keine Auswahl. Trenne Hengste von Stuten, die nicht tragend werden sollen.",
+  "sections": [
+    [
+      "Vor dem Decken",
+      [
+        {
+          "type": "steps",
+          "items": [
+            "Lege ein Hauptziel fest: Fell, Charakter oder Leistung. Vergleiche beide Eltern damit.",
+            "Prüfe Potenzial und sichtbare Eigenschaften. Spieler nennen Potenzial statt Training als relevant; siehe [Potenzial und Geschlecht](/horses/breeding-potential/).",
+            "Plane Pflege, Jährlingsplatz und spätere Erwachsenenbox mit der [Kapazitätscheckliste](/guides/maximum-horses/).",
+            "Lies Deckoption, Bedingungen und Gebühr im Spiel. Notiere Eltern und den angezeigten Termin."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/assets/scene-5.jpg",
+          "alt": "Stute und Fohlen am Putzplatz mit Pflege- und Fütterungswerkzeugen",
+          "caption": "Plane die Versorgung beider Tiere. Das offizielle Bild zeigt ein säugendes Paar, keine Vererbungswahrscheinlichkeit.",
+          "width": 1920,
+          "height": 1080,
+          "source": "steam"
+        }
+      ]
+    ],
+    [
+      "Funktionen der Zuchtstationsstufen",
+      [
+        {
+          "type": "table",
+          "caption": "Zuchtstation",
+          "headers": [
+            "Stufe",
+            "Funktion",
+            "Quellenumfang"
+          ],
+          "rows": [
+            [
+              "1",
+              "Natursprung",
+              "Community-Gebäudedokumentation"
+            ],
+            [
+              "2",
+              "Frischsamen und Fohlensimulator",
+              "Community; Labor auch von Steam bestätigt"
+            ],
+            [
+              "3",
+              "Samen einfrieren",
+              "Community-Gebäudedokumentation"
+            ]
+          ],
+          "source": "tmqdb"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vergleiche ältere Grundkosten unter [Gebäude](/buildings/) mit dem aktuellen Bildschirm. Seit v1.0.3 können Geldeinstellungen Kosten verändern. Die Vorschau zeigt Möglichkeiten; eine garantierte Auswahl oder geprüfte Wahrscheinlichkeitsverteilung wird hier nicht angegeben."
+        }
+      ]
+    ],
+    [
+      "Trächtigkeit und nächster Platzwechsel",
+      [
+        {
+          "type": "table",
+          "caption": "Zeitplan in Spieltagen",
+          "headers": [
+            "Phase",
+            "Zeit",
+            "Vorbereitung"
+          ],
+          "rows": [
+            [
+              "Trächtigkeit",
+              "8 Tage; Publisher-Bestätigung",
+              "Pflege und aktuelle Arbeitsbeschränkungen"
+            ],
+            [
+              "Fohlen bei der Mutter",
+              "Erste 4 Tage; Publisher-Bestätigung",
+              "Tägliche Pflege und Platz für beide"
+            ],
+            [
+              "Jährling",
+              "Ab etwa Alter 4 bis erwachsen um Alter 12; Spielerberichte",
+              "Paddock, danach Erwachsenenbox"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Gemeint sind Spieltage, keine echten Tage oder Jahre. [Fohlen und Jährlinge](/horses/foals-and-yearlings/) erklärt Quellen und Platzprobleme.",
+          "source": "releaseFaq"
+        },
+        {
+          "type": "paragraph",
+          "text": "v1.0.2 senkt den Werteverlust bei niedrigen Werten nach dem Abfohlen auf höchstens ein Zehntel Ausdauer und maximal 5 Punkte. Der Verlust entfällt nicht. Der August-Bericht beschreibt außerdem Spaziergänge mit säugenden Stuten und Fohlen.",
+          "source": "patch102"
+        }
+      ]
+    ],
+    [
+      "Potenzial, Training und Fell unterscheiden",
+      [
+        {
+          "type": "paragraph",
+          "text": "Steam bestätigt vererbte Farben, weiße Muster und Eigenschaften. Laut Studio nutzt das Spiel keine realistische Farbgenetik; echte Genotypentabellen sagen diese Fohlen daher nicht zuverlässig voraus.",
+          "source": "t_genotype"
+        },
+        {
+          "type": "paragraph",
+          "text": "Spieler berichten, dass Eltern nicht austrainiert sein müssen, wenn ihr Potenzial bekannt ist. Trainingsverlust bei wiederholter Trächtigkeit bedeutet nicht automatisch Potenzialverlust. Vergleiche [Fellmuster](/horses/colors-and-patterns/) und [Eigenschaften](/horses/traits-and-quirks/).",
+          "source": "t_breedingStats"
+        },
+        {
+          "type": "note",
+          "title": "Kein garantiert perfektes Fohlen",
+          "text": "Hier werden keine bestätigte Zahlenformel, Empfängnisraten oder Methode zur Geschlechtswahl behauptet. Notiere Eltern, Version und Ergebnisse für eigene Vergleiche."
+        }
+      ]
+    ],
+    [
+      "Ungewollte Trächtigkeit verhindern",
+      [
+        {
+          "type": "paragraph",
+          "text": "Spieler melden Deckakte in derselben Gruppe ohne Zuchtstation. Auch Pensionsstuten können betroffen sein, mit Strafe und Prestigeverlust. Trennung oder Kastration sind die berichteten Gegenmaßnahmen.",
+          "source": "t_pregnant"
+        },
+        {
+          "type": "steps",
+          "items": [
+            "Halte Hengste in getrennten [Stallgruppen](/guides/stable-groups/).",
+            "Lass Platz in der passenden Erwachsenengruppe, bevor ein Pensionsjährling erwachsen wird.",
+            "Prüfe Gruppen nach Wachstum oder Rückkehr von einem anderen Ort."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vergleiche Pflegeaufwand und Wartezeit bis zum Verkauf mit [anderen Einnahmen](/guides/money-making/), bevor du mehrere Stuten deckst."
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "Wie lange dauert Trächtigkeit?",
+      "Acht Spieltage laut Publisher. Das Alter zählt Spieltage, keine Jahre."
+    ],
+    [
+      "Wann wird ein Fohlen Jährling?",
+      "Vier Tage nach Geburt laut Publisher; Spieler nennen Erwachsenenalter um Tag 12."
+    ],
+    [
+      "Müssen Eltern austrainiert sein?",
+      "Laut Spielern zählt Potenzial statt aktuellem Training; der Tierarzt kann es prüfen."
+    ],
+    [
+      "Garantiert das Labor ein Fohlen?",
+      "Eine garantierte Auswahl ist nicht geprüft. Steam bestätigt die Vorschau möglicher Fohlen."
+    ],
+    [
+      "Warum wurde eine Pensionsstute tragend?",
+      "Spieler melden Deckakte in gemeinsamen Gruppen ohne Zuchtstation. Trenne Hengste und Pensionsstuten."
+    ]
+  ],
+  "unknown": "Aktuelle Deckbedingungen, Gebühren und Empfängnisraten müssen im Spiel geprüft werden. Potenzial und Erwachsenenalter enthalten Spielerberichte; Trächtigkeit und vier Fohlentage sind vom Publisher bestätigt."
+},
     '/guides/training/': {
       title: 'Trainings-Anleitung',
       description: 'Wie Training mit Kraft, Selbstvertrauen und Turnierreife zusammenhängt.',
@@ -75,25 +504,212 @@ export const de = {
       unknown: 'Die Zuwächse pro Einheit aus dem Community-Wiki müssen im Spiel geprüft werden; Obergrenzen, Ermüdung und der beste Trainingsplan müssen noch getestet werden.'
     },
     '/guides/competitions/': {
-      title: 'Turnier-Anleitung',
-      description: 'Eine Einführung in Springreiten, Geländeritt und die Turniervorbereitung.',
-      answer: 'Horses of Hoofprint Bay bietet Springturniere und Geländeprüfungen mit Preisgeld. Training ist Teil der Vorbereitung, damit sich dein Pferd qualifiziert.',
-      sections: [
-        ['Springreiten und Gelände', 'Beide Disziplinen sind vom offiziellen Store und vom Publisher bestätigt. Sie geben dir Ziele für die Entwicklung eines Pferdes, eine vollständige Liste der Klassen oder Parcours gibt es hier aber noch nicht.'],
-        ['Vor der Anmeldung', 'Lies den Anmeldebildschirm, vergleiche die Anforderungen mit deinem Pferd und prüfe angezeigte Kosten. Das ist eine Checkliste als Vorschlag. Startbedingungen, Strafpunkte und Preisgelder müssen in der Vollversion dokumentiert werden.'],
-        ['Preisgeld sinnvoll einsetzen', 'Preisgelder fließen in den Ausbau deines Stalls. Entscheide, ob die Bedürfnisse deines aktuellen Pferdes oder der Hofausbau Vorrang haben. Das ist allgemeiner Planungsrat, keine getestete Gewinnstrategie.']
-      ],
-      faq: [['Welche Turniere gibt es?', 'Offizielle Quellen nennen Springreiten und Gelände.'], ['Kann man mit Turnieren Geld verdienen?', 'Ja, Preisgeld ist ausdrücklich Teil der Spielbeschreibung.'], ['Wo stehen die genauen Preisgelder?', 'Nutze die aktuellen Turnierinformationen im Spiel; eine Preistabelle ist hier nicht geprüft.']],
-      unknown: 'Klassen, Startvoraussetzungen, Startgebühren, Wertung und Preisgeldtabellen sind ungeprüft.'
-    },
+  "title": "Turnier-Anleitung: Caprilli, Springen und Gelände",
+"seoTitle": "Horses of Hoofprint Bay: Turniere: Caprilli und Springen | Wiki",
+  "description": "Bereite Caprilli, Springen und Gelände vor, plane den Anhänger und prüfe Teilnahmeprobleme und Sprungtiming.",
+  "answer": "Wähle eine passende Prüfung, bereite Zustand und Ausrüstung vor und plane den Transport. Caprilli wurde für die angepassten Startpferde ergänzt; Gelände richtet sich an stärkere Pferde im späteren Spiel. Aktualisiere bei Teilnahmeproblemen: v1.0.4 nennt dafür eine Korrektur.",
+  "sections": [
+    [
+      "Die passende Disziplin wählen",
+      [
+        {
+          "type": "table",
+          "caption": "Drei Turnierdisziplinen",
+          "headers": [
+            "Disziplin",
+            "Üben",
+            "Einordnung"
+          ],
+          "rows": [
+            [
+              "Caprilli",
+              "Gangwechsel und niedrige Hindernisse",
+              "Früher Einstieg nach Senkung der Startwerte"
+            ],
+            [
+              "Springen",
+              "Anreiten, Tempo und Timing",
+              "Bedingungen mit Training und Potenzial vergleichen"
+            ],
+            [
+              "Gelände",
+              "Krafteinteilung und Kombinationen",
+              "Vom Studio als spätere Herausforderung beschrieben"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Der Mai-Bericht erklärt Caprilli, der August-Bericht Gelände. Ein sichtbarer Parcours bedeutet nicht, dass das aktuelle Pferd qualifiziert ist. Prüfe das Meldefenster vor einer Zahlung oder neuen Zuchtplanung.",
+          "source": "devMay"
+        },
+        {
+          "type": "image",
+          "src": "/assets/scene-1.jpg",
+          "alt": "Pferd und Reiterin beim Sprung mit Runden-, Gang- und Zustandsanzeigen",
+          "caption": "Der Turnierbildschirm zeigt Runde und Pferdeanzeigen. Lies Anforderungen im aktuellen Spiel; das Werbebild ist keine Grenzwerttabelle.",
+          "width": 1920,
+          "height": 1080,
+          "source": "steam"
+        }
+      ]
+    ],
+    [
+      "Vor der Fahrt in die Stadt",
+      [
+        {
+          "type": "steps",
+          "items": [
+            "Vergleiche Anforderungen mit Training, Potenzial und Zustand. Wähle gegebenenfalls eine andere Prüfung oder [ein geeigneteres Pferd](/guides/buy-sell-horses/).",
+            "Putze das Pferd und prüfe Sattelzeug und Kleidung. Schmutzige Pferde und ungeeignete Kleidung können Prestige kosten.",
+            "Lade das richtige Pferd nach der [Anhänger-Anleitung](/competitions/trailer-and-multiple-horses/). Transport und Qualifikation sind getrennt.",
+            "Behalte Geld für die angezeigte Gebühr. Kontrolliere Pferd und Prüfung vor Bestätigung."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dies ist eine Vorbereitungsliste, keine universelle Regelübersicht. Aktuelle Gebühren und Grenzen stehen im Spiel.",
+          "source": "devAugust"
+        }
+      ]
+    ],
+    [
+      "Caprilli-Gangwechsel und Sprungtiming",
+      [
+        {
+          "type": "paragraph",
+          "text": "Spieler empfehlen auf Steam den Gangwechsel an der Grenze zwischen Anweisungsfeldern, mit der Reiterposition als Orientierung. Das ist ein Spielertipp, keine offizielle Wertungsformel. Übe auf einer bekannten Strecke.",
+          "source": "t_caprilli"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nutze [Sprungtipps](/training/jumping-tips/), [Selbstvertrauen](/training/confidence/) bei selbstständigen Gangwechseln und [Steuerung](/guides/controls/) für andere Tasten. Ändere pro Übungsrunde möglichst nur einen Faktor."
+        },
+        {
+          "type": "paragraph",
+          "text": "Die FAQ empfiehlt Auto-Sprung und leichtere Turniere. v1.0.3 korrigiert außerdem Auto-Sprung an der Ziegelmauer und das gruselige Dünenhindernis.",
+          "source": "faq"
+        }
+      ]
+    ],
+    [
+      "Wege im Gelände wählen",
+      [
+        {
+          "type": "paragraph",
+          "text": "Der August-Bericht beschreibt auf manchen Strecken einen kürzeren Weg mit schwereren Hindernissen oder einen längeren mit leichteren Sprüngen. Entscheide nach verbleibender Kraft. Maria gibt bei Trainingsfehlern Rückmeldung.",
+          "source": "devAugust"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lerne die Folge im Training, bevor du den kürzesten Weg für den besten hältst. Sauberes Anreiten kann hilfreicher sein als mehr Tempo, wenn Verweigerungen das eigentliche Problem sind."
+        }
+      ]
+    ],
+    [
+      "Keine Teilnahme oder Prestigeverlust?",
+      [
+        {
+          "type": "paragraph",
+          "text": "Installiere v1.0.5 oder neuer: v1.0.4 nennt eine Korrektur verhinderter Teilnahme. Die [Checkliste](/competitions/cannot-enter/) trennt Transport, Anforderungsmeldung und eine nicht reagierende Schaltfläche.",
+          "source": "patch105"
+        },
+        {
+          "type": "paragraph",
+          "text": "Siege bringen Prestige; Niederlagen, Schmutz und ungeeignete Kleidung können es senken. Siehe [Prestige](/guides/prestige/) bei schwachen Züchterangeboten. Preisgeld ist ein Teil der [Einnahmen](/guides/money-making/), kein garantierter Gewinn jeder Meldung.",
+          "source": "devAugust"
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "Womit beginne ich?",
+      "Caprilli kam als frühere Stufe nach der Anpassung der Startwerte. Lies aktuelle Bedingungen."
+    ],
+    [
+      "Warum kann ich nicht teilnehmen?",
+      "Aktualisiere zuerst; v1.0.4 nennt eine Korrektur. Prüfe dann Pferd, Transport, Zustand und Meldung."
+    ],
+    [
+      "Darf ich Auto-Sprung nutzen?",
+      "Ja. Die offizielle FAQ empfiehlt die Einstellung."
+    ],
+    [
+      "Ist der kürzeste Geländeweg am besten?",
+      "Das Studio beschreibt kürzere schwere und längere leichtere Wege, abhängig von verbleibender Kraft."
+    ],
+    [
+      "Brauche ich ein anderes Springpferd?",
+      "Möglicherweise. Laut Studio erreichte das angepasste Startpferd selbst austrainiert nicht mehr das erste Springturnier."
+    ]
+  ],
+  "unknown": "Aktuelle Gebühren, Werteanforderungen, Wertungsgewichte und Preisgelder sind hier nicht vollständig geprüft. Forumstipps bleiben Spielerberichte."
+},
     '/buildings/': {
-      title: 'Gebäude & Ausbau',
-      description: 'Mehr Platz für Pferde, neue Trainingsparcours und ein wachsender Stall.',
-      answer: 'Gebäudeausbauten schaffen Platz für Pferde und schalten Personal, Trainingsparcours und Zuchtoptionen frei. Laut der von der Community gepflegten TMQ Horse Game Database wächst der Stall von 4 Boxen auf 8, 14 und 20, für 2.500, 10.000 und 50.000, und jede Stallstufe bringt eine weitere Stallgruppe. Die Jährlingskoppel fasst 6 Jährlinge, nach dem Ausbau 13, ohne Stallboxen zu belegen.',
-      sections: [['Stallkapazität', 'Stufe 1 fasst 4 Pferde und kostet 10 pro Tag. Stufe 2 fasst 8 (2.500 Baukosten, 30 pro Tag, 2 Tage). Stufe 3 fasst 14 (10.000, 80 pro Tag, 3 Tage). Stufe 4 fasst 20 (50.000, 200 pro Tag, 4 Tage). Jeder Ausbau bringt eine Stallgruppe mehr, sodass du Stuten, Wallache und Hengste trennen kannst. Ein voll ausgebauter Stall voller Pferde schaltet den Erfolg Full House frei.'], ['Jährlingskoppel und Weide', 'Die Jährlingskoppel ist eine eigene Gruppe und belegt keine Stallboxen: Stufe 1 fasst 6 Jährlinge (1.500), Stufe 2 fasst 13 (10.000). Die Weide wird getrennt ausgebaut, für 200, 1.000, 5.000 und 10.000; sie erhöht die Stallkapazität nicht.'], ['Haupthaus und Personal', 'Das Haupthaus schaltet Personal frei. Stufe 1: Laura (Pflegerin) und Maria (Reitlehrerin für dich). Stufe 2 (5.000): Fiete (Pfleger), Julia (gibt Reitstunden), Tara (Trainerin) und Bianca (Jährlingstrainerin). Stufe 3 (20.000): Lucas (Pfleger) sowie die Trainer Meilin und Markus.'], ['Zuchtstation', 'Stufe 1 (1.500) ermöglicht Natursprung. Stufe 2 (5.000) bringt Samengewinnung (frisch) und den Fohlensimulator, der mögliche Fohlen zeigt. Stufe 3 (15.000) ermöglicht das Einfrieren von Samen.'], ['Reitplatz und Parkplatz', 'Der Reitplatz ist für das Training nötig. Stufe 1 (500) bietet die Grundparcours; Stufe 2 (5.000) ergänzt Caprilli 2, Springen 3, Gelände 1, Gymnastikreihen, Rhythmustraining und zufälliges Longieren; Stufe 3 (10.000) ergänzt Springen 4. Der Parkplatz bietet Platz für deinen Anhänger: 2, 4 oder 10 Pferde für 200, 500 oder 1.500. Er begrenzt auch, wie viele Pferde du pro Tag kaufen oder verkaufen kannst.'], ['Futterlager', 'Das Lager für Heu, Kraftfutter und Leckerlis wächst von 30/30/30 auf 65/70/40 und dann auf 110/150/50. Ab Stufe 3 ist es ein eigenes Gebäude.'], ['Den nächsten Ausbau planen', 'Jedes Gebäude erhöht die täglichen Kosten, prüfe also vorher dein Einkommen. Willst du mehr Pferde, zählen Stall und Parkplatz am meisten; fürs Training der Reitplatz; für die Zucht Zuchtstation und Jährlingskoppel.']],
-      faq: [['Wie viele Pferde passen in meinen Stall?', 'Anfangs 4, nach drei Ausbauten bis zu 20, laut Community-Wiki.'], ['Belegen Jährlinge Stallboxen?', 'Nein. Sie stehen auf der Jährlingskoppel, die 6 oder 13 fasst.'], ['Wie schalte ich Julia und die Trainer frei?', 'Baue das Haupthaus auf Stufe 2 aus; weitere Trainer kommen mit Stufe 3.'], ['Was kostet ein voll ausgebauter Stall?', '2.500 + 10.000 + 50.000 = 62.500, dazu höhere tägliche Kosten.']],
-      unknown: 'Alle Kosten und Kapazitäten stammen aus dem Community-Wiki und können sich mit Patches ändern; prüfe sie im Spiel.'
-    },
+  "title": "Gebäude & Ausbau",
+  "description": "Mehr Platz für Pferde, neue Trainingsparcours und ein wachsender Stall.",
+  "answer": "Gebäudeausbauten schaffen Platz für Pferde und schalten Personal, Trainingsparcours und Zuchtoptionen frei. Laut der von der Community gepflegten TMQ Horse Game Database wächst der Stall von 4 Boxen auf 8, 14 und 20, für 2.500, 10.000 und 50.000, und jede Stallstufe bringt eine weitere Stallgruppe. Die Jährlingskoppel fasst 6 Jährlinge, nach dem Ausbau 13, ohne Stallboxen zu belegen.",
+  "sections": [
+    [
+      "Stallkapazität",
+      "Stufe 1 fasst 4 Pferde und kostet 10 pro Tag. Stufe 2 fasst 8 (2.500 Baukosten, 30 pro Tag, 2 Tage). Stufe 3 fasst 14 (10.000, 80 pro Tag, 3 Tage). Stufe 4 fasst 20 (50.000, 200 pro Tag, 4 Tage). Jeder Ausbau bringt eine Stallgruppe mehr, sodass du Stuten, Wallache und Hengste trennen kannst. Ein voll ausgebauter Stall voller Pferde schaltet den Erfolg Full House frei."
+    ],
+    [
+      "Jährlingskoppel und Weide",
+      "Die Jährlingskoppel ist eine eigene Gruppe und belegt keine Stallboxen: Stufe 1 fasst 6 Jährlinge (1.500), Stufe 2 fasst 13 (10.000). Die Weide wird getrennt ausgebaut, für 200, 1.000, 5.000 und 10.000; sie erhöht die Stallkapazität nicht."
+    ],
+    [
+      "Haupthaus und Personal",
+      "Das Haupthaus schaltet Personal frei. Stufe 1: Laura (Pflegerin) und Maria (Reitlehrerin für dich). Stufe 2 (5.000): Fiete (Pfleger), Julia (gibt Reitstunden), Tara (Trainerin) und Bianca (Jährlingstrainerin). Stufe 3 (20.000): Lucas (Pfleger) sowie die Trainer Meilin und Markus."
+    ],
+    [
+      "Zuchtstation",
+      "Stufe 1 (1.500) ermöglicht Natursprung. Stufe 2 (5.000) bringt Samengewinnung (frisch) und den Fohlensimulator, der mögliche Fohlen zeigt. Stufe 3 (15.000) ermöglicht das Einfrieren von Samen."
+    ],
+    [
+      "Reitplatz und Parkplatz",
+      "Der Reitplatz ist für das Training nötig. Stufe 1 (500) bietet die Grundparcours; Stufe 2 (5.000) ergänzt Caprilli 2, Springen 3, Gelände 1, Gymnastikreihen, Rhythmustraining und zufälliges Longieren; Stufe 3 (10.000) ergänzt Springen 4. Der Parkplatz bietet Platz für deinen Anhänger: 2, 4 oder 10 Pferde für 200, 500 oder 1.500. Er begrenzt auch, wie viele Pferde du pro Tag kaufen oder verkaufen kannst."
+    ],
+    [
+      "Futterlager",
+      "Das Lager für Heu, Kraftfutter und Leckerlis wächst von 30/30/30 auf 65/70/40 und dann auf 110/150/50. Ab Stufe 3 ist es ein eigenes Gebäude."
+    ],
+    [
+      "Den nächsten Ausbau planen",
+      "Jedes Gebäude erhöht die täglichen Kosten, prüfe also vorher dein Einkommen. Willst du mehr Pferde, zählen Stall und Parkplatz am meisten; fürs Training der Reitplatz; für die Zucht Zuchtstation und Jährlingskoppel."
+    ],
+    [
+      "Aktuelle Geldeinstellungen und Ausbauplanung",
+      [
+        {
+          "type": "paragraph",
+          "text": "Seit v1.0.3 erhöhen Reitplatzausbauten Reitstundeneinnahmen und Stallausbauten Pensionsgebühren. Geldeinstellungen können Kosten ändern; ältere Community-Preise oben sind Richtwerte. Prüfe [Einnahmen](/guides/money-making/), [Plätze](/guides/maximum-horses/) und [Personalzuweisungen](/guides/staff-not-working/) vor dem nächsten Ausbau.",
+          "source": "patch105"
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "Wie viele Pferde passen in meinen Stall?",
+      "Anfangs 4, nach drei Ausbauten bis zu 20, laut Community-Wiki."
+    ],
+    [
+      "Belegen Jährlinge Stallboxen?",
+      "Nein. Sie stehen auf der Jährlingskoppel, die 6 oder 13 fasst."
+    ],
+    [
+      "Wie schalte ich Julia und die Trainer frei?",
+      "Baue das Haupthaus auf Stufe 2 aus; weitere Trainer kommen mit Stufe 3."
+    ],
+    [
+      "Was kostet ein voll ausgebauter Stall?",
+      "2.500 + 10.000 + 50.000 = 62.500, dazu höhere tägliche Kosten."
+    ]
+  ],
+  "unknown": "Alle Kosten und Kapazitäten stammen aus dem Community-Wiki und können sich mit Patches ändern; prüfe sie im Spiel."
+},
     '/horses/colors-and-patterns/': {
       title: 'Fellfarben & Abzeichen',
       description: 'Fellfarben, weiße Abzeichen und was über die Fellvielfalt bekannt ist.',
@@ -119,20 +735,65 @@ export const de = {
       unknown: 'Namen der Eigenschaften, Effektwerte, Kompatibilitätsregeln und Vererbungschancen müssen im Spiel geprüft werden. Die Community-Methode zum Bearbeiten des Spielstands wurde hier nicht getestet.'
     },
     '/guides/staff/': {
-      title: 'Personal-Anleitung',
-      description: 'Hilfe für eine größere Herde einstellen und Personal-Freischaltungen verstehen.',
-      answer: 'Du kannst Personal einstellen, das bei Pflege und Training hilft. Laut offiziellem Store schalten höhere Ausbaustufen Bewerbungen von Personal frei.',
-      sections: [
-        ['Hilfe für einen wachsenden Hof', 'Das Personalsystem hilft dir, mehr Pferde zu versorgen, wenn dein Hof wächst. Lies vor der Einstellung die Stellenbeschreibung im Spiel, statt anzunehmen, dass jede Person jede Aufgabe übernimmt.'],
-        ['Bewerbungen und Gebäude', 'Der Gebäudeausbau ist mit Personalbewerbungen verknüpft. Siehst du keine Einstellungsoption, prüfe die Ausbaubeschreibungen in deinem Spiel. Die genaue Freischaltstufe ist hier nicht geprüft.'],
-        ['Kosten und Bedarf vergleichen', 'Eine hilfreiche Frage: Bei welcher wiederkehrenden Aufgabe brauchst du Hilfe? Lies Lohn und Zuständigkeiten, bevor du jemanden einstellst. Eine Lohntabelle oder Leistungsrangliste wurde hier nicht getestet.'],
-        ['Reitlehrerin Julia: jeden Platz belegen', 'Laut Spielerberichten kostet Julia 100 pro Tag und kann bis zu 8 Reitstunden am Tag geben, aber nur eine Stunde pro zugewiesenem Platz. Weist du zwei Pferde zu, gibt sie zwei Stunden. Um alle 8 Stunden zu nutzen, belege jeden Platz; dasselbe Pferd kann mehrere Plätze belegen. Ein Spieler berichtet, dass der Trainer drei Pferde pro Tag schafft.'],
-        ['Trainer, die Pferde überlasten', 'Wenn dein Trainingspersonal immer wieder Verletzungen wie Sehnenschäden verursacht, empfehlen Spieler, das Personal aufzuleveln (zu schulen). Du kannst Pferde auch nur der Person zuweisen, die sie gut trainiert.'],
-        ['Was Maria macht', 'Laut Spielern sagt Maria selten etwas: Sie gibt Reittipps, etwa dass ein Sprung im Galopp besser gelingt, wenn dir an einem Hindernis ein Fehler passiert.']
-      ],
-      faq: [['Kann Personal Pferde trainieren?', 'Laut offiziellem Store hilft Personal bei Pflege und Training.'], ['Warum gibt Julia nur eine Stunde pro Pferd?', 'Jeder zugewiesene Platz ist eine Reitstunde. Laut Spielern kannst du dasselbe Pferd mehreren Plätzen zuweisen.'], ['Wie werden Bewerbungen freigeschaltet?', 'Höhere Ausbaustufen werden als Quelle genannt.'], ['Welche Person ist die beste?', 'Namen, Löhne und Leistung des Personals sind hier nicht geprüft.']],
-      unknown: 'Vollständige Aufgaben, Löhne und Effizienz des Personals sind ungeprüft; die Details oben sind Spielerberichte.'
-    },
+  "title": "Personal-Anleitung",
+  "description": "Hilfe für eine größere Herde einstellen und Personal-Freischaltungen verstehen.",
+  "answer": "Du kannst Personal einstellen, das bei Pflege und Training hilft. Laut offiziellem Store schalten höhere Ausbaustufen Bewerbungen von Personal frei.",
+  "sections": [
+    [
+      "Hilfe für einen wachsenden Hof",
+      "Das Personalsystem hilft dir, mehr Pferde zu versorgen, wenn dein Hof wächst. Lies vor der Einstellung die Stellenbeschreibung im Spiel, statt anzunehmen, dass jede Person jede Aufgabe übernimmt."
+    ],
+    [
+      "Bewerbungen und Gebäude",
+      "Der Gebäudeausbau ist mit Personalbewerbungen verknüpft. Siehst du keine Einstellungsoption, prüfe die Ausbaubeschreibungen in deinem Spiel. Die genaue Freischaltstufe ist hier nicht geprüft."
+    ],
+    [
+      "Kosten und Bedarf vergleichen",
+      "Eine hilfreiche Frage: Bei welcher wiederkehrenden Aufgabe brauchst du Hilfe? Lies Lohn und Zuständigkeiten, bevor du jemanden einstellst. Eine Lohntabelle oder Leistungsrangliste wurde hier nicht getestet."
+    ],
+    [
+      "Reitlehrerin Julia: jeden Platz belegen",
+      "Laut Spielerberichten kostet Julia 100 pro Tag und kann bis zu 8 Reitstunden am Tag geben, aber nur eine Stunde pro zugewiesenem Platz. Weist du zwei Pferde zu, gibt sie zwei Stunden. Um alle 8 Stunden zu nutzen, belege jeden Platz; dasselbe Pferd kann mehrere Plätze belegen. Ein Spieler berichtet, dass der Trainer drei Pferde pro Tag schafft."
+    ],
+    [
+      "Trainer, die Pferde überlasten",
+      "Wenn dein Trainingspersonal immer wieder Verletzungen wie Sehnenschäden verursacht, empfehlen Spieler, das Personal aufzuleveln (zu schulen). Du kannst Pferde auch nur der Person zuweisen, die sie gut trainiert."
+    ],
+    [
+      "Was Maria macht",
+      "Laut Spielern sagt Maria selten etwas: Sie gibt Reittipps, etwa dass ein Sprung im Galopp besser gelingt, wenn dir an einem Hindernis ein Fehler passiert."
+    ],
+    [
+      "Zuweisungen vor weiteren Einstellungen prüfen",
+      [
+        {
+          "type": "paragraph",
+          "text": "Bei zu wenigen Stunden nutze die [Personalcheckliste](/guides/staff-not-working/). Vergleiche Plätze und Pferdezustand, nicht nur unterschiedliche Pferde. Seit v1.0.3 steigert Reitplatzausbau Stundeneinnahmen; prüfe [Geld und Kosten](/guides/money-making/) vor dem Lohnvergleich.",
+          "source": "patch105"
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "Kann Personal Pferde trainieren?",
+      "Laut offiziellem Store hilft Personal bei Pflege und Training."
+    ],
+    [
+      "Warum gibt Julia nur eine Stunde pro Pferd?",
+      "Jeder zugewiesene Platz ist eine Reitstunde. Laut Spielern kannst du dasselbe Pferd mehreren Plätzen zuweisen."
+    ],
+    [
+      "Wie werden Bewerbungen freigeschaltet?",
+      "Höhere Ausbaustufen werden als Quelle genannt."
+    ],
+    [
+      "Welche Person ist die beste?",
+      "Namen, Löhne und Leistung des Personals sind hier nicht geprüft."
+    ]
+  ],
+  "unknown": "Vollständige Aufgaben, Löhne und Effizienz des Personals sind ungeprüft; die Details oben sind Spielerberichte."
+},
     '/guides/demo-vs-full-game/': {
       title: 'Demo vs. Vollversion',
       description: 'Die bestätigte Tagesgrenze, der Release-Status und wie du ältere Screenshots einordnest.',
@@ -226,24 +887,68 @@ export const de = {
         ['Den Absturz ans Studio melden', 'Der Rat des Studios bei Abstürzen: Sende im Spiel mit der Taste F8 einen Fehlerbericht mit mehr Infos, oder schicke deine Logdateien an support@thoglistudios.com. Die Logdateien heißen player.log und player-prev.log. Für die Demo nannte das Studio den Ordner C:\\Users\\BENUTZERNAME\\AppData\\LocalLow\\ThogliStudios\\Horses of Hoofprint Bay Demo; bei der Vollversion liegt er vermutlich in einem ähnlichen ThogliStudios-Ordner.'],
         ['„Failed to start process“ (0x11C7) unter Windows', 'Manche sehen unter Windows 11 die Meldung „failed to start process for this game: an application control policy has blocked this file (0x11C7)“. Ein Helfer aus der Community vermutet ein Berechtigungsproblem: Öffne die Eigenschaften der .exe des Spiels und starte sie als Administrator. Werden die Windows-Sicherheitsrichtlinien von deiner Firma oder Schule verwaltet, kannst du das eventuell nicht selbst ändern.'],
         ['Schwarzer oder grauer Bildschirm', 'In der Februar-Demo blieb bei Neuinstallationen von Version 0.1.8 die erste Reitstunde auf einem grauen Bildschirm hängen; laut Spielern wurde das per Update behoben. Unter Linux und auf dem Steam Deck empfehlen Spieler bei schwarzem Bildschirm eine Neuinstallation und Proton Experimental als Kompatibilitätstool.'],
-        ['Abstürze beim Start eines neuen Tages', 'Spieler meldeten Abstürze beim Laden des nächsten Tages nach dem Reiten oder Training. Ein Community-Helfer schrieb am 6. November, ein kleiner Patch habe das behoben, und v1.0.2 (8. November) beseitigt weitere Fehler, durch die das Spiel hängen konnte. Aktualisiere zuerst das Spiel; stürzt es weiterhin ab, sende mit F8 einen Fehlerbericht.'], ['„Failed to load il2cpp“', 'Seit Anfang November sehen manche beim Start der Vollversion „Failed to load il2cpp“, teils mit einer Windows-Meldung, das Spiel sei nicht korrekt signiert. Eine offizielle Lösung oder Erklärung gibt es noch nicht. Aktualisiere auf die neueste Version (v1.0.2 oder neuer) und nutze in Steam „Spieldateien auf Fehler überprüfen“, eine allgemeine Steam-Hilfe. Ein Spieler vermutete wegen eines anderen Spiels einen Zusammenhang mit Grafiktreibern; das ist unbestätigt und daher keine empfohlene Lösung. Melde den Fehler mit deinen Logdateien.'], ['Fehlermeldungen als Pop-up (v1.0.2)', 'v1.0.2 bringt eine Option, Fehlermeldungen als Pop-up anzuzeigen. Ist sie aktiv, siehst du eher, was schiefging, und dein Fehlerbericht wird hilfreicher.']
+        ['Abstürze beim Start eines neuen Tages', 'Spieler meldeten Abstürze beim Laden des nächsten Tages nach dem Reiten oder Training. Ein Community-Helfer schrieb am 6. November, ein kleiner Patch habe das behoben, und v1.0.2 (8. November) beseitigt weitere Fehler, durch die das Spiel hängen konnte. Aktualisiere zuerst das Spiel; stürzt es weiterhin ab, sende mit F8 einen Fehlerbericht.'], ['„Failed to load il2cpp“', 'Seit Anfang November sehen manche beim Start der Vollversion „Failed to load il2cpp“, teils mit einer Windows-Meldung, das Spiel sei nicht korrekt signiert. Eine offizielle Lösung oder Erklärung gibt es noch nicht. Aktualisiere auf die aktuelle Version (v1.0.5, Stand 14. November 2026) und nutze in Steam „Spieldateien auf Fehler überprüfen“, eine allgemeine Steam-Hilfe. Ein Spieler vermutete wegen eines anderen Spiels einen Zusammenhang mit Grafiktreibern; das ist unbestätigt und daher keine empfohlene Lösung. Melde den Fehler mit deinen Logdateien.'], ['Fehlermeldungen als Pop-up (v1.0.2)', 'v1.0.2 bringt eine Option, Fehlermeldungen als Pop-up anzuzeigen. Ist sie aktiv, siehst du eher, was schiefging, und dein Fehlerbericht wird hilfreicher.']
       ],
       faq: [['Wie melde ich einen Fehler?', 'Drücke im Spiel F8, oder schicke deine Logdateien an support@thoglistudios.com, wie vom Studio empfohlen.'], ['Wo liegen die Logdateien?', 'Im ThogliStudios-Ordner unter AppData\\LocalLow, als player.log und player-prev.log.'], ['Mein ganzer PC startet neu, wenn ich das Spiel öffne. Liegt das am Spiel?', 'Andere hatten das in der Demo nicht. Es kann an deinem Rechner liegen; ein Fehlerbericht hilft dem Studio bei der Prüfung.'], ['Was bedeutet „Failed to load il2cpp“?', 'Das Spiel kann einen Teil seiner Engine nicht laden. Eine offizielle Lösung gibt es noch nicht; aktualisiere das Spiel, überprüfe die Spieldateien in Steam und melde den Fehler.'], ['Welche Version behebt die meisten Abstürze?', 'v1.0.2 (8. November 2026) behebt mehrere Hänger und ungültige Spielstände nach Abstürzen.']],
       unknown: 'Die Ursache von „Failed to load il2cpp“ und der genaue Logordner der Vollversion sind nicht bestätigt.'
     },
     '/guides/save-files-and-achievements/': {
-      title: 'Spielstand-Probleme & gesperrte Erfolge',
-      description: 'Was tun, wenn ein Spielstand beschädigt ist, Erfolge gesperrt sind, weil der Spielstand „bearbeitet“ wurde, oder ein Spielstand verschwindet.',
-      answer: 'Meldet Horses of Hoofprint Bay, dein Spielstand sei „außerhalb des Spiels bearbeitet“ worden, und sperrt Erfolge, hast du höchstwahrscheinlich nichts falsch gemacht: Das Studio bestätigt einen Fehler, durch den Spielstände nach einem Absturz des Spiels oder PCs ungültig wurden. Patch v1.0.2 (8. November 2026) senkt das Risiko deutlich und erlaubt den Rückgriff auf Sicherungen ohne Verlust der Erfolge, repariert aber bereits markierte Spielstände nicht. Diese bleiben ohne Erfolge; aktualisiere also das Spiel und sichere deinen Spielstand-Ordner.',
-      sections: [
-        ['„Dieser Spielstand wurde außerhalb des Spiels bearbeitet“', 'Das Studio bestätigt, dass Spielstände bei einem Absturz des Spiels oder PCs fälschlich ungültig werden konnten; deshalb sahen Spieler diese Meldung, ohne ihre Dateien anzufassen. Patch v1.0.2 behebt die wahrscheinlichste Ursache und legt Validierungsdateien auch für Sicherungen an. Das Studio kann einen fälschlich ungültigen Spielstand aber nicht von einem wirklich bearbeiteten unterscheiden, daher lässt sich ein bereits markierter Spielstand nicht wieder freischalten: Du kannst ihn ohne Erfolge weiterspielen oder neu beginnen.'],
-        ['Erfolge werden gar nicht freigeschaltet', 'Ein anderes Problem: Manche, die am Release-Tag begannen, bekamen nur den ersten Erfolg. Ein Spieler berichtet, dass Erfolge nach einem Neustart des Spiels funktionierten. Insgesamt gibt es 47 Steam-Erfolge.'],
-        ['Beschädigte Spielstände nach Abstürzen', 'Spieler meldeten Spielstände, die nach mehreren Abstürzen nicht mehr luden. v1.0.2 geht sicherer mit Dateifehlern um und behält Validierungsdateien bei Sicherungen, sodass du bei einem kaputten Spielstand ohne Verlust der Erfolge auf eine Sicherung zurückgehen kannst. Aktualisiere zuerst das Spiel und sende mit F8 einen Fehlerbericht, wenn ein Spielstand weiterhin nicht lädt.'],
-        ['Spielstände fehlen nach erneutem Demo-Start', 'Wer nach dem Start der Vollversion alte Demo-Spielstände geladen hat, berichtet, dass der neue Spielstand der Vollversion nicht mehr im Menü erschien, obwohl die Datei noch im Ordner lag. v1.0.2 behebt eine Ursache für überschriebene Spielstände: Die Namensprüfung unterschied Groß- und Kleinschreibung, Ordnernamen aber nicht, sodass sich zwei Spielstände, deren Namen sich nur darin unterschieden, überschreiben konnten. Gib jedem Spielstand einen klar anderen Namen, lösche keine Spielstände in der Demo und behalte eine Kopie deines Spielstand-Ordners.'],
-        ['Demo-Spielstände', 'Laut FAQ des Studios werden Spielstände der Oktober-Demo in die Vollversion übernommen, die der Februar-Demo nicht.']
+      "title": "Spielstand-Probleme & gesperrte Erfolge",
+      "description": "Wie v1.0.5 Erfolge in alten Spielständen wieder ermöglicht, welche Bedingungen erneut erfüllt werden müssen und was bei beschädigten Dateien hilft.",
+      "answer": "Aktualisiere auf v1.0.5, wenn dein Spielstand bisher das Symbol „keine Erfolge“ zeigte. Das Studio hat die Spielstand-Validierung entfernt. Alle Spielstände können wieder Steam-Erfolge erhalten, auch nach Abstürzen markierte oder außerhalb des Spiels bearbeitete. Übersprungene Erfolge werden nicht nachträglich vergeben: Du musst ihre Bedingungen erneut erfüllen. Eine nicht mehr ladbare Datei wird dadurch nicht automatisch repariert.",
+      "sections": [
+        [
+          "Erfolge in bisher markierten Spielständen (v1.0.5)",
+          "Laut offizieller Ankündigung vom 13. November 2026 (UTC) wurde die Validierung mit v1.0.5 entfernt, weil sich versehentliche Sperren nicht vollständig verhindern ließen. Auch alte Spielstände mit dem Symbol „keine Erfolge“ können wieder Erfolge erhalten. Allein wegen dieses Symbols musst du nicht neu beginnen. Erfülle die Erfolgsbedingung erneut; während der Sperre übersprungene Erfolge werden nicht nachträglich vergeben."
+        ],
+        [
+          "Warum ältere Tipps einen Neustart empfehlen",
+          "Unter v1.0.2 konnte das Studio bereits markierte Spielstände nicht wieder freischalten. Seit v1.0.5 gilt diese Einschränkung nicht mehr. Aktualisiere das Spiel, bevor du einen vorhandenen Spielstand aufgibst."
+        ],
+        [
+          "Erfolge werden gar nicht freigeschaltet",
+          "Ein anderes Problem: Manche, die am Release-Tag begannen, bekamen nur den ersten Erfolg. Ein Spieler berichtet, dass Erfolge nach einem Neustart des Spiels funktionierten. Insgesamt gibt es 47 Steam-Erfolge."
+        ],
+        [
+          "Sicherungen und nicht ladbare Spielstände",
+          "Laut Changelog von v1.0.3 wurden Sicherungen auf 50 Tage erhöht. Kopiere deinen Spielstand-Ordner vor einer Wiederherstellung oder Bearbeitung separat. Die Freigabe von Erfolgen repariert nicht zwangsläufig beschädigte oder fehlende Dateien. Versuche bei Ladeproblemen eine vorhandene Sicherung und melde den Fehler mit F8."
+        ],
+        [
+          "Spielstände fehlen nach erneutem Demo-Start",
+          "Wer nach dem Start der Vollversion alte Demo-Spielstände geladen hat, berichtet, dass der neue Spielstand der Vollversion nicht mehr im Menü erschien, obwohl die Datei noch im Ordner lag. v1.0.2 behebt eine Ursache für überschriebene Spielstände: Die Namensprüfung unterschied Groß- und Kleinschreibung, Ordnernamen aber nicht, sodass sich zwei Spielstände, deren Namen sich nur darin unterschieden, überschreiben konnten. Gib jedem Spielstand einen klar anderen Namen, lösche keine Spielstände in der Demo und behalte eine Kopie deines Spielstand-Ordners."
+        ],
+        [
+          "Demo-Spielstände",
+          "Laut FAQ des Studios werden Spielstände der Oktober-Demo in die Vollversion übernommen, die der Februar-Demo nicht."
+        ]
       ],
-      faq: [['Warum sind meine Erfolge gesperrt?', 'Ein Fehler machte Spielstände nach Abstürzen ungültig. Das Studio hat ihn bestätigt und das Risiko mit v1.0.2 gesenkt.'], ['Bekomme ich Erfolge in einem alten Spielstand zurück?', 'Nein. Laut Studio lassen sich bereits markierte Spielstände nicht wieder freischalten; beginne neu oder spiele ohne Erfolge weiter.'], ['Kann ich einen Spielstand manuell importieren?', 'Eine bestätigte Methode wurde noch nicht geteilt. Behalte eine Sicherung des Spielstand-Ordners.'], ['Gibt es Cloud-Spielstände?', 'Ja, Steam Cloud ist auf der Store-Seite aufgeführt.'], ['Wie viele Erfolge gibt es?', '47.']],
-      unknown: 'Ob v1.0.2 jede Beschädigung von Spielständen verhindert, ist nicht bestätigt. Ein Spielstand, der gar nicht mehr lädt, lässt sich weiterhin nur über Sicherungen retten.'
+      "faq": [
+        [
+          "Bekomme ich Erfolge in einem alten Spielstand zurück?",
+          "Ja. Seit v1.0.5 können auch bisher markierte Spielstände wieder Erfolge erhalten. Übersprungene Bedingungen musst du erneut erfüllen."
+        ],
+        [
+          "Brauche ich wegen gesperrter Erfolge einen neuen Spielstand?",
+          "Nein. Aktualisiere auf v1.0.5 und spiele deinen vorhandenen Spielstand weiter, sofern er lädt."
+        ],
+        [
+          "Repariert v1.0.5 beschädigte Spielstände?",
+          "Die Ankündigung stellt die Möglichkeit wieder her, Erfolge zu erhalten, verspricht aber keine Reparatur nicht ladbarer Dateien. Sichere deine Daten und melde verbleibende Fehler."
+        ],
+        [
+          "Kann ich einen Spielstand manuell importieren?",
+          "Eine bestätigte Methode wurde noch nicht geteilt. Behalte eine Sicherung des Spielstand-Ordners."
+        ],
+        [
+          "Gibt es Cloud-Spielstände?",
+          "Ja, Steam Cloud ist auf der Store-Seite aufgeführt."
+        ],
+        [
+          "Wie viele Erfolge gibt es?",
+          "47."
+        ]
+      ],
+      "unknown": "Die offizielle Ankündigung nennt keine Methode, jede beschädigte oder fehlende Datei zu reparieren. Aktualisiere das Spiel und behalte separate Sicherungen."
     },
     '/horses/starter-horse/': {
       title: 'Startpferd',
@@ -267,19 +972,143 @@ export const de = {
       unknown: 'Die vollständige Namensliste stammt aus dem Community-Wiki; einzelne Namen und ihr Aussehen müssen im Spiel geprüft werden.'
     },
     '/guides/mods/': {
-      title: 'Mods & eigenes Sattelzeug',
-      description: 'Wo du Mods und eigenes Sattelzeug für Horses of Hoofprint Bay findest und warum es keinen Steam Workshop gibt.',
-      answer: 'Horses of Hoofprint Bay hat keinen Steam Workshop. Mods, auch eigenes Sattelzeug, werden von Community-Erstellern geteilt, meist auf Patreon, mit Installationsanleitung. Der offizielle Discord hat einen eigenen Kanal für Mods.',
-      sections: [
-        ['Kein Steam Workshop', 'Die Community beschreibt das Spiel als modfreundlich, aber auf Steam gibt es keine Workshop-Seite. Mods werden stattdessen von ihren Erstellern bereitgestellt.'],
-        ['Wo Spieler Mods finden', 'Ein Community-Helfer im Steam-Forum nennt mehrere Patreon-Ersteller, die Mods und Installationsanleitungen veröffentlichen, darunter WestmoreSaddlery, Tackandmoremclain, NameOfAMoon und threelilies. Eigenes Sattelzeug (Sättel, Trensen und andere Ausrüstung) ist eine beliebte Kategorie.'],
-        ['Mod-Kanal auf Discord', 'Der offizielle Discord-Server hat einen Kanal für Mods. Laut Studio steht die Einladung auf der Website von Thogli Studios.'],
-        ['Spielstand bearbeiten', 'Ein separater Community-Guide erklärt, wie man Charaktereigenschaften im Spielstand bearbeitet. Das Bearbeiten kann Erfolge sperren, weil das Spiel Spielstände erkennt, die außerhalb des Spiels verändert wurden.'],
-        ['Sicher bleiben', 'Mods sind inoffiziell. Sichere deine Spielstände vor jeder Installation, lade nur von Erstellern, denen du vertraust, und rechne damit, dass Mods nach Updates nicht mehr funktionieren.']
-      ],
-      faq: [['Gibt es einen Steam Workshop?', 'Nein.'], ['Wo bekomme ich eigenes Sattelzeug?', 'Von Community-Erstellern, vor allem auf Patreon, laut Spielern.'], ['Sperren Mods die Erfolge?', 'Nicht bestätigt. Das Bearbeiten von Spielständen außerhalb des Spiels kann Erfolge sperren, also sichere vorher.']],
-      unknown: 'Eine offizielle Mod-Dokumentation und ob Mods Erfolge beeinflussen, sind nicht bestätigt.'
-    },
+  "title": "Mods und Sattelzeug: Quellen, Installation und Hilfe",
+"seoTitle": "Horses of Hoofprint Bay: Mods und Sattelzeug installieren | Wiki",
+  "description": "Finde Mods, Westmore-Saddlery-Inhalte und offizielle Hilfe mit Versionsprüfungen und aktuellen Erfolgsregeln.",
+  "answer": "Nutze für Mods die Originalseite des Erstellers und dessen Installationsanleitung. Der Publisher unterstützt Sattelzeug- und Kleidungsmods, verwaltet aber keine Steam-Workshop-Integration. Prüfe Texturpaket oder Gameplay-Mod sowie Demo oder Vollversion vor der Installation.",
+  "sections": [
+    [
+      "Wo du Mods findest",
+      [
+        {
+          "type": "table",
+          "caption": "Die passende Quelle",
+          "headers": [
+            "Gesucht",
+            "Einstieg",
+            "Prüfen"
+          ],
+          "rows": [
+            [
+              "Westmore-Sattelzeug",
+              "[Ersteller und Installation](/guides/westmore-saddlery/)",
+              "Anforderungen des Pakets"
+            ],
+            [
+              "Community-Hilfe",
+              "[Offizieller Discord](/community/discord/)",
+              "Angeheftete Hinweise und Erstellerlinks"
+            ],
+            [
+              "Sattelzeug selbst erstellen",
+              "Publisher-FAQ und Studio-Pressekit",
+              "Aktuelle offizielle Anleitung"
+            ],
+            [
+              "Bestimmte Gameplay-Mod",
+              "Originalseite des Autors",
+              "Loader, Abhängigkeiten und Version"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Der Publisher unterstützt Sattelzeug- und Kleidungsmods ausdrücklich und verlinkt Anleitungen in der Release-FAQ. Daraus folgt keine offizielle Freigabe oder Kompatibilität jeder Community-Mod.",
+          "source": "releaseFaq"
+        }
+      ]
+    ],
+    [
+      "Eine Routine mit Versionsprüfung",
+      [
+        {
+          "type": "steps",
+          "items": [
+            "Lies aktuelle Beschreibung, Version und Abhängigkeiten.",
+            "Schließe das Spiel und sichere Spielstände und zu ersetzende Dateien separat.",
+            "Nutze Ordner und Struktur dieses Pakets. Prüfe Demo gegen Vollversion; übernimm keinen Pfad einer anderen Mod.",
+            "Starte vollständig neu und suche am beschriebenen Ort, etwa im Sattelzeugladen.",
+            "Teste neue Pakete einzeln, damit Fehler zugeordnet werden können."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/assets/scene-0.jpg",
+          "alt": "Pferdepflege-Oberfläche mit Sattelzeugsteuerung neben dem Pferd",
+          "caption": "Das Grundspiel bietet bereits Ausrüstungs- und Farboptionen. Neue Gegenstände und Installationsschritte hängen von der jeweiligen Mod ab.",
+          "width": 1920,
+          "height": 1080,
+          "source": "steam"
+        }
+      ]
+    ],
+    [
+      "Westmore Saddlery und fehlende Gegenstände",
+      [
+        {
+          "type": "paragraph",
+          "text": "Die [Westmore-Anleitung](/guides/westmore-saddlery/) verlinkt Nexus Mods und Patreon. Die Ascot-Seite nennt einen Demo-Ordner, unveränderte JSON- und PNG-Namen, vollständigen Neustart und den Sattelzeugladen. Diese Vorgaben gelten für dieses Paket, nicht automatisch für jede Vollversionsinstallation.",
+          "source": "westmoreAscot"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prüfe bei fehlenden Inhalten Version, Ordner, zusätzliche Unterordner und Dateinamen. Benötigt eine Gameplay-Mod einen Loader, ist die reine Texturinstallation keine bestätigte Methode."
+        }
+      ]
+    ],
+    [
+      "Erfolge seit v1.0.5",
+      [
+        {
+          "type": "paragraph",
+          "text": "v1.0.5 entfernt die Spielstand-Validierung. Bearbeitete und bisher markierte Spielstände erhalten wieder Erfolge; übersprungene Bedingungen müssen erneut erfüllt werden. Ältere Warnungen vor automatischer Erfolgssperre sind damit überholt.",
+          "source": "patch105"
+        },
+        {
+          "type": "note",
+          "title": "Kompatibilität bleibt paketabhängig",
+          "text": "Die Freigabe von Erfolgen bestätigt keine Mod-Kompatibilität und repariert keine Dateien. Sichere Daten und beachte Aktualisierungen. Siehe [Spielstandprobleme](/guides/save-files-and-achievements/)."
+        }
+      ]
+    ],
+    [
+      "Gezielt um Hilfe bitten",
+      [
+        {
+          "type": "paragraph",
+          "text": "Nenne Ersteller, Paket- und Spielversion, Installationsordner und Symptom. [Discord-Hilfe](/community/discord/) erklärt Einladungsprobleme. Für Grundspielfehler nutze F8 oder die Hinweise unter [Abstürze](/guides/crashes-and-launch-errors/)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Diese Wiki hostet keine fremden Dateien. Eine Mod ist zum Spielen nicht erforderlich; Downloadbedingungen und Preise stehen beim Ersteller."
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "Gibt es einen Steam Workshop?",
+      "Der Publisher verwaltet keine Steam-Workshop-Integration. Nutze Erstellerseiten."
+    ],
+    [
+      "Wo finde ich Westmore Saddlery?",
+      "Auf Nexus Mods und Patreon, verlinkt in der eigenen Anleitung."
+    ],
+    [
+      "Gelten Demo-Schritte für die Vollversion?",
+      "Nicht automatisch. Nutze passende Versions- und Paketanweisungen."
+    ],
+    [
+      "Sperren Mods Erfolge?",
+      "v1.0.5 erlaubt Erfolge in bearbeiteten Spielständen. Mod-Kompatibilität ist eine andere Frage."
+    ],
+    [
+      "Wo gibt es Hilfe?",
+      "Beim Ersteller oder in den aktuellen Mod-Kanälen des offiziellen Discord."
+    ]
+  ],
+  "unknown": "Einzelne Pakete, Loader und Versionen wurden hier nicht installiert oder vermessen. Beachte aktuelle Kompatibilitätshinweise der Ersteller."
+},
     '/horses/breeding-potential/': {
       title: 'Zuchtpotenzial & Geschlecht der Fohlen',
       description: 'Beeinflusst Training die Fohlen? Wie Potenzial funktioniert, Werte beim Tierarzt prüfen, versteckte Eigenschaften von Deckhengsten und Hengst- oder Stutfohlen.',
@@ -309,18 +1138,83 @@ export const de = {
       unknown: 'Die genaue Strafe bei Pensionspferden und die Tierarztpreise können abweichen; sie stammen aus Spielerberichten.'
     },
     '/horses/foals-and-yearlings/': {
-      title: 'Fohlen & Jährlinge',
-      description: 'Wann Fohlen und Jährlinge erwachsen werden, was ohne Stallplatz passiert und wie die Trächtigkeit die Stute beeinflusst.',
-      answer: 'Laut Spielern bleibt ein Fohlen 4 Tage bei seiner Mutter im Stall, kommt dann auf die Jährlingskoppel und wird um Tag 12 zum jungen Erwachsenen. Wird ein Jährling erwachsen, während dein Stall voll ist, wird er weggeschickt; du findest ihn im Verkaufsstall in der Stadt wieder. Die Jährlingskoppel fasst laut Community-Wiki 6 Jährlinge, nach dem Ausbau 13.',
-      sections: [
-        ['Wie lange Fohlen zum Wachsen brauchen', 'Das Alter der Pferde wird in Spieltagen gezählt. Laut Spielern verbringt ein Fohlen die ersten 4 Tage bei der Mutter im Stall und lebt dann bis etwa Tag 12 auf der Jährlingskoppel, wo es zum jungen Erwachsenen wird. Ein Demo-Spieler verfolgte ein Fohlen von der Geburt an Tag 13 bis zum Erwachsensein an Tag 25, was dazu passt. Auf der Koppel kannst du Jährlinge versorgen und trainieren.'],
-        ['Platz schaffen, bevor ein Jährling erwachsen wird', 'Wird ein Jährling auf der Jährlingskoppel erwachsen und es ist kein Platz im Stall frei, wird er weggeschickt. Laut Spielern kannst du ihn im Verkaufsstall in der Stadt zurückholen, sobald du Platz geschaffen hast.'],
-        ['Trächtigkeit und Säugen kosten die Stute Training', 'Stuten gewinnen in der späten Trächtigkeit und während der Säugezeit keine Werte, und Pferde verlieren Werte, wenn sie nicht trainiert werden. Nach Rückmeldungen der Spieler hat v1.0.2 den Verlust bei Pferden mit niedrigen Werten deutlich verringert: höchstens ein Zehntel der Ausdauer und nie mehr als 5 Punkte. Sobald das Fohlen ein Jährling ist, braucht die Stute trotzdem etwas Training. v1.0.2 korrigierte außerdem die falsche Parcoursliste für ein älteres Pferd mit Fohlen.'],
-        ['Zuchtmöglichkeiten', 'Neben dem Decken einer Stute beschreiben Spieler, dass man in der Zuchtstation Samen gewinnen und frisch verwenden oder einfrieren kann.'], ['Einen Jährling auf die Koppel bringen', 'Wurde ein Fohlen zum Jährling, bevor du die Jährlingskoppel gebaut hattest, bleibt es eventuell im Stall, und Ziehen auf die Koppel funktioniert nicht. Ein Spieler löste das, indem er den Jährling auswählte, „Manage“ öffnete und ihn über die Stallgruppen verschob. Die Koppel fasst auf Stufe 1 sechs und auf Stufe 2 dreizehn Jährlinge.']
-      ],
-      faq: [['Wann werden Jährlinge erwachsen?', 'Laut Spielern um Tag 12 nach der Geburt: 4 Tage bei der Mutter, dann auf der Jährlingskoppel.'], ['Mein Jährling ist verschwunden. Wo ist er?', 'Wahrscheinlich im Verkaufsstall in der Stadt, falls dein Stall voll war, als er erwachsen wurde.'], ['Warum hat meine Stute Kraft verloren?', 'Stuten gewinnen in der späten Trächtigkeit und beim Säugen keine Werte. Seit v1.0.2 ist der Verlust auf ein Zehntel der Ausdauer und höchstens 5 Punkte begrenzt.']],
-      unknown: 'Die Wachstumszeiten in der Vollversion müssen im Spiel geprüft werden; der Demo-Bericht kann abweichen.'
-    },
+  "title": "Fohlen & Jährlinge",
+  "description": "Wann Fohlen und Jährlinge erwachsen werden, was ohne Stallplatz passiert und wie die Trächtigkeit die Stute beeinflusst.",
+  "answer": "Laut Spielern bleibt ein Fohlen 4 Tage bei seiner Mutter im Stall, kommt dann auf die Jährlingskoppel und wird um Tag 12 zum jungen Erwachsenen. Wird ein Jährling erwachsen, während dein Stall voll ist, wird er weggeschickt; du findest ihn im Verkaufsstall in der Stadt wieder. Die Jährlingskoppel fasst laut Community-Wiki 6 Jährlinge, nach dem Ausbau 13.",
+  "sections": [
+    [
+      "Wie lange Fohlen zum Wachsen brauchen",
+      "Das Alter der Pferde wird in Spieltagen gezählt. Laut Spielern verbringt ein Fohlen die ersten 4 Tage bei der Mutter im Stall und lebt dann bis etwa Tag 12 auf der Jährlingskoppel, wo es zum jungen Erwachsenen wird. Ein Demo-Spieler verfolgte ein Fohlen von der Geburt an Tag 13 bis zum Erwachsensein an Tag 25, was dazu passt. Auf der Koppel kannst du Jährlinge versorgen und trainieren."
+    ],
+    [
+      "Platz schaffen, bevor ein Jährling erwachsen wird",
+      "Wird ein Jährling auf der Jährlingskoppel erwachsen und es ist kein Platz im Stall frei, wird er weggeschickt. Laut Spielern kannst du ihn im Verkaufsstall in der Stadt zurückholen, sobald du Platz geschaffen hast."
+    ],
+    [
+      "Trächtigkeit und Säugen kosten die Stute Training",
+      "Stuten gewinnen in der späten Trächtigkeit und während der Säugezeit keine Werte, und Pferde verlieren Werte, wenn sie nicht trainiert werden. Nach Rückmeldungen der Spieler hat v1.0.2 den Verlust bei Pferden mit niedrigen Werten deutlich verringert: höchstens ein Zehntel der Ausdauer und nie mehr als 5 Punkte. Sobald das Fohlen ein Jährling ist, braucht die Stute trotzdem etwas Training. v1.0.2 korrigierte außerdem die falsche Parcoursliste für ein älteres Pferd mit Fohlen."
+    ],
+    [
+      "Zuchtmöglichkeiten",
+      "Neben dem Decken einer Stute beschreiben Spieler, dass man in der Zuchtstation Samen gewinnen und frisch verwenden oder einfrieren kann."
+    ],
+    [
+      "Einen Jährling auf die Koppel bringen",
+      "Wurde ein Fohlen zum Jährling, bevor du die Jährlingskoppel gebaut hattest, bleibt es eventuell im Stall, und Ziehen auf die Koppel funktioniert nicht. Ein Spieler löste das, indem er den Jährling auswählte, „Manage“ öffnete und ihn über die Stallgruppen verschob. Die Koppel fasst auf Stufe 1 sechs und auf Stufe 2 dreizehn Jährlinge."
+    ],
+    [
+      "Zeitplan von Trächtigkeit bis Erwachsenenalter",
+      [
+        {
+          "type": "table",
+          "caption": "Plätze vor dem Wechsel planen",
+          "headers": [
+            "Phase",
+            "Spieltage",
+            "Beleg"
+          ],
+          "rows": [
+            [
+              "Trächtigkeit",
+              "8 Tage",
+              "Publisher-FAQ"
+            ],
+            [
+              "Fohlen bei der Mutter",
+              "4 Tage nach Geburt",
+              "Publisher-FAQ"
+            ],
+            [
+              "Erwachsen",
+              "Um Alter 12 nach Geburt",
+              "Steam-Spielerberichte"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Die acht Trächtigkeitstage liegen vor dem eigenen Alter des Fohlens. Plane erst den Paddock, dann eine Erwachsenenbox. [Kapazitäten](/guides/maximum-horses/) unterscheidet die Plätze; [Zucht](/guides/breeding/) erklärt Paarungen.",
+          "source": "releaseFaq"
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "Wann werden Jährlinge erwachsen?",
+      "Laut Spielern um Tag 12 nach der Geburt: 4 Tage bei der Mutter, dann auf der Jährlingskoppel."
+    ],
+    [
+      "Mein Jährling ist verschwunden. Wo ist er?",
+      "Wahrscheinlich im Verkaufsstall in der Stadt, falls dein Stall voll war, als er erwachsen wurde."
+    ],
+    [
+      "Warum hat meine Stute Kraft verloren?",
+      "Stuten gewinnen in der späten Trächtigkeit und beim Säugen keine Werte. Seit v1.0.2 ist der Verlust auf ein Zehntel der Ausdauer und höchstens 5 Punkte begrenzt."
+    ]
+  ],
+  "unknown": "Der Publisher bestätigt acht Tage Trächtigkeit und vier Fohlentage. Erwachsenenalter um 12 und Wiederherstellungshinweise enthalten Spielerberichte."
+},
     '/competitions/breeds-and-disciplines/': {
       title: 'Rassen & Disziplinen',
       description: 'Gibt es Dressur, Barrel Racing, Westernreiten oder andere Pferderassen? Was im Spiel ist und was nicht.',
@@ -431,20 +1325,61 @@ export const de = {
       unknown: 'Genaue Futtermengen und die Heu-Mechanik in der Vollversion müssen geprüft werden.'
     },
     '/training/jumping-tips/': {
-      title: 'Tipps zum Springen',
-      description: 'Absprung-Timing für Steilsprünge, Oxer und Wassergräben, plus Sprungmarker und Auto-Sprung für schwere Turniere.',
-      answer: 'Das Absprung-Timing hängt vom Hindernis und vom Tempo ab. Steilsprünge reitest du langsamer an und springst näher ab, um Höhe zu gewinnen. Bei Oxern springst du früher ab, um Schwung mitzunehmen. Der Wassergraben ist am breitesten und braucht mehr Tempo. Je schneller das Pferd, desto früher springst du ab. Ist es immer noch zu schwer, aktiviere Sprungmarker oder Auto-Sprung in den Einstellungen.',
-      sections: [
-        ['Timing nach Hindernis', 'Spieler teilen diese Faustregeln: Steilsprünge brauchen Höhe, also langsamer und näher abspringen; Oxer brauchen Weite, also früher abspringen; der Wassergraben ist am breitesten und braucht mehr Tempo. Ein einfacher Einstieg: Im Galopp etwa so weit vor dem Hindernis abspringen, wie es hoch ist.'],
-        ['Tempo verschiebt den Absprung', 'Je schneller das Pferd, desto weiter vorher musst du abspringen. In ruhigem Galopp kannst du recht nah heranreiten, im schnellen Galopp springst du früher ab.'],
-        ['Mit Sprungmarkern üben', 'In den Einstellungen gibt es optionale Sprungmarker. Laut Spielern erscheinen sie nur im Training, nicht im Turnier, helfen aber, die Absprungpunkte zu lernen. Ein ausgebauter Übungsplatz bietet mehr Übungsmöglichkeiten.'],
-        ['Auto-Sprung', 'In den Barrierefreiheitseinstellungen gibt es Auto-Sprung. Tempo und Kraft musst du weiter selbst einteilen, aber nicht mehr das genaue Timing.'],
-        ['Tempo im Turnier', 'Laut Spielern kosten Fehler 4 Strafpunkte, Zeitfehler 1 Punkt pro angefangenen 4 Sekunden über der Zeit. Bleib im Galopp, um die Zeit zu schaffen, aber erschöpfe das Pferd nicht zu früh. Die Kraft geht schneller zur Neige, wenn die Ausdauer des Pferdes niedrig ist.'],
-        ['Timing bei Caprilli', 'Bei der Caprilli-Prüfung wechselst du die Gangart etwa dann, wenn der Fuß des Reiters über der Linie zwischen den beiden Gangart-Anweisungen ist.']
-      ],
-      faq: [['Wie timet man Sprünge?', 'Bei Steilsprüngen näher und langsamer, bei Oxern früher, beim Wassergraben schneller.'], ['Gibt es einen leichten Modus fürs Springen?', 'Ja, Auto-Sprung in den Barrierefreiheitseinstellungen.'], ['Funktionieren Sprungmarker im Turnier?', 'Nein, laut Spielern nur im Training.']],
-      unknown: 'Strafpunkte und Timing stammen aus Spielerberichten und müssen im Spiel geprüft werden.'
-    },
+  "title": "Tipps zum Springen",
+  "description": "Absprung-Timing für Steilsprünge, Oxer und Wassergräben, plus Sprungmarker und Auto-Sprung für schwere Turniere.",
+  "answer": "Das Absprung-Timing hängt vom Hindernis und vom Tempo ab. Steilsprünge reitest du langsamer an und springst näher ab, um Höhe zu gewinnen. Bei Oxern springst du früher ab, um Schwung mitzunehmen. Der Wassergraben ist am breitesten und braucht mehr Tempo. Je schneller das Pferd, desto früher springst du ab. Ist es immer noch zu schwer, aktiviere Sprungmarker oder Auto-Sprung in den Einstellungen.",
+  "sections": [
+    [
+      "Timing nach Hindernis",
+      "Spieler teilen diese Faustregeln: Steilsprünge brauchen Höhe, also langsamer und näher abspringen; Oxer brauchen Weite, also früher abspringen; der Wassergraben ist am breitesten und braucht mehr Tempo. Ein einfacher Einstieg: Im Galopp etwa so weit vor dem Hindernis abspringen, wie es hoch ist."
+    ],
+    [
+      "Tempo verschiebt den Absprung",
+      "Je schneller das Pferd, desto weiter vorher musst du abspringen. In ruhigem Galopp kannst du recht nah heranreiten, im schnellen Galopp springst du früher ab."
+    ],
+    [
+      "Mit Sprungmarkern üben",
+      "In den Einstellungen gibt es optionale Sprungmarker. Laut Spielern erscheinen sie nur im Training, nicht im Turnier, helfen aber, die Absprungpunkte zu lernen. Ein ausgebauter Übungsplatz bietet mehr Übungsmöglichkeiten."
+    ],
+    [
+      "Auto-Sprung",
+      "In den Barrierefreiheitseinstellungen gibt es Auto-Sprung. Tempo und Kraft musst du weiter selbst einteilen, aber nicht mehr das genaue Timing."
+    ],
+    [
+      "Tempo im Turnier",
+      "Laut Spielern kosten Fehler 4 Strafpunkte, Zeitfehler 1 Punkt pro angefangenen 4 Sekunden über der Zeit. Bleib im Galopp, um die Zeit zu schaffen, aber erschöpfe das Pferd nicht zu früh. Die Kraft geht schneller zur Neige, wenn die Ausdauer des Pferdes niedrig ist."
+    ],
+    [
+      "Timing bei Caprilli",
+      "Bei der Caprilli-Prüfung wechselst du die Gangart etwa dann, wenn der Fuß des Reiters über der Linie zwischen den beiden Gangart-Anweisungen ist."
+    ],
+    [
+      "Vor bekannten Hindernisproblemen aktualisieren",
+      [
+        {
+          "type": "paragraph",
+          "text": "v1.0.3 korrigiert Auto-Sprung an der Ziegelmauer und das Dünenhindernis; v1.0.4 behebt verhinderte Teilnahme. Aktualisiere vor weiteren Timingversuchen. [Keine Teilnahme](/competitions/cannot-enter/) hilft bei Meldungen; [Turniervorbereitung](/guides/competitions/) bei Training und Transport.",
+          "source": "patch105"
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "Wie timet man Sprünge?",
+      "Bei Steilsprüngen näher und langsamer, bei Oxern früher, beim Wassergraben schneller."
+    ],
+    [
+      "Gibt es einen leichten Modus fürs Springen?",
+      "Ja, Auto-Sprung in den Barrierefreiheitseinstellungen."
+    ],
+    [
+      "Funktionieren Sprungmarker im Turnier?",
+      "Nein, laut Spielern nur im Training."
+    ]
+  ],
+  "unknown": "Strafpunkte und Timing stammen aus Spielerberichten und müssen im Spiel geprüft werden."
+},
     '/guides/controls/': {
       title: 'Steuerung & Tastenbelegung',
       description: 'Standardtasten zum Reiten, Springen, Loben und Wegwechseln, dazu Tastenbelegung und Barrierefreiheit.',
@@ -460,19 +1395,207 @@ export const de = {
       unknown: 'Eine vollständige offizielle Tastenliste muss im Spiel geprüft werden.'
     },
     '/guides/money-making/': {
-      title: 'Geld verdienen',
-      description: 'Frühe Einnahmequellen: Pensionspferde, Pferdehandel, Turniere, Reitstunden und teure Fehler vermeiden.',
-      answer: 'Am zuverlässigsten verdienst du in Horses of Hoofprint Bay anfangs mit Pensionspferden und Pferdehandel: Kauf ein günstiges Pferd beim Züchter, trainiere es ein paar Tage und verkaufe es mit Gewinn. Preisgelder und Reitstunden bringen zusätzlich Geld. Vermeide Verluste durch Tierarztkosten und ungewollt tragende Pensionsstuten.',
-      sections: [
-        ['Pensionspferde', 'Laut Spielern sind Pensionspferde eine der besten Einnahmequellen am Anfang. Pferde im Beritt kannst du inzwischen früher nach Hause schicken, sobald ihr Trainingsziel erreicht ist; du bekommst dann die Berittgebühr plus die Pension für die Tage, die sie da waren. Füttere Pensionspferde gut; Vernachlässigung kostet Geld und Prestige.'],
-        ['Pferdehandel', 'Kauf ein günstiges Pferd beim Züchter in der Stadt, trainiere es ein paar Tage und verkaufe es wieder. Laut Spielern kann das sehr lohnend sein.'],
-        ['Turniere und Reitstunden', 'Turniere bringen Preisgeld, Reitstunden auf deinen Pferden Einnahmen, kosten das Pferd aber etwas Kraft und Ausdauer.'],
-        ['Teure Fehler vermeiden', 'Halte Hengste von Pensionsstuten fern: Spieler verloren etwa 500 und Prestige, als eine Pensionsstute tragend wurde. Tierarztkosten summieren sich, also halte Pferde gut gefüttert und geputzt, um Krankheiten vorzubeugen. Wachse nicht zu schnell; mehr Pferde bedeuten mehr Kosten.'],
-        ['Schwierigkeitseinstellungen', 'Die Schwierigkeitseinstellungen bieten leichtere Turniere und mehr Prestigegewinn, was den Fortschritt erleichtern kann.']
-      ],
-      faq: [['Wie verdiene ich anfangs am schnellsten Geld?', 'Mit Pensionspferden und Pferdehandel, laut Spielern.'], ['Kann ich Pensionspferde früher nach Hause schicken?', 'Ja, Berittpferde können nach Erreichen ihres Trainingsziels nach Hause geschickt werden.'], ['Warum bin ich ständig im Minus?', 'Tierarztkosten und Strafen summieren sich. Halte die Pferde gesund und wachse langsam.']],
-      unknown: 'Die Vollversion hat einen langsameren Fortschritt als die Demo; genaue Gewinnzahlen müssen im Spiel getestet werden.'
-    },
+  "title": "Geld verdienen: Einnahmen, Kosten und Einstellungen",
+"seoTitle": "Horses of Hoofprint Bay: Geld verdienen und Kosten planen | Wiki",
+  "description": "Vergleiche Pension, Reitstunden, Turniere und Pferdeverkauf. Plane Kosten und nutze Geldmultiplikatoren statt alter Tricks.",
+  "answer": "Baue tragbare Einnahmen auf: Spieler empfehlen Pensionspferde und trainierte Verkaufspferde, ergänzt durch Reitstunden und Turnierpreise. Seit v1.0.3 lassen sich Einnahmen und Kosten einstellen. Reitplatzausbau erhöht Reitstundeneinnahmen, Stallausbau Pensionsgebühren. Pferdepreise bleiben von Multiplikatoren ausgenommen.",
+  "sections": [
+    [
+      "Einnahmen vor dem Ausbau vergleichen",
+      [
+        {
+          "type": "table",
+          "caption": "Einnahmequellen und Aufwand",
+          "headers": [
+            "Einnahme",
+            "Voraussetzung",
+            "Was den Ertrag senkt"
+          ],
+          "rows": [
+            [
+              "[Pension](/guides/boarders/)",
+              "Auftrag, Platz und Pflege",
+              "Vernachlässigung, Aufwand, Trächtigkeit"
+            ],
+            [
+              "[Trainieren und verkaufen](/guides/buy-sell-horses/)",
+              "Kaufgeld, Zeit und Box",
+              "Kaufpreis und Unterhalt"
+            ],
+            [
+              "[Reitstunden](/training/riding-lesson-corrections/)",
+              "Pferd und eigene Arbeit oder Personal",
+              "Lohn und Trainingsverlust"
+            ],
+            [
+              "[Turniere](/guides/competitions/)",
+              "Qualifiziertes Pferd und Transport",
+              "Gebühren und erfolglose Starts"
+            ],
+            [
+              "[Zucht](/guides/breeding/)",
+              "Anlagen, Pferde und Zeit",
+              "Unterhalt und unsicherer Verkauf"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Spieler empfehlen Pension und Pferdehandel im Steam-Geldthread. Vergleiche diese Strategien in deinem Spiel; der höchste Stundenprofit ist damit nicht bewiesen.",
+          "source": "t_coins"
+        }
+      ]
+    ],
+    [
+      "Ein tragbarer Plan für den Anfang",
+      [
+        {
+          "type": "steps",
+          "items": [
+            "Lies Ziele und tägliche Kosten. Notiere das Guthaben vor neuen Verpflichtungen.",
+            "Wähle eine bereits mögliche Einnahmequelle. Pension braucht Pflegekapazität, Verkaufspferde brauchen Zeit und Plätze.",
+            "Prüfe Einnahmen und Ausgaben am nächsten Tag. Stabilisiere die Routine vor weiteren Pferden oder Angestellten.",
+            "Baue die tatsächlich genutzte Anlage aus: Reitplatz für Reitstunden, Stall für Pensionsgebühren."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/assets/scene-6.jpg",
+          "alt": "Büroordner für Pferde, Pension, Personal, medizinische Berichte, Statistik und Gebäude",
+          "caption": "Prüfe Aufträge, Unterlagen und Gebäudekosten vor dem Ausbau. Das offizielle Bild ist keine getestete Einnahmeprognose.",
+          "width": 1920,
+          "height": 1080,
+          "source": "steam"
+        }
+      ]
+    ],
+    [
+      "Geldeinstellungen und Gebäudeeinnahmen",
+      [
+        {
+          "type": "paragraph",
+          "text": "v1.0.3 bringt getrennte Multiplikatoren für Einnahmen und Kosten. Pferdepreise sind ausdrücklich ausgenommen, weil Pferde gekauft und verkauft werden können. Niedrigere Kosten verbilligen ein Pferd nicht direkt.",
+          "source": "patch105"
+        },
+        {
+          "type": "table",
+          "caption": "Bestätigte Wirtschaftsänderungen",
+          "headers": [
+            "Änderung",
+            "Wirkung"
+          ],
+          "rows": [
+            [
+              "Einnahmen- und Kostenmultiplikator",
+              "Fortschritt ans gewünschte Tempo anpassen"
+            ],
+            [
+              "Reitplatzausbau",
+              "Mehr Einnahmen aus Reitstunden"
+            ],
+            [
+              "Stallausbau",
+              "Höhere Pensionsgebühren"
+            ],
+            [
+              "Verkauf mit Kostenmultiplikator seit v1.0.4",
+              "Alter Endlosgeld-Trick mit Sattelzeug geschlossen"
+            ]
+          ],
+          "source": "patch105"
+        },
+        {
+          "type": "paragraph",
+          "text": "Genaue Reglerbereiche und Amortisationszeiten nennt die Ankündigung nicht. Vergleiche [Gebäudekosten](/buildings/) mit aktuellen Gebühren; ältere Bilder können vor diesen Einstellungen entstanden sein."
+        }
+      ]
+    ],
+    [
+      "Wann das Geld ankommt",
+      [
+        {
+          "type": "paragraph",
+          "text": "Laut Community wird Pension am Aufenthaltsende bezahlt. Spieler melden frühe Abreise nach erreichtem Berittziel mit Pension für die tatsächlichen Tage plus Berittgebühr. Gib eine erwartete Zahlung nicht wie bereits vorhandenes Geld aus.",
+          "source": "t_sendHome"
+        },
+        {
+          "type": "paragraph",
+          "text": "Reitstunden erzeugen auch Nachtrainingsarbeit. Gibt Julia zu wenige, prüfe jeden Zuweisungsplatz. Nutze die [Personalcheckliste](/guides/staff-not-working/), bevor du Lohn und erwartete Einnahmen vergleichst.",
+          "source": "t_julia"
+        }
+      ]
+    ],
+    [
+      "Ausgaben vor dem nächsten Kauf prüfen",
+      [
+        {
+          "type": "table",
+          "caption": "Kostenüberblick",
+          "headers": [
+            "Ausgabe",
+            "Prüfen"
+          ],
+          "rows": [
+            [
+              "Gebäude",
+              "Kauf und Unterhalt; leere Boxen verdienen nichts"
+            ],
+            [
+              "Personal",
+              "Aktueller Lohn und tatsächliche Zuweisungen"
+            ],
+            [
+              "Futter und Medizin",
+              "Vorrat und Geld für vorhandene Pferde"
+            ],
+            [
+              "Pensionsstrafen",
+              "Hengste trennen und zuverlässig pflegen"
+            ],
+            [
+              "Verkaufspferde",
+              "Kaufpreis, Haltedauer und Unterhalt"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Spieler nennen 500 Strafe und Prestigeverlust bei einer tragenden Pensionsstute. Das ist ein datiertes Beispiel, kein garantierter Betrag für jede Geldeinstellung. Nutze getrennte [Stallgruppen](/guides/stable-groups/).",
+          "source": "t_pregnant"
+        },
+        {
+          "type": "note",
+          "title": "Wenn der Fortschritt zu langsam ist",
+          "text": "Nutze aktuelle Geldeinstellungen statt alter Tricks. v1.0.5 erlaubt Erfolge für alle Spielstände; übersprungene Bedingungen müssen erneut erfüllt werden.",
+          "source": "patch105"
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "Was bringt anfangs am schnellsten Geld?",
+      "Spieler empfehlen Pension und den Weiterverkauf trainierter Pferde. Ein kontrollierter aktueller Vergleich fehlt."
+    ],
+    [
+      "Zahlt Pension täglich?",
+      "Laut Community sammelt sich die Gebühr über den Aufenthalt und wird am Ende bezahlt."
+    ],
+    [
+      "Warum verdient Julia weniger als erwartet?",
+      "Prüfe jeden Platz und den Pferdezustand. Eine Zuweisung füllt nicht automatisch alle Reitstundenplätze."
+    ],
+    [
+      "Ändern Einstellungen Pferdepreise?",
+      "Nein. Die Ankündigung nimmt sie von Geldmultiplikatoren aus."
+    ],
+    [
+      "Gibt Sattelzeugverkauf unendlich Geld?",
+      "v1.0.4 schließt den Trick durch Anwendung des Kostenmultiplikators beim Verkauf."
+    ]
+  ],
+  "unknown": "Einnahmen und Gewinne hängen vom aktuellen Spiel und den Einstellungen ab. Ungeprüfte Stundenprofite und Amortisationszahlen werden nicht angegeben."
+},
     '/competitions/trailer-and-multiple-horses/': {
       title: 'Anhänger & mehrere Pferde anmelden',
       description: 'Wie du Pferde in den Anhänger lädst und mehrere Pferde am selben Tag zu Turnieren anmeldest.',
@@ -486,20 +1609,62 @@ export const de = {
       unknown: 'Anhängerkapazitäten und Ausbaukosten müssen im Spiel geprüft werden.'
     },
     '/guides/achievements/': {
-      title: 'Erfolge-Liste',
-      description: 'Alle 47 Erfolge von Horses of Hoofprint Bay, auch die 9 versteckten, und wie viele Spieler sie schon haben.',
-      answer: 'Horses of Hoofprint Bay hat 47 Steam-Erfolge, davon 9 versteckte. Fast alle bekommen Move in (100 %) und Visit Some Trees (96,9 %); am seltensten, mit 0,0 % am 7. November 2026, sind unter anderem Pro Trainer (1000 Trainings), Huge Competition Successes (1000 Siege), Direct Descendant, All the Quirks in the World und Mission Complete. Die Erfolgsnamen sind hier auf Englisch angegeben.',
-      sections: [
-        ['Erste Schritte und Ausritte', 'Move in: Erreiche zum ersten Mal deinen Hof (100 % der Spieler). Visit Some Trees: Besuche zum ersten Mal den Wald (96,9 %). A Salty Breeze: Besuche zum ersten Mal den Strand (8,0 %). Climb a Mountain: Besuche zum ersten Mal die Berge (4,6 %). Now I’ve Seen Everything: Schließe alle Trainingsparcours und Ausritte ab (0,1 %).'],
-        ['Training und Turniere', 'A little training goes a long way: 10 Trainings abschließen (93,7 %). Practice makes perfect: 100 Trainings (51,5 %). Pro Trainer: 1000 Trainings (0,0 %). Some Competition Successes: 10 Turniere gewinnen (49,3 %). Big Competition Successes: 100 Turniere gewinnen (3,0 %). Huge Competition Successes: 1000 Turniere gewinnen (0,0 %). Competition All-Star: Jedes Turnier einmal gewinnen (0,2 %).'],
-        ['Zucht', 'Here I Am: Dein erstes Fohlen züchten (78,8 %). All Grown Up: Ein Fohlen erwachsen werden lassen (59,4 %). A Lot of Foals: 20 Fohlen züchten (4,0 %). A WHOLE Lot of Foals: 100 Fohlen züchten (0,1 %). Expert Broodmare: Eine Stute bringt 8 Fohlen zur Welt (1,2 %). Widespread Genes: Ein Hengst deckt oder besamt 50 Stuten (3,2 %). A Frozen Legacy: Samen einfrieren (2,4 %). No more babies: Einen Hengst kastrieren (13,5 %). Direct Descendant: Ein 100/100-Fohlen züchten, das von deinem Startpferd abstammt (0,0 %).'],
-        ['Geschäft und Geld', 'Breeding for Profit: Ein selbst gezüchtetes Pferd verkaufen (50,9 %). Horse Flipper: 10 Pferde verkaufen (15,0 %). Successful Business: 50 Pferde verkaufen (0,7 %). Line go up: 10.000 Geld auf dem Konto haben (20,8 %). Making a Small Fortune: 100.000 (0,9 %). More Money than you can spend: 250.000 (0,6 %). Prestigious: 50 % Prestige erreichen (10,0 %). Highly Prestigious: 99 % Prestige erreichen (0,2 %).'],
-        ['Dein Hof und Langzeitziele', 'A Forever Home: Ein Pferd zieht auf den Gnadenhof (1,8 %). It’s been a While: 100 Spieltage spielen (9,9 %). A Year in Hoofprint Bay: 365 Spieltage in einem Spielstand spielen (0,3 %). All Decked Out: Alles Sattelzeug aus dem Laden besitzen (2,2 %). All the Help you can Get: Alle Angestellten einstellen (0,4 %). A Proper Estate: Alle Gebäude auf höchster Stufe (1,1 %). Full House: Ein voll ausgebauter Stall voller Pferde (0,1 %). All the Quirks in the World: Alle Charaktereigenschaften entdecken (0,0 %). Mission Complete: Alle Aufgaben abschließen (0,0 %).'],
-        ['Versteckte Erfolge (Spoiler)', 'That’s too easy...: Ein „Low“-Turnier mit einem 100/100-Pferd gewinnen (0,1 %). Well, that needs some work: In einem Turnier Letzter werden (18,7 %). Oops!: Versehentlich eine Pensionsstute decken lassen (27,3 %). The boys are fighting: Zwei Hengste kämpfen um eine Stute (16,5 %). Copy & Paste: Ein Fohlen züchten, das der Stute fast gleicht (15,4 %). A Whole Life: Ein selbst gezüchtetes Pferd geht auf deinem Hof in Rente (0,1 %). A Friendly Neighbour: Die Notfall-Futterlieferung vom Ladenbesitzer bekommen (15,1 %). Retriever of Lost Items: Alle verlorenen Gegenstände finden (2,8 %). Empty Nest: Kein eigenes Pferd auf deinem Hof haben (5,7 %).'],
-        ['Beeinflussen Einstellungen die Erfolge?', 'Laut Spielern sperrt Auto-Sprung keine Erfolge. Erfolge können gesperrt werden, wenn das Spiel meint, dein Spielstand sei außerhalb des Spiels bearbeitet worden, was manche nach Abstürzen erleben; siehe die Anleitung zu Spielstand-Problemen.']
+      "title": "Erfolge-Liste",
+      "description": "Alle 47 Erfolge von Horses of Hoofprint Bay, auch die 9 versteckten, und wie viele Spieler sie schon haben.",
+      "answer": "Horses of Hoofprint Bay hat 47 Steam-Erfolge, davon 9 versteckte. Fast alle bekommen Move in (100 %) und Visit Some Trees (96,9 %); am seltensten, mit 0,0 % am 7. November 2026, sind unter anderem Pro Trainer (1000 Trainings), Huge Competition Successes (1000 Siege), Direct Descendant, All the Quirks in the World und Mission Complete. Die Erfolgsnamen sind hier auf Englisch angegeben.",
+      "sections": [
+        [
+          "Erste Schritte und Ausritte",
+          "Move in: Erreiche zum ersten Mal deinen Hof (100 % der Spieler). Visit Some Trees: Besuche zum ersten Mal den Wald (96,9 %). A Salty Breeze: Besuche zum ersten Mal den Strand (8,0 %). Climb a Mountain: Besuche zum ersten Mal die Berge (4,6 %). Now I’ve Seen Everything: Schließe alle Trainingsparcours und Ausritte ab (0,1 %)."
+        ],
+        [
+          "Training und Turniere",
+          "A little training goes a long way: 10 Trainings abschließen (93,7 %). Practice makes perfect: 100 Trainings (51,5 %). Pro Trainer: 1000 Trainings (0,0 %). Some Competition Successes: 10 Turniere gewinnen (49,3 %). Big Competition Successes: 100 Turniere gewinnen (3,0 %). Huge Competition Successes: 1000 Turniere gewinnen (0,0 %). Competition All-Star: Jedes Turnier einmal gewinnen (0,2 %)."
+        ],
+        [
+          "Zucht",
+          "Here I Am: Dein erstes Fohlen züchten (78,8 %). All Grown Up: Ein Fohlen erwachsen werden lassen (59,4 %). A Lot of Foals: 20 Fohlen züchten (4,0 %). A WHOLE Lot of Foals: 100 Fohlen züchten (0,1 %). Expert Broodmare: Eine Stute bringt 8 Fohlen zur Welt (1,2 %). Widespread Genes: Ein Hengst deckt oder besamt 50 Stuten (3,2 %). A Frozen Legacy: Samen einfrieren (2,4 %). No more babies: Einen Hengst kastrieren (13,5 %). Direct Descendant: Ein 100/100-Fohlen züchten, das von deinem Startpferd abstammt (0,0 %)."
+        ],
+        [
+          "Geschäft und Geld",
+          "Breeding for Profit: Ein selbst gezüchtetes Pferd verkaufen (50,9 %). Horse Flipper: 10 Pferde verkaufen (15,0 %). Successful Business: 50 Pferde verkaufen (0,7 %). Line go up: 10.000 Geld auf dem Konto haben (20,8 %). Making a Small Fortune: 100.000 (0,9 %). More Money than you can spend: 250.000 (0,6 %). Prestigious: 50 % Prestige erreichen (10,0 %). Highly Prestigious: 99 % Prestige erreichen (0,2 %)."
+        ],
+        [
+          "Dein Hof und Langzeitziele",
+          "A Forever Home: Ein Pferd zieht auf den Gnadenhof (1,8 %). It’s been a While: 100 Spieltage spielen (9,9 %). A Year in Hoofprint Bay: 365 Spieltage in einem Spielstand spielen (0,3 %). All Decked Out: Alles Sattelzeug aus dem Laden besitzen (2,2 %). All the Help you can Get: Alle Angestellten einstellen (0,4 %). A Proper Estate: Alle Gebäude auf höchster Stufe (1,1 %). Full House: Ein voll ausgebauter Stall voller Pferde (0,1 %). All the Quirks in the World: Alle Charaktereigenschaften entdecken (0,0 %). Mission Complete: Alle Aufgaben abschließen (0,0 %)."
+        ],
+        [
+          "Versteckte Erfolge (Spoiler)",
+          "That’s too easy...: Ein „Low“-Turnier mit einem 100/100-Pferd gewinnen (0,1 %). Well, that needs some work: In einem Turnier Letzter werden (18,7 %). Oops!: Versehentlich eine Pensionsstute decken lassen (27,3 %). The boys are fighting: Zwei Hengste kämpfen um eine Stute (16,5 %). Copy & Paste: Ein Fohlen züchten, das der Stute fast gleicht (15,4 %). A Whole Life: Ein selbst gezüchtetes Pferd geht auf deinem Hof in Rente (0,1 %). A Friendly Neighbour: Die Notfall-Futterlieferung vom Ladenbesitzer bekommen (15,1 %). Retriever of Lost Items: Alle verlorenen Gegenstände finden (2,8 %). Empty Nest: Kein eigenes Pferd auf deinem Hof haben (5,7 %)."
+        ],
+        [
+          "Beeinflussen Einstellungen die Erfolge?",
+          "Laut Spielern sperrt Auto-Sprung keine Erfolge. Seit v1.0.5 ist die Spielstand-Validierung vollständig entfernt: Alle Spielstände können Erfolge erhalten, auch bearbeitete und nach Abstürzen markierte. Übersprungene Bedingungen musst du erneut erfüllen; Erfolge werden nicht nachträglich vergeben. Siehe [Spielstand-Probleme und Erfolge](/guides/save-files-and-achievements/)."
+        ]
       ],
-      faq: [['Wie viele Erfolge hat Horses of Hoofprint Bay?', '47 Steam-Erfolge, davon 9 versteckte.'], ['Welche Erfolge sind am schwersten?', 'Pro Trainer, Huge Competition Successes, Direct Descendant, All the Quirks in the World und Mission Complete lagen am 7. November 2026 bei 0,0 %.'], ['Sperrt Auto-Sprung die Erfolge?', 'Nein, laut Spielern.'], ['Wie bekomme ich den Erfolg Oops!?', 'Lass einen Hengst eine Pensionsstute decken. Das kostet aber eine Strafe und Prestige.']],
-      unknown: 'Die weltweiten Freischaltquoten ändern sich; die Werte geben den Stand vom 7. November 2026 wieder. Aufgabenlisten und Fundorte verlorener Gegenstände müssen im Spiel geprüft werden.'
+      "faq": [
+        [
+          "Wie viele Erfolge hat Horses of Hoofprint Bay?",
+          "47 Steam-Erfolge, davon 9 versteckte."
+        ],
+        [
+          "Welche Erfolge sind am schwersten?",
+          "Pro Trainer, Huge Competition Successes, Direct Descendant, All the Quirks in the World und Mission Complete lagen am 7. November 2026 bei 0,0 %."
+        ],
+        [
+          "Sperrt Auto-Sprung die Erfolge?",
+          "Nein, laut Spielern."
+        ],
+        [
+          "Wie bekomme ich den Erfolg Oops!?",
+          "Lass einen Hengst eine Pensionsstute decken. Das kostet aber eine Strafe und Prestige."
+        ],
+        [
+          "Können bearbeitete oder bisher markierte Spielstände Erfolge erhalten?",
+          "Ja, seit v1.0.5. Übersprungene Erfolgsbedingungen musst du erneut erfüllen."
+        ]
+      ],
+      "unknown": "Die weltweiten Freischaltquoten ändern sich; die Werte geben den Stand vom 7. November 2026 wieder. Aufgabenlisten und Fundorte verlorener Gegenstände müssen im Spiel geprüft werden."
     },
     '/horses/traits-and-quirks/': {
       title: 'Eigenschaften & Eigenheiten',
@@ -532,19 +1697,54 @@ export const de = {
       unknown: 'Die genauen Prozentwerte für das erste Sattelzeug- und die Kleidungs-Upgrades sind selbst im Community-Wiki unsicher und können sich mit Patches ändern.'
     },
     '/guides/boarders/': {
-      title: 'Pensionspferde-Anleitung',
-      description: 'Teilpension, Vollpension und Beritt erklärt: Tagessätze, nötige Pflege und wie du Strafen vermeidest.',
-      answer: 'Pensionspferde sind Pferde anderer Leute, die du gegen Bezahlung versorgst. Anfragen erscheinen im Ordner „Boarders“ in deinem Büro, und wie viele du bekommst, hängt von deinem Prestige ab. Das Community-Wiki nennt drei Arten: Teilpension (50 pro Tag, nur Heu und Wasser), Vollpension (90 pro Tag, dazu Putzen, Kraftfutter und medizinische Versorgung) und Beritt, bei dem du das Pferd zusätzlich auf ein Ziel trainierst. Bezahlt wird am Ende des Aufenthalts; bei Vernachlässigung gibt es weniger oder nichts.',
-      sections: [
-        ['Pensionspferde finden', 'Öffne den Ordner „Boarders“ in deinem Büro, um aktuelle Anfragen zu sehen. Laut Community-Wiki hängt die Zahl der täglichen Angebote von deinem Prestige ab, und Pensionspferde belegen Stallplätze wie deine eigenen Pferde.'],
-        ['Die drei Pensionsarten', 'Teilpension (Part Board): Stall- und Koppelplatz, Heu, Wasser und Ausmisten, aber kein Putzen, kein Kraftfutter und keine medizinische Versorgung; 50 pro Tag. Vollpension (Full Board): Putzen, Heu und Kraftfutter, medizinische Versorgung; die Besitzer reiten das Pferd im Hintergrund; 90 pro Tag. Beritt (Schooling Board): wie Vollpension, zusätzlich musst du das Pferd auf das geforderte Selbstvertrauen, Kraft und Ausdauer trainieren; dafür gibt es eine einmalige Berittgebühr obendrauf.'],
-        ['Bezahlung', 'Bezahlt wird am Ende des Aufenthalts; Vernachlässigung verringert die Zahlung oder streicht sie. Laut Spielern kannst du Berittpferde früher nach Hause schicken, sobald das Trainingsziel erreicht ist, und bekommst dann die Berittgebühr plus Pension für die Tage, die sie da waren. Erfolgreiche Aufenthalte steigern dein Prestige.'],
-        ['Strafen vermeiden', 'Füttere Vollpensionspferde bis zur Mitte des grünen Zustandsbalkens, weil ihre Besitzer sie reiten und sie hungrig werden. Halte Hengste aus der Stallgruppe der Pensionspferde fern: Wird eine Pensionsstute tragend, zahlst du 500 Strafe, bekommst keine Gebühr und verlierst Prestige. Das schaltet auch den versteckten Erfolg Oops! frei.'],
-        ['Jährlinge in Pension', 'Der Pensionsordner zeigt nur „yearling“ oder „adult“, nicht das genaue Alter. Ein Spieler berichtet, dass ein Pensions-Jährling während des Aufenthalts erwachsen wurde und auf die einzige freie Koppel kam, die Hengstkoppel. Halte in der passenden Gruppe einen Platz frei, bevor du Jährlinge annimmst.'],
-        ['Keine Anfragen nach Stallstufe 3?', 'Ein Spieler bekommt seit dem Ausbau auf Stallstufe 3 keine neuen Pensionsanfragen. Eine Antwort gibt es noch nicht. Da die Angebote vom Prestige abhängen, prüfe, ob du kürzlich Prestige verloren hast, und sorge für freie Boxen.']
+      "title": "Pensionspferde-Anleitung",
+      "description": "Teilpension, Vollpension und Beritt erklärt: Tagessätze, nötige Pflege und wie du Strafen vermeidest.",
+      "answer": "Pensionspferde sind Pferde anderer Leute, die du gegen Bezahlung versorgst. Anfragen stehen im Ordner „Boarders“ im Büro; ihre Zahl hängt vom Prestige ab. Teilpension, Vollpension und Beritt verlangen unterschiedliche Pflege. Seit v1.0.3 steigen die Gebühren mit dem Stallausbau. Bezahlt wird am Ende; Vernachlässigung verringert oder streicht die Zahlung.",
+      "sections": [
+        [
+          "Pensionspferde finden",
+          "Öffne den Ordner „Boarders“ in deinem Büro, um aktuelle Anfragen zu sehen. Laut Community-Wiki hängt die Zahl der täglichen Angebote von deinem Prestige ab, und Pensionspferde belegen Stallplätze wie deine eigenen Pferde."
+        ],
+        [
+          "Die drei Pensionsarten",
+          "Teilpension (Part Board): Stall- und Koppelplatz, Heu, Wasser und Ausmisten, aber kein Putzen, kein Kraftfutter und keine medizinische Versorgung; 50 pro Tag. Vollpension (Full Board): Putzen, Heu und Kraftfutter, medizinische Versorgung; die Besitzer reiten das Pferd im Hintergrund; 90 pro Tag. Beritt (Schooling Board): wie Vollpension, zusätzlich musst du das Pferd auf das geforderte Selbstvertrauen, Kraft und Ausdauer trainieren; dafür gibt es eine einmalige Berittgebühr obendrauf. Seit v1.0.3 erhöhen Stallausbauten die Pensionsgebühren. Die älteren Community-Angaben von 50 pro Tag für Teilpension und 90 für Vollpension sind Richtwerte, keine garantierten Beträge für jede Stallstufe oder Geldeinstellung. Prüfe das aktuelle Angebot in deinem Spiel."
+        ],
+        [
+          "Bezahlung",
+          "Bezahlt wird am Ende des Aufenthalts; Vernachlässigung verringert die Zahlung oder streicht sie. Laut Spielern kannst du Berittpferde früher nach Hause schicken, sobald das Trainingsziel erreicht ist, und bekommst dann die Berittgebühr plus Pension für die Tage, die sie da waren. Erfolgreiche Aufenthalte steigern dein Prestige."
+        ],
+        [
+          "Strafen vermeiden",
+          "Füttere Vollpensionspferde bis zur Mitte des grünen Zustandsbalkens, weil ihre Besitzer sie reiten und sie hungrig werden. Halte Hengste aus der Stallgruppe der Pensionspferde fern: Wird eine Pensionsstute tragend, zahlst du 500 Strafe, bekommst keine Gebühr und verlierst Prestige. Das schaltet auch den versteckten Erfolg Oops! frei."
+        ],
+        [
+          "Jährlinge in Pension",
+          "Der Pensionsordner zeigt nur „yearling“ oder „adult“, nicht das genaue Alter. Ein Spieler berichtet, dass ein Pensions-Jährling während des Aufenthalts erwachsen wurde und auf die einzige freie Koppel kam, die Hengstkoppel. Halte in der passenden Gruppe einen Platz frei, bevor du Jährlinge annimmst."
+        ],
+        [
+          "Keine Anfragen nach Stallstufe 3?",
+          "Ein Spieler bekommt seit dem Ausbau auf Stallstufe 3 keine neuen Pensionsanfragen. Eine Antwort gibt es noch nicht. Da die Angebote vom Prestige abhängen, prüfe, ob du kürzlich Prestige verloren hast, und sorge für freie Boxen."
+        ]
       ],
-      faq: [['Wie viel zahlen Pensionspferde?', 'Laut Community-Wiki 50 pro Tag bei Teilpension und 90 pro Tag bei Vollpension, bezahlt am Ende des Aufenthalts.'], ['Warum sind meine Pensionspferde immer hungrig?', 'Vollpensionspferde werden von ihren Besitzern geritten. Füttere bis zur Mitte des grünen Balkens.'], ['Was passiert, wenn eine Pensionsstute tragend wird?', '500 Strafe, keine Gebühr und Prestigeverlust.'], ['Warum bekomme ich keine Pensionsanfragen?', 'Die Angebote hängen von Prestige und freiem Platz ab. Ein Spieler meldet keine Anfragen nach Stallstufe 3, möglicherweise ein Fehler.']],
-      unknown: 'Die Gebühren stammen aus dem Community-Wiki. Die Berittgebühr und die Regeln für tägliche Anfragen müssen im Spiel geprüft werden.'
+      "faq": [
+        [
+          "Wie viel zahlen Pensionspferde?",
+          "Seit v1.0.3 erhöhen Stallausbauten die Pensionsgebühren. Die älteren Community-Angaben von 50 pro Tag für Teilpension und 90 für Vollpension sind Richtwerte, keine garantierten Beträge für jede Stallstufe oder Geldeinstellung. Prüfe das aktuelle Angebot in deinem Spiel."
+        ],
+        [
+          "Warum sind meine Pensionspferde immer hungrig?",
+          "Vollpensionspferde werden von ihren Besitzern geritten. Füttere bis zur Mitte des grünen Balkens."
+        ],
+        [
+          "Was passiert, wenn eine Pensionsstute tragend wird?",
+          "500 Strafe, keine Gebühr und Prestigeverlust."
+        ],
+        [
+          "Warum bekomme ich keine Pensionsanfragen?",
+          "Die Angebote hängen von Prestige und freiem Platz ab. Ein Spieler meldet keine Anfragen nach Stallstufe 3, möglicherweise ein Fehler."
+        ]
+      ],
+      "unknown": "Die älteren Gebühren stammen aus dem Community-Wiki. Der offizielle Changelog bestätigt höhere Gebühren durch Stallausbau, nennt aber keine Tabelle je Stufe oder genaue Multiplikatorformel."
     },
     '/horses/import-and-export/': {
       title: 'Pferde importieren & exportieren',
@@ -560,19 +1760,673 @@ export const de = {
       unknown: 'Die genauen Importschritte, Dateipfade und ob importierte Pferde alle Eigenschaften behalten, müssen im Spiel geprüft werden.'
     },
     '/guides/patch-notes/': {
-      title: 'Patch-Notes & Updates',
-      description: 'Alle bisherigen Updates von Horses of Hoofprint Bay, darunter Patch v1.0.2 gegen beschädigte Spielstände, Hänger und Werteverlust bei Stuten.',
-      answer: 'Das neueste Update ist v1.0.2 vom 8. November 2026 (22:41 UTC). Es behebt den Fehler, durch den Spielstände nach einem Absturz des Spiels oder PCs ungültig wurden, beseitigt mehrere Hänger und den Fehler mit „zwei Bürsten gleichzeitig“ und verringert deutlich, wie viele Werte Stuten nach dem Abfohlen verlieren. Bereits markierte Spielstände repariert es nicht: Sie bleiben ohne Erfolge.',
-      sections: [
-        ['v1.0.2 (8. November 2026): Spielstände und Erfolge', 'Das Studio nennt die durch Abstürze ungültig gewordenen Spielstände den dringendsten Fehler. Alle Dateioperationen fangen jetzt Berechtigungs- und Dateifehler ab, und Validierungsdateien werden auch für Sicherungen angelegt, sodass du bei weiterhin auftretenden Schäden ohne Verlust der Erfolge auf eine Sicherung zurückgehen kannst. Auch Demo-Spielstände lassen sich aus Sicherungsdateien laden. Die Korrektur wirkt nicht rückwirkend: Das Studio kann fälschlich ungültige Spielstände nicht von tatsächlich bearbeiteten unterscheiden, daher lässt sich ein bereits markierter Spielstand nicht wieder freischalten. Betroffene müssen neu beginnen oder ohne Erfolge weiterspielen.'],
-        ['v1.0.2: Änderungen am Spiel', 'Pferde mit niedrigen Werten verlieren jetzt weniger: höchstens ein Zehntel der Ausdauer und nie mehr als 5 Punkte. Das Studio reagierte damit auf Rückmeldungen zu Stuten, die beim Abfohlen Werte verlieren. Ein Klick auf Kleidung hängt sie jetzt an die Maus, statt sie sofort anzuziehen; die Heuraufen zeigen ihren Füllstand deutlicher, damit Heu nicht mehr „verloren“ wirkt; der Sound wurde neu abgemischt. Eine neue Option kann Fehlermeldungen als Pop-up anzeigen.'],
-        ['v1.0.2: Fehlerbehebungen', 'Behoben: zwei ziehbare Gegenstände gleichzeitig auswählen (Bürste, Futter, Medizin, Sattelzeug, Kleidung, Hofwerkzeug oder Pferd); Esc verlässt den Kleiderschrank nicht nach dem Öffnen der Regale; ein Pferd lässt sich mehrfach exportieren; falsche verfügbare Parcours für ein älteres Pferd mit Fohlen; die frei färbbare Turnierjacke ist zu früh verfügbar; ein aufgenommenes Hofpferd fällt beim Herauszoomen nicht herunter; importierte Pferde mit medizinischen Problemen bekommen ein falsches Startdatum, sodass das Problem eventuell nie heilt; Spielstände werden überschrieben, weil die Namensprüfung Groß- und Kleinschreibung unterscheidet, Ordnernamen aber nicht.'],
-        ['v1.0.1 (Release) und v1.0.0', 'v1.0.1 ist die Release-Version vom 4. November 2026. Sie nutzt die Sprache des Steam-Clients als Standardsprache im Spiel und aktualisiert die Credits. v1.0.0 passte die Größe des Sattelzeugs im Pflegebildschirm an die Reitansicht an.'],
-        ['Früherer Hotfix', 'Vor v1.0.2 berichtete ein Community-Helfer am 6. November von einem kleinen Patch gegen Abstürze beim Laden eines neuen Tages. Er erscheint nicht als eigener Eintrag im offiziellen Changelog.'],
-        ['Zukünftige Updates', 'Das Spiel erschien als fertiges Produkt ohne Inhaltsroadmap. Das Studio will weiter Fehler beheben und das Spiel so stabil wie möglich halten, verspricht aber keine neuen Funktionen oder Inhalte.']
+      "title": "Patch-Notes & Updates",
+      "description": "Patch-Notes bis v1.0.5: Geldmultiplikatoren, Erfolge in alten Spielständen, Sicherungen für 50 Tage und behobene Turnierprobleme.",
+      "answer": "Die neueste Version in der am 14. November 2026 geprüften offiziellen Ankündigung ist v1.0.5. Der Beitrag vom 13. November um 19:32 UTC fasst v1.0.3 bis v1.0.5 zusammen: einstellbare Einnahmen und Kosten, mehr Einnahmen nach Gebäudeausbauten, zusätzliche Sicherungen, Turnierkorrekturen und Erfolge für alle Spielstände.",
+      "sections": [
+        [
+          "v1.0.5: Erfolge in allen Spielständen",
+          "Die Spielstand-Validierung wurde entfernt. Alle Spielstände können Steam-Erfolge erhalten, auch bearbeitete und nach Abstürzen markierte. Übersprungene Erfolge musst du erneut abschließen; sie werden nicht nachträglich vergeben. Der frühere Rat, allein wegen gesperrter Erfolge neu anzufangen, gilt damit nicht mehr. Außerdem sind die Münzsymbole wieder normal. Siehe [Spielstand-Probleme und Erfolge](/guides/save-files-and-achievements/)."
+        ],
+        [
+          "v1.0.4: Turniere, Verkauf von Sattelzeug und Grafik",
+          "Die verhinderte Teilnahme an Turnieren wurde behoben. Der Verkauf von Sattelzeug berücksichtigt jetzt den Kostenmultiplikator, damit An- und Verkauf von Sattelzeug oder Kleidung kein unendliches Geld erzeugt. Außerdem wurden ein überflüssiges Minuszeichen bei den Deckkosten sowie Grafikfehler in den Bergen, am Strand und in der Hofübersicht korrigiert."
+        ],
+        [
+          "v1.0.3: Geldeinstellungen, Einnahmen und Sicherungen",
+          "Neu sind getrennte Multiplikatoren für Einnahmen und Kosten. Pferdepreise bleiben davon ausgenommen, weil Pferde gekauft und verkauft werden können. Ein Ausbau des Reitplatzes erhöht die Einnahmen aus Reitstunden, ein Stallausbau die Pensionsgebühren. Sicherungen wurden auf 50 Tage erhöht. Weitere Änderungen: Spielstandauswahl bei kürzlich gesperrten Erfolgen, keine gespeicherten Parcoursstatistiken mehr, Unity Analytics entfernt, wiederholtes Schnauben beim Zoomen behoben, Auto-Sprung an der Ziegelmauer korrigiert sowie das gruselige Hindernis und die Stegposition in den Dünen repariert. Siehe [Geld verdienen](/guides/money-making/)."
+        ],
+        [
+          "v1.0.2 (8. November 2026 UTC): Spielstände und Erfolge",
+          "Dieser ältere Patch verbesserte die Behandlung von Dateifehlern, legte Validierungsdateien für Sicherungen an und verringerte versehentliche Sperren nach Abstürzen. Bereits markierte Spielstände blieben damals gesperrt. Seit v1.0.5 ist diese Einschränkung durch das Entfernen der Validierung aufgehoben."
+        ],
+        [
+          "v1.0.2: Änderungen am Spiel",
+          "Pferde mit niedrigen Werten verlieren jetzt weniger: höchstens ein Zehntel der Ausdauer und nie mehr als 5 Punkte. Das Studio reagierte damit auf Rückmeldungen zu Stuten, die beim Abfohlen Werte verlieren. Ein Klick auf Kleidung hängt sie jetzt an die Maus, statt sie sofort anzuziehen; die Heuraufen zeigen ihren Füllstand deutlicher, damit Heu nicht mehr „verloren“ wirkt; der Sound wurde neu abgemischt. Eine neue Option kann Fehlermeldungen als Pop-up anzeigen."
+        ],
+        [
+          "v1.0.2: Fehlerbehebungen",
+          "Behoben: zwei ziehbare Gegenstände gleichzeitig auswählen (Bürste, Futter, Medizin, Sattelzeug, Kleidung, Hofwerkzeug oder Pferd); Esc verlässt den Kleiderschrank nicht nach dem Öffnen der Regale; ein Pferd lässt sich mehrfach exportieren; falsche verfügbare Parcours für ein älteres Pferd mit Fohlen; die frei färbbare Turnierjacke ist zu früh verfügbar; ein aufgenommenes Hofpferd fällt beim Herauszoomen nicht herunter; importierte Pferde mit medizinischen Problemen bekommen ein falsches Startdatum, sodass das Problem eventuell nie heilt; Spielstände werden überschrieben, weil die Namensprüfung Groß- und Kleinschreibung unterscheidet, Ordnernamen aber nicht."
+        ],
+        [
+          "v1.0.1 (Release) und v1.0.0",
+          "v1.0.1 ist die Release-Version vom 4. November 2026. Sie nutzt die Sprache des Steam-Clients als Standardsprache im Spiel und aktualisiert die Credits. v1.0.0 passte die Größe des Sattelzeugs im Pflegebildschirm an die Reitansicht an."
+        ],
+        [
+          "Früherer Hotfix",
+          "Vor v1.0.2 berichtete ein Community-Helfer am 6. November von einem kleinen Patch gegen Abstürze beim Laden eines neuen Tages. Er erscheint nicht als eigener Eintrag im offiziellen Changelog."
+        ],
+        [
+          "Zukünftige Updates",
+          "Das Spiel erschien als fertiges Produkt ohne Inhaltsroadmap. Das Studio will weiter Fehler beheben und das Spiel so stabil wie möglich halten, verspricht aber keine neuen Funktionen oder Inhalte."
+        ]
       ],
-      faq: [['Was ist die neueste Version von Horses of Hoofprint Bay?', 'v1.0.2 vom 8. November 2026.'], ['Bringt v1.0.2 meine gesperrten Erfolge zurück?', 'Nein. Es verhindert das Problem künftig, aber bereits markierte Spielstände lassen sich nicht wieder freischalten.'], ['Verlieren Stuten nach dem Abfohlen noch Werte?', 'Weniger als vorher: v1.0.2 begrenzt den Verlust auf ein Zehntel der Ausdauer und höchstens 5 Punkte.'], ['Kommen weitere Updates?', 'Fehlerbehebungen ja, neue Inhalte sind nicht versprochen.']],
-      unknown: 'Diese Seite gibt den offiziellen Changelog mit Stand 10. November 2026 wieder. Ob jeder gemeldete Fehler für alle Spieler behoben ist, ist nicht bestätigt.'
-    }
+      "faq": [
+        [
+          "Was ist die neueste Version von Horses of Hoofprint Bay?",
+          "v1.0.5 ist die neueste Version in der am 14. November 2026 geprüften offiziellen Ankündigung."
+        ],
+        [
+          "Können alte Spielstände wieder Erfolge erhalten?",
+          "Ja. v1.0.5 entfernt die Validierung auch für markierte und bearbeitete Spielstände. Übersprungene Erfolgsbedingungen musst du erneut erfüllen."
+        ],
+        [
+          "Kann ich Einnahmen und Kosten einstellen?",
+          "Ja. v1.0.3 bietet getrennte Geldmultiplikatoren. Pferdepreise sind davon ausgenommen."
+        ],
+        [
+          "Welcher Patch behebt die verhinderte Turnierteilnahme?",
+          "Der Changelog von v1.0.4 nennt diese Korrektur. Aktualisiere auf v1.0.5 oder neuer."
+        ],
+        [
+          "Verlieren Stuten nach dem Abfohlen noch Werte?",
+          "Weniger als vorher: v1.0.2 begrenzt den Verlust auf ein Zehntel der Ausdauer und höchstens 5 Punkte."
+        ],
+        [
+          "Kommen weitere Updates?",
+          "Fehlerbehebungen ja, neue Inhalte sind nicht versprochen."
+        ]
+      ],
+      "unknown": "Am 14. November 2026 mit der offiziellen Ankündigung abgeglichen. Der Beitrag fasst v1.0.3, v1.0.4 und v1.0.5 zusammen, ohne getrennte Veröffentlichungszeiten zu nennen. Multiplikatorbereiche und genaue Einnahmeformeln müssen im Spiel geprüft werden."
+    },
+    '/community/discord/': {
+  "title": "Offizieller Discord: Beitritt und Einladungsprobleme",
+"seoTitle": "Horses of Hoofprint Bay: Discord: Beitritt und Einladungen | Wiki",
+  "description": "Finde offizielle Discord-Einstiege, prüfe abgelaufene Einladungen und erhalte Hinweise zu Mod-Hilfe und Fehlerberichten.",
+  "answer": "Nutze den Discord-Eintrag im Hauptmenü oder den Link von Thogli Studios. Wirkt die Einladung abgelaufen, versuche den offiziellen Einstieg später erneut: Laut Publisher kann ungewöhnliche Beitrittsaktivität vorübergehend neue Mitglieder blockieren. Diese Wiki verwaltet den Server nicht.",
+  "sections": [
+    [
+      "Die offizielle Einladung finden",
+      [
+        {
+          "type": "paragraph",
+          "text": "Öffne das Hauptmenü oder [Thogli Studios](https://thoglistudios.com/) und verwende den aktuellen Discord-Eintrag. Die Entwicklerantwort auf Steam verweist auf die Studiowebsite. Das ist verlässlicher als eine alte kopierte Einladung.",
+          "source": "t_discordDev"
+        },
+        {
+          "type": "steps",
+          "items": [
+            "Nutze die aktuelle Einladung im Spiel oder auf der Studiowebsite.",
+            "Öffne sie mit dem gewünschten Discord-Konto.",
+            "Lies Regeln und sichtbare Einführungsschritte. Kanalzugang hängt vom aktuellen Server ab."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Wir veröffentlichen keine Ersatzcodes und haben den Beitritt mit deinem Konto nicht getestet. Frage bei geänderten Einstiegen beim Studio nach."
+        }
+      ]
+    ],
+    [
+      "Einladung ungültig oder abgelaufen",
+      [
+        {
+          "type": "paragraph",
+          "text": "Publisher Alice erklärt in einem November-Thread: Die Einladungen sollten nicht ablaufen, doch ungewöhnliche Beitrittsaktivität verursachte zeitweise Sperren bis zur manuellen Klärung. Das ist eine dokumentierte Möglichkeit, keine Diagnose jedes Fehlers.",
+          "source": "discordJoin"
+        },
+        {
+          "type": "table",
+          "caption": "Einladungsprüfung",
+          "headers": [
+            "Symptom",
+            "Nächster Schritt"
+          ],
+          "rows": [
+            [
+              "Offizieller Link wirkt abgelaufen",
+              "Aktuellen Einstieg später erneut öffnen und Studiohinweise prüfen"
+            ],
+            [
+              "Browser öffnet App nicht",
+              "Dieselbe offizielle Einladung in Discord versuchen; Steam nennt diesen Umweg"
+            ],
+            [
+              "Kanal nicht sichtbar",
+              "Einführung und aktuelle Serveranweisungen lesen"
+            ],
+            [
+              "Weiter kein Zugang",
+              "Dem Studio genaue Meldung und offiziellen Einstieg nennen"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Eine sofortige Lösung oder feste Wartezeit ist nicht bestätigt. Veröffentliche keine privaten Kontodaten."
+        }
+      ]
+    ],
+    [
+      "Mods und Fehlerberichte",
+      [
+        {
+          "type": "paragraph",
+          "text": "Spieler nennen einen Mod-Kanal. Lies angeheftete Hinweise und Erstelleranleitungen. [Mods](/guides/mods/) unterscheidet Texturpakete und Mods mit Zusatzsoftware; [Westmore Saddlery](/guides/westmore-saddlery/) verlinkt Originalseiten."
+        },
+        {
+          "type": "paragraph",
+          "text": "Das Studio empfiehlt bei Spielfehlern auch F8 oder Logdateien an support@thoglistudios.com. Nenne Version, Symptom und installierte Mods. Dafür ist kein Discord-Beitritt nötig.",
+          "source": "t_crashes"
+        },
+        {
+          "type": "note",
+          "title": "Unabhängige Anleitung",
+          "text": "Diese Wiki kann keinen Zugang freigeben oder Discord-Sperren entfernen. Kontaktiere Studio oder Ersteller für konto- oder dateispezifische Hilfe."
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "Wo ist der offizielle Discord?",
+      "Im Hauptmenü oder über den aktuellen Eintrag auf der Thogli-Studios-Website."
+    ],
+    [
+      "Warum wirkt die Einladung abgelaufen?",
+      "Der Publisher dokumentiert temporäre Sperren durch ungewöhnliche Beitrittsaktivität. Andere Ursachen sind möglich."
+    ],
+    [
+      "Gibt diese Wiki einen anderen Code?",
+      "Nein. Wir verwalten den Server nicht."
+    ],
+    [
+      "Brauche ich Discord für Fehlerberichte?",
+      "Nein. F8 und E-Mail an den Studio-Support sind weitere Wege."
+    ]
+  ],
+  "unknown": "Aktueller Beitritt, Kontoberechtigung und Kanalzugang sind nicht getestet. Die Publisher-Antwort beschreibt einen früheren Vorfall."
+},
+    '/guides/westmore-saddlery/': {
+  "title": "Westmore Saddlery: Downloads und Installation",
+"seoTitle": "Horses of Hoofprint Bay: Westmore Saddlery installieren | Wiki",
+  "description": "Finde Originalseiten für Sattelzeug, wähle Demo- oder Vollversionsanweisungen und prüfe fehlende Gegenstände.",
+  "answer": "Westmore Saddlery erstellt unabhängige Zusatzinhalte. Nexus-Mods-Profil und Patreon bieten Kollektionen und Anleitungen. Prüfe die Version: Die Ascot-Seite nennt ausdrücklich einen Demo-Ordner, der nicht automatisch für die Vollversion passt.",
+  "sections": [
+    [
+      "Originale Downloadseiten",
+      [
+        {
+          "type": "paragraph",
+          "text": "Beginne bei [Westmore auf Nexus Mods](https://www.nexusmods.com/profile/WestmoreSaddlery?gameId=10086) oder [Patreon](https://www.patreon.com/WestmoreSaddlery). Das Profil beschreibt handgezeichnetes Sattelzeug und verlinkt Hilfe. Dateien bleiben beim Ersteller.",
+          "source": "westmore"
+        },
+        {
+          "type": "table",
+          "caption": "Einstiege",
+          "headers": [
+            "Seite",
+            "Zweck"
+          ],
+          "rows": [
+            [
+              "[Erstellerprofil](https://www.nexusmods.com/profile/WestmoreSaddlery?gameId=10086)",
+              "Ersteller und Kollektionen prüfen"
+            ],
+            [
+              "[Ascot-Kollektion](https://www.nexusmods.com/horsesofhoofprintbay/mods/1)",
+              "Anforderungen und Installation dieses Pakets"
+            ],
+            [
+              "[Patreon](https://www.patreon.com/WestmoreSaddlery)",
+              "Aktualisierungen und bebilderte Anleitung"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Westmore ist nicht der Spielentwickler. Verfügbarkeit, Preis und Kompatibilität können sich ändern; lies den aktuellen Paketbeitrag."
+        }
+      ]
+    ],
+    [
+      "Für die richtige Version installieren",
+      [
+        {
+          "type": "steps",
+          "items": [
+            "Lies die Anforderungen und prüfe Demo oder Vollversion.",
+            "Sichere Spielstände und zu ersetzende Dateien, dann schließe das Spiel.",
+            "Bei Ascot: ZIP entpacken und Inhalt von PUT IN FILES in den angegebenen Mods/Tack-Ordner kopieren. JSON- und PNG-Namen unverändert lassen.",
+            "Vollständig neu starten und nach Paketanweisung im Sattelzeugladen prüfen."
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Spielstandordner nicht verwechseln",
+          "text": "Ascot nennt Saves~/Mods/Tack der Demo und verlangt einen vorhandenen Spielstand für die Ordner. Nutze für die Vollversion aktuelle Erstelleranweisungen statt eines geratenen Pfads.",
+          "source": "westmoreAscot"
+        },
+        {
+          "type": "paragraph",
+          "text": "Andere Pakete können andere Anforderungen haben. Eine Gameplay-Mod mit Loader wird nicht automatisch wie eine Textur installiert."
+        }
+      ]
+    ],
+    [
+      "Neues Sattelzeug fehlt",
+      [
+        {
+          "type": "table",
+          "caption": "Installationschecks",
+          "headers": [
+            "Prüfen",
+            "Grund"
+          ],
+          "rows": [
+            [
+              "Version und Ordner",
+              "Demo und Vollversion haben andere Speicherorte"
+            ],
+            [
+              "Entpackter Inhalt",
+              "Zusätzliche äußere Ordner können Dateien verstecken"
+            ],
+            [
+              "Dateinamen",
+              "JSON und PNG laut Ersteller nicht umbenennen"
+            ],
+            [
+              "Vollständiger Neustart",
+              "In Ascot ausdrücklich verlangt"
+            ],
+            [
+              "Suchort",
+              "Dieses Paket ergänzt Gegenstände im Sattelzeugladen"
+            ]
+          ],
+          "source": "westmoreAscot"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nenne bei Problemen Paket, Version, Ordner und Symptom. [Discord-Einstiege](/community/discord/) erklären Community-Hilfe. Veröffentliche keine vollständigen Spielstände oder privaten Kontodaten."
+        }
+      ]
+    ],
+    [
+      "Erfolge und Kompatibilität",
+      [
+        {
+          "type": "paragraph",
+          "text": "v1.0.5 erlaubt Erfolge in bearbeiteten und früher markierten Spielständen. Das garantiert keine funktionierenden Fremddateien. Siehe [Spielstände und Erfolge](/guides/save-files-and-achievements/).",
+          "source": "patch105"
+        },
+        {
+          "type": "paragraph",
+          "text": "[Mods](/guides/mods/) erklärt Unterschiede zwischen Sattelzeug, Kleidung, Fell und Gameplay-Mods. Behalte die jeweilige Anleitung beim Download."
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "Ist das offizieller DLC?",
+      "Nein. Westmore Saddlery ist ein unabhängiges Fanprojekt."
+    ],
+    [
+      "Wo sind die Downloads?",
+      "Auf Nexus Mods und Patreon beim Ersteller; öffne den aktuellen Paketbeitrag."
+    ],
+    [
+      "Warum fehlt es in der Vollversion?",
+      "Prüfe zuerst, ob du Demo-Schritte verwendet hast. Nutze die passende Anleitung."
+    ],
+    [
+      "Dateien umbenennen?",
+      "Ascot verlangt unveränderte JSON- und PNG-Namen."
+    ],
+    [
+      "Hostet diese Wiki die Pakete?",
+      "Nein. Dateien bleiben auf den Originalseiten."
+    ]
+  ],
+  "unknown": "Pakete wurden hier nicht mit v1.0.5 installiert oder getestet. Prüfe aktuelle Kompatibilität, Preise und Ordner beim Ersteller."
+},
+    '/guides/maximum-horses/': {
+  "title": "Maximale Pferdezahl und voller Stall",
+  "description": "Unterscheide Stall-, Jährlings- und Transportplätze und plane rechtzeitig für erwachsen werdende Fohlen.",
+  "answer": "Der Mai-Bericht nennt 20 Pferde im voll ausgebauten Stall plus 13 Jährlinge im eigenen Paddock und zusätzliche bezahlte Pension beim Züchter. Erwachsenenplätze, Jährlingsplätze und Anhänger sind verschiedene Grenzen. Prüfe aktuelle Ausbauten und halte vor dem Erwachsenwerden einen Platz frei.",
+  "sections": [
+    [
+      "Welche Grenze ist erreicht?",
+      [
+        {
+          "type": "table",
+          "caption": "Plätze und Transport",
+          "headers": [
+            "Ort",
+            "Veröffentlichte Kapazität",
+            "Umfang"
+          ],
+          "rows": [
+            [
+              "Voll ausgebauter Stall",
+              "20 Pferde",
+              "Studioangabe vom Mai, Änderungen möglich"
+            ],
+            [
+              "Ausgebauter Jährlingspaddock",
+              "13 Jährlinge",
+              "Getrennt von Erwachsenenboxen"
+            ],
+            [
+              "Pension beim Züchter",
+              "So viele wie bezahlbar",
+              "Laufende Gebühren"
+            ],
+            [
+              "Anhänger",
+              "Aktuellen Parkplatz-Ausbau lesen",
+              "Transport, kein dauerhafter Platz"
+            ]
+          ],
+          "source": "devMay"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ein freier Anhängerplatz schafft keine Box. Ein Jährlingsplatz eignet sich nicht für jedes erwachsene Pferd. Prüfe das passende Gebäude statt automatisch den Stall auszubauen."
+        }
+      ]
+    ],
+    [
+      "Vor Kauf oder Zucht",
+      [
+        {
+          "type": "steps",
+          "items": [
+            "Zähle Erwachsene, Pensionspferde und freie Boxen.",
+            "Prüfe Trächtigkeiten und [Fohlenwachstum](/horses/foals-and-yearlings/) für kommende Wechsel.",
+            "Prüfe die richtige [Stallgruppe](/guides/stable-groups/). Trenne Hengste von nicht zur Zucht bestimmten Stuten.",
+            "Vergleiche Ausbau, Verkauf, [Export](/horses/import-and-export/) oder Pension einschließlich Unterhalt."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/assets/scene-11.jpg",
+          "alt": "Pferdeübersicht mit Alter, Zustand und Stallgruppenspalte",
+          "caption": "Prüfe Alter und Gruppen vor dem Platzwechsel. Pferde und Zahlen im offiziellen Bild sind Beispiele.",
+          "width": 1920,
+          "height": 1080,
+          "source": "steam"
+        }
+      ]
+    ],
+    [
+      "Jährling wird erwachsen und der Stall ist voll",
+      [
+        {
+          "type": "paragraph",
+          "text": "Spieler berichten, dass erwachsene Jährlinge ohne Platz weggeschickt werden können. Andere empfehlen nach Freimachen einer Box den Verkaufsstall in der Stadt zu prüfen. Das ist ein Bericht, keine Wiederherstellungsgarantie.",
+          "source": "t_boardedBack"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prüfe Übersicht und letzte Meldungen vor weiteren Tagen oder Ersatzkäufen. Sichere bei Unklarheiten den Spielstand und melde mit F8. [Fohlen und Jährlinge](/horses/foals-and-yearlings/) beschreibt auch das Verschieben über die Verwaltung."
+        }
+      ]
+    ],
+    [
+      "Ausbau und Unterhalt abwägen",
+      [
+        {
+          "type": "paragraph",
+          "text": "[Gebäude](/buildings/) nennt ältere Community-Stufen mit 4, 8, 14 und 20 Boxen. Vergleiche den aktuellen Bildschirm. Seit v1.0.3 steigert Stallausbau auch Pensionsgebühren; Geldeinstellungen können Kosten ändern.",
+          "source": "patch105"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mehr Boxen helfen bei echtem Platzmangel. Fehlt Pflegezeit oder Geld, prüfe zuerst [Personal](/guides/staff/) und [Einnahmen](/guides/money-making/). Dies ist Planungshilfe, keine optimale Ausbaureihenfolge."
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "Mehr als 20 Pferde möglich?",
+      "Laut Studio über zusätzliche bezahlte Pension beim Züchter."
+    ],
+    [
+      "Brauchen Jährlinge Erwachsenenboxen?",
+      "Laut Community erst beim Erwachsenwerden; vorher leben sie im eigenen Paddock."
+    ],
+    [
+      "Erhöht der Anhänger die Stallkapazität?",
+      "Nein. Transport und Unterbringung sind getrennt."
+    ],
+    [
+      "Wo ist mein erwachsener Jährling?",
+      "Spieler empfehlen bei vorher vollem Stall den Verkaufsstall zu prüfen. Keine Garantie."
+    ]
+  ],
+  "unknown": "Kapazitäten waren als veränderlich gekennzeichnet. Prüfe aktuelle Grenzen und Gebühren; Wiederherstellungshinweise sind Spielerberichte."
+},
+    '/guides/staff-not-working/': {
+  "title": "Personal arbeitet nicht? Zuweisungen und Julia",
+"seoTitle": "Horses of Hoofprint Bay: Personalprobleme und Julia | Wiki",
+  "description": "Prüfe Rollen, Julias Reitstundenplätze und Pferdezustand, bevor du mehr Personal einstellst oder neu beginnst.",
+  "answer": "Prüfe Rolle und jeden Zuweisungsplatz. Laut Spielern gibt Julia eine Stunde pro belegtem Platz: Zwei einmal zugewiesene Pferde füllen nicht automatisch acht Stunden. Dasselbe Pferd kann mehrere Plätze belegen. Vergleiche Zustand und Trainingsverlust mit den Löhnen.",
+  "sections": [
+    [
+      "Die tatsächliche Rolle prüfen",
+      [
+        {
+          "type": "paragraph",
+          "text": "Steam bestätigt Pflege- und Trainingspersonal sowie Bewerbungen durch Gebäudeausbau. Marias Reitfeedback und Julias Schülerstunden sind verschiedene Aufgaben. Lies die Rolle im aktuellen Personalbildschirm.",
+          "source": "steam"
+        },
+        {
+          "type": "image",
+          "src": "/assets/scene-6.jpg",
+          "alt": "Büro mit Personalordner zwischen Pension und medizinischem Bericht",
+          "caption": "Über Staff öffnest du Personal und Zuweisungen. Das Bild zeigt den Einstieg, nicht den gesamten Zuweisungsbildschirm.",
+          "width": 1920,
+          "height": 1080,
+          "source": "steam"
+        }
+      ]
+    ],
+    [
+      "Julia gibt nur eine Stunde pro Pferd",
+      [
+        {
+          "type": "paragraph",
+          "text": "Im Steam-Thread erwartete ein Spieler bei zwei zugewiesenen Pferden acht automatisch verteilte Stunden. Eine Antwort erklärt: Jeden Platz belegen; dasselbe Pferd kann mehrfach zugewiesen werden.",
+          "source": "t_julia"
+        },
+        {
+          "type": "steps",
+          "items": [
+            "Zähle belegte Plätze, nicht nur verschiedene Pferde.",
+            "Weise jedem gewünschten Platz innerhalb der angezeigten Grenzen ein Pferd zu.",
+            "Prüfe am nächsten Tag Stunden, Einnahmen und Pferdezustand.",
+            "Notiere bei abgelehnter Zuweisung Meldung und Version."
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Aktuelle Löhne und Grenzen nutzen",
+          "text": "Der ursprüngliche Beitrag nennt 100 pro Tag und acht Stunden. Das sind datierte Spielerwerte, keine Garantie für alle Einstellungen."
+        }
+      ]
+    ],
+    [
+      "Symptom eingrenzen",
+      [
+        {
+          "type": "table",
+          "caption": "Personalchecks",
+          "headers": [
+            "Symptom",
+            "Prüfen",
+            "Anleitung"
+          ],
+          "rows": [
+            [
+              "Zu wenige Stunden",
+              "Plätze und Pferdezustand",
+              "[Reitstunden](/training/riding-lesson-corrections/)"
+            ],
+            [
+              "Trainer kann Pferd nicht nutzen",
+              "Gesundheit und verfügbare Arbeit",
+              "[Training gesperrt](/training/horse-too-tired-to-train/)"
+            ],
+            [
+              "Maria sagt wenig",
+              "Reitfeedback statt automatischer Stunden",
+              "[Personalrollen](/guides/staff/)"
+            ],
+            [
+              "Einnahmen steigen nicht wie erwartet",
+              "Reitplatz beeinflusst Stunden, Stall Pension",
+              "[Geld](/guides/money-making/)"
+            ]
+          ]
+        }
+      ]
+    ],
+    [
+      "Trainingsverlust und verbleibende Fehler",
+      [
+        {
+          "type": "paragraph",
+          "text": "Spieler berichten von etwas Kraft- und Ausdauerverlust bei Schulpferden. Mehr Stunden schaffen auch Nachtrainingsarbeit. Prüfe den Zustand nach einem Tag vor der Maximierung aller Plätze.",
+          "source": "t_lessonStats"
+        },
+        {
+          "type": "paragraph",
+          "text": "Aktualisiere, sichere den Spielstand und melde reproduzierbare Fehler mit F8. Nenne Personal, Zuweisungen, Zustand und Tagesergebnis. Kein geprüfter Patch verspricht alle Personalfehler zu lösen; ein neuer Spielstand ist nicht der erste Prüfschritt."
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "Warum nur zwei Stunden?",
+      "Laut Spielern zählt jeder belegte Platz; es gibt keine automatische Verteilung auf alle Plätze."
+    ],
+    [
+      "Dasselbe Pferd mehrfach?",
+      "Ja, laut Steam-Antwort. Beobachte Zustand und Training."
+    ],
+    [
+      "Gibt Maria Schülerstunden?",
+      "Sie gibt beim eigenen Training Reitfeedback, anders als Julia."
+    ],
+    [
+      "Neu beginnen?",
+      "Prüfe zuerst Rollen, Zuweisungen und Zustand. Aktualisiere und melde einen nachvollziehbaren Fehler."
+    ]
+  ],
+  "unknown": "Zuweisungen basieren auf Spielerberichten. Aktuelle Löhne, Grenzen und alle Personalfehler wurden nicht unabhängig getestet."
+},
+    '/competitions/cannot-enter/': {
+  "title": "Keine Turnierteilnahme: Checks und Patch",
+"seoTitle": "Horses of Hoofprint Bay: Keine Turnierteilnahme: Hilfe | Wiki",
+  "description": "Prüfe v1.0.4, Transport, ausgewähltes Pferd, Zustand und Teilnahmebedingungen vor dem nächsten Versuch.",
+  "answer": "Aktualisiere zuerst: v1.0.4 nennt eine Korrektur verhinderter Turnierteilnahme. Prüfe dann Transport, Pferd, Zustand und genaue Meldung. Ein Startpferd mit zu wenig Potenzial braucht gegebenenfalls Caprilli oder einen Ersatz statt einer Fehlerumgehung.",
+  "sections": [
+    [
+      "Zuerst die Korrektur installieren",
+      [
+        {
+          "type": "paragraph",
+          "text": "Die Ankündigung vom 13. November 2026 UTC fasst v1.0.3–v1.0.5 zusammen und nennt den Teilnahmefehler unter v1.0.4. Installiere v1.0.5 oder neuer, starte neu und vergleiche dasselbe Pferd und dieselbe Prüfung.",
+          "source": "patch105"
+        },
+        {
+          "type": "paragraph",
+          "text": "Die Ankündigung erklärt nicht jede Ursache. Nicht jede blockierte Meldung ist ein Fehler; fahre bei Problemen mit den folgenden Checks fort."
+        }
+      ]
+    ],
+    [
+      "Symptom zuordnen",
+      [
+        {
+          "type": "table",
+          "caption": "Teilnahmeprobleme",
+          "headers": [
+            "Beobachtung",
+            "Nächster Check"
+          ],
+          "rows": [
+            [
+              "Pferd fehlt in der Stadt",
+              "Auswahl und [Anhänger](/competitions/trailer-and-multiple-horses/)"
+            ],
+            [
+              "Anforderungsmeldung",
+              "Genauer Text gegen Werte, Gesundheit und Arbeit"
+            ],
+            [
+              "Austrainiertes Startpferd reicht nicht",
+              "Passendes Caprilli; siehe [Fortschritt](/guides/competitions/)"
+            ],
+            [
+              "Schaltfläche reagiert nicht",
+              "Update, Neustart, Version und Meldung notieren"
+            ],
+            [
+              "Teilnahme klappt, Ergebnis schlecht",
+              "[Springen](/training/jumping-tips/) und [Selbstvertrauen](/training/confidence/) üben"
+            ]
+          ]
+        }
+      ]
+    ],
+    [
+      "Wiederholbare Checkliste",
+      [
+        {
+          "type": "steps",
+          "items": [
+            "Lies Prüfung und alle Anforderungen; bewahre den genauen Text für Nachfragen auf.",
+            "Prüfe, welches Pferd mitgefahren ist. Transport und Qualifikation sind getrennt.",
+            "Prüfe Zustand und Arbeit. Nutze [gesperrtes Training](/training/horse-too-tired-to-train/) bei fehlenden Optionen.",
+            "Wähle passend zu Training und Potenzial, versuche die Meldung und notiere das Ergebnis."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dies ist eine Diagnosehilfe, keine universelle Liste aller Regeln. Eine vollständige aktuelle Grenzwerttabelle liegt hier nicht vor."
+        }
+      ]
+    ],
+    [
+      "Die Startwerte können die Ursache sein",
+      [
+        {
+          "type": "paragraph",
+          "text": "Caprilli wurde ergänzt, weil angepasste Startpferde selbst austrainiert nicht mehr das erste Springturnier erreichten. Ältere Februar-Demo-Tipps können daher unpassend sein.",
+          "source": "devMay"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ist das Potenzial ausgeschöpft, hilft mehr Wiederholung möglicherweise nicht. Vergleiche [Kauf](/guides/buy-sell-horses/) und [Zucht](/guides/breeding/) oder nutze Schwierigkeitseinstellungen. Bleibt ein passendes Pferd nach dem Update blockiert, melde mit F8 samt Version und Meldung."
+        }
+      ]
+    ]
+  ],
+  "faq": [
+    [
+      "Welcher Patch behebt den Fehler?",
+      "v1.0.4 nennt die Korrektur. Installiere v1.0.5 oder neuer."
+    ],
+    [
+      "Ist jede Sperre ein Bug?",
+      "Nein. Prüfe Transport, Pferd und Bedingungen."
+    ],
+    [
+      "Warum reicht das Startpferd nicht?",
+      "Die Startwerte wurden gesenkt und Caprilli als frühere Stufe ergänzt."
+    ],
+    [
+      "Was gehört in den Bericht?",
+      "Version, Pferd, Prüfung, genaue Meldung und Verhalten beim Versuch."
+    ]
+  ],
+  "unknown": "Der Patch nennt nicht jede Bedingung oder Ursache. Aktuelle Gebühren und Grenzen müssen im Spiel geprüft werden."
+}
   }
 };
